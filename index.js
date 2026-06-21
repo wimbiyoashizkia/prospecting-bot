@@ -196,7 +196,7 @@ Meteor Falls - 4.3402% (~1 in 23)
 Astral Caverns - 4.1597% (~1 in 24)
 North Pole - 3.3512% (~1 in 30)
 Frozen Peak - 1.9311% (~1 in 52)
-Frostbite River - 1.9311% (1~ in 52)
+Frostbite River - 1.9311% (~1 in 52)
 Frostbite Waterfall - 1.9311% (~1 in 52)
 Rubble Creek Deposits - 0.5213% (~1 in 192)
 Fortune River - 0.5739% (~1 in 174)
@@ -319,7 +319,7 @@ Rubble Creek Deposits - 0.1303% (~1 in 767)
 Fortune River - 0.1033% (~1 in 968)
 Rubble Creek Sands - 0.09376% (~1 in 1,067)
 Frozen Peak - 0.06437% (~1 in 1,554)
-Frostbite River - 0.06437% (~1 1,554)
+Frostbite River - 0.06437% (~1 in 1,554)
 Frostbite Waterfall - 0.06437% (~1 in 1,554)
 Haunted Creek - 0.04323% (~1 in 2,313)
 The Void (if in loot pool) - 0.09057% (~1 in 1,104)`,
@@ -600,7 +600,7 @@ North Pole - 0.0002234% (~1 in 447,605)
 The Void (if in loot pool) - 0.0001811% (~1 in 552,084)
 Frostbite Waterfall - 0.0001288% (~1 in 776,683)
 Frostbite River - 0.0001286% (~1 in 776,701)
-Frozen Peak - 0.00002574% (1 in 3,883,688)`,
+Frozen Peak - 0.00002574% (~1 in 3,883,688)`,
 
   bismuth: `**Locations & Chances**
 
@@ -680,7 +680,7 @@ The Void (if in loot pool) - 0.0001811% (~1 in 552,084)`,
 
   gloomcap: `**Locations & Chances**
 
-Fungal Marsh - 0.0002712 (~1 in 368,682)
+Fungal Marsh - 0.0002712% (~1 in 368,682)
 The Void (if in loot pool) - 0.0001811% (~1 in 552,084)`,
 
   lostsoul: `**Locations & Chances**
@@ -764,7 +764,7 @@ The Void (if in loot pool) - 0.0001811% (~1 in 552,084)`,
 
 Frostbite Waterfall - 0.0001609% (~1 in 621,347)
 Frostbite River - 0.0001602% (~1 in 621,361)
-Frozen Peak - 0.00003218% (1 in 3,106,950)
+Frozen Peak - 0.00003218% (~1 in 3,106,950)
 The Void (if in loot pool) - 0.0001811% (~1 in 552,084)`,
 
   uranium: `**Locations & Chances**
@@ -777,8 +777,8 @@ The Void (if in loot pool) - 0.0001811% (~1 in 552,084)`,
 
   volcanickey: `**Locations & Chances**
 
-Infernal Heart - 0.001473% (1 in 67,859)
-The Magma Furnace - 0.0008536% (~117,149)
+Infernal Heart - 0.001473% (~1 in 67,859)
+The Magma Furnace - 0.0008536% (~1 in 117,149)
 The Void (if in loot pool) - 0.0001811% (~1 in 552,084)`,
 
   aetherium: `**Locations & Chances**
@@ -897,8 +897,8 @@ The Void (if in loot pool) - 0.000002536% (~1 in 39,434,575)`,
   vortessence: `**Locations & Chances**
 
 Windswept Beach - 0.000009040% (~1 in 11,061,369)
-Frostbite River - 0.000008368% (1 in 11,948,974)
-Frostbite Waterfall - 0.000008368% (1 in 11,948,974)
+Frostbite River - 0.000008368% (~1 in 11,948,974)
+Frostbite Waterfall - 0.000008368% (~1 in 11,948,974) 
 Fortune River Delta - 0.000008207% (~1 in 12,184,135)
 Azuralite Oasis - 0.000007395% (~1 in 13,521,298)
 Crystal Cavern River - 0.000006769% (~1 in 14,771,283)
@@ -938,7 +938,7 @@ Frozen Peak - 0.0000006437% (~1 in 155,336,658)`,
 
   dinosaurskull: `**Locations & Chances**
 
-Infernal Heart – 0.000001842% (1 in 54,285,827)`,
+Infernal Heart – 0.000001842% (~1 in 54,285,827)`,
 
   eternium: `**Locations & Chances**
 

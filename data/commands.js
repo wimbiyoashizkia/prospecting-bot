@@ -1,127 +1,196 @@
 module.exports = {
-  aa: `**Admin Abuse** — <t:1781358300:F>
-**Update** — <t:1781359200:F>
+  aa: {
+    description: "Admin Abuse schedule & update info",
+    data: `**Admin Abuse** — <t:1781358300:F>
+    **Update** — <t:1781359200:F>
 
-Times are automatically adjusted to your timezone.
+    Times are automatically adjusted to your timezone.
 
-**⚠️ DO NOT SPAM THIS COMMAND**`,
+    **⚠️ DO NOT SPAM THIS COMMAND**`
+  },
 
-  codes: `**Active Codes**
+  codes: {
+    description: "Active codes list",
+    data: `**Active Codes**
 
-rebuild
-oneyear
-starfall
-egghunt`,
+    rebuild
+    oneyear
+    starfall
+    egghunt`
+  },
 
-  pans: `**All Pans in Prospecting**
-https://prospecting.miraheze.org/wiki/Pans
+  pans: {
+    description: "All pans in Prospecting",
+    data: `**All Pans in Prospecting**
 
-Contains information on all obtainable pans.
+    https://prospecting.miraheze.org/wiki/Pans
 
-**⚠️ DO NOT SPAM THIS COMMAND**`,
+    Contains information on all obtainable pans.
 
-  shovels: `**All Shovels in Prospecting**
-https://prospecting.miraheze.org/wiki/Shovels
+    **⚠️ DO NOT SPAM THIS COMMAND**`
+  },
 
-Contains information on all obtainable shovels.
+  shovels: {
+    description: "All shovels in Prospecting",
+    data: `**All Shovels in Prospecting**
 
-**⚠️ DO NOT SPAM THIS COMMAND**`,
+    https://prospecting.miraheze.org/wiki/Shovels
 
-  minerals: `**All Minerals in Prospecting**
-https://prospecting.miraheze.org/wiki/Minerals
+    Contains information on all obtainable shovels.
 
-Contains information on all obtainable minerals.
+    **⚠️ DO NOT SPAM THIS COMMAND**`
+  },
 
-**⚠️ DO NOT SPAM THIS COMMAND**`,
+  minerals: {
+    description: "All minerals in Prospecting",
+    data: `**All Minerals in Prospecting**
 
-  sluices: `**All Sluices in Prospecting**
-https://prospecting.miraheze.org/wiki/Sluices
+    https://prospecting.miraheze.org/wiki/Minerals
 
-Contains information on all obtainable sluices.
+    Contains information on all obtainable minerals.
 
-**⚠️ DO NOT SPAM THIS COMMAND**`,
+    **⚠️ DO NOT SPAM THIS COMMAND**`
+  },
 
-  equipment: `**All Equipment in Prospecting**
-https://prospecting.miraheze.org/wiki/Equipment
+  sluices: {
+    description: "All sluices in Prospecting",
+    data: `**All Sluices in Prospecting**
 
-Contains information on all obtainable equipment.
+    https://prospecting.miraheze.org/wiki/Sluices
 
-**⚠️ DO NOT SPAM THIS COMMAND**`,
+    Contains information on all obtainable sluices.
 
-  enchanting: `**Enchanting in Prospecting**
-https://prospecting.miraheze.org/wiki/Enchanting
+    **⚠️ DO NOT SPAM THIS COMMAND**`
+  },
 
-Contains information on enchanting and related features.
+  equipment: {
+    description: "All equipment in Prospecting",
+    data: `**All Equipment in Prospecting**
+    
+    https://prospecting.miraheze.org/wiki/Equipment
 
-**⚠️ DO NOT SPAM THIS COMMAND**`,
+    Contains information on all obtainable equipment.
 
-  locations: `**All Locations in Prospecting**
-https://prospecting.miraheze.org/wiki/Locations
+    **⚠️ DO NOT SPAM THIS COMMAND**`
+  },
 
-Contains information on all available locations.
+  enchanting: {
+    description: "Enchanting in Prospecting",
+    data: `**Enchanting in Prospecting**
 
-**⚠️ DO NOT SPAM THIS COMMAND**`,
+    https://prospecting.miraheze.org/wiki/Enchanting
 
-  museum: `**Museum in Prospecting**
-https://prospecting.miraheze.org/wiki/Museum
+    Contains information on enchanting and related features.
 
-Contains information on museum displays, buffs, and related features.
+    **⚠️ DO NOT SPAM THIS COMMAND**`
+  },
 
-**⚠️ DO NOT SPAM THIS COMMAND**`,
+  locations: {
+    description: "All locations in Prospecting",
+    data: `**All Locations in Prospecting**
 
-  excavations: `**Excavations in Prospecting**
-https://prospecting.miraheze.org/wiki/Excavations
+    https://prospecting.miraheze.org/wiki/Locations
 
-Contains information on excavations and related features.
+    Contains information on all available locations.
 
-**⚠️ DO NOT SPAM THIS COMMAND**`,
+    **⚠️ DO NOT SPAM THIS COMMAND**`
+  },
 
-  relics: `**Relics in Prospecting**
-https://prospecting.miraheze.org/wiki/Relics
+  museum: {
+    description: "Museum in Prospecting",
+    data: `**Museum in Prospecting**
 
-Contains information on relics and related features.
+    https://prospecting.miraheze.org/wiki/Museum
 
-**⚠️ DO NOT SPAM THIS COMMAND**`,
+    Contains information on museum displays, buffs, and related features.
 
-  geodes: `**Geodes in Prospecting**
-https://prospecting.miraheze.org/wiki/Geodes
+    **⚠️ DO NOT SPAM THIS COMMAND**`
+  },
 
-Contains information on all obtainable geodes.
+  excavations: {
+    description: "Excavations",
+    data: `**Excavations in Prospecting**
 
-**⚠️ DO NOT SPAM THIS COMMAND**`,
+    https://prospecting.miraheze.org/wiki/Excavations
 
-  runes: `**Runes in Prospecting**
-https://prospecting.miraheze.org/wiki/Runes
+    Contains information on excavations and related features.
 
-Contains information on all obtainable runes and their effects.
+    **⚠️ DO NOT SPAM THIS COMMAND**`
+  },
 
-**⚠️ DO NOT SPAM THIS COMMAND**`,
+  relics: {
+    description: "Relics",
+    data: `**Relics in Prospecting**
 
-  mastery: `**Mastery in Prospecting**
-https://prospecting.miraheze.org/wiki/Mastery
+    https://prospecting.miraheze.org/wiki/Relics
 
-Contains information on mastery progression, rewards, and related features.
+    Contains information on relics and related features.
 
-**⚠️ DO NOT SPAM THIS COMMAND**`,
+    **⚠️ DO NOT SPAM THIS COMMAND**`
+  },
 
-  mutations: `**Mutations in Prospecting**
-https://prospecting.miraheze.org/wiki/Mutations
+  geodes: {
+    description: "Geodes",
+    data: `**Geodes in Prospecting**
 
-Contains information on all obtainable mutations and their effects.
+    https://prospecting.miraheze.org/wiki/Geodes
 
-**⚠️ DO NOT SPAM THIS COMMAND**`,
+    Contains information on all obtainable geodes.
 
-  treasuremap: `**Treasure Maps in Prospecting**
-https://prospecting.miraheze.org/wiki/Treasure_Map
+    **⚠️ DO NOT SPAM THIS COMMAND**`
+  },
 
-Contains information on treasure maps, rewards, and related features.
+  runes: {
+    description: "Runes",
+    data: `**Runes in Prospecting**
+    https://prospecting.miraheze.org/wiki/Runes
 
-**⚠️ DO NOT SPAM THIS COMMAND**`,
+    Contains information on all obtainable runes and their effects.
 
-  wiki: `**Wiki for Prospecting**
-Everything to know about the game!
+    **⚠️ DO NOT SPAM THIS COMMAND**`
+  },
 
-https://prospecting.miraheze.org/
+  mastery: {
+    description: "Mastery",
+    data: `**Mastery in Prospecting**
 
-**⚠️ DO NOT SPAM THIS COMMAND**`,
+    https://prospecting.miraheze.org/wiki/Mastery
+
+    Contains information on mastery progression, rewards, and related features.
+
+    **⚠️ DO NOT SPAM THIS COMMAND**`
+  },
+
+  mutations: {
+    description: "Mutations",
+    data: `**Mutations in Prospecting**
+
+    https://prospecting.miraheze.org/wiki/Mutations
+
+    Contains information on all obtainable mutations and their effects.
+
+    **⚠️ DO NOT SPAM THIS COMMAND**`
+  },
+
+  treasuremap: {
+    description: "Treasure maps",
+    data: `**Treasure Maps in Prospecting**
+
+    https://prospecting.miraheze.org/wiki/Treasure_Map
+
+    Contains information on treasure maps, rewards, and related features.
+
+    **⚠️ DO NOT SPAM THIS COMMAND**`
+  },
+
+  wiki: {
+    description: "Official Prospecting wiki",
+    data: `**Wiki for Prospecting**
+
+    Everything to know about the game!
+
+  https://prospecting.miraheze.org/
+
+  **⚠️ DO NOT SPAM THIS COMMAND**`
+  }
 };

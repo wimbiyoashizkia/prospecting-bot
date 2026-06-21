@@ -1094,6 +1094,13 @@ https://prospecting.miraheze.org/wiki/Treasure_Map
 Contains information on treasure maps, rewards, and related features.
 
 **⚠️ DO NOT SPAM THIS COMMAND**`,
+
+  wiki: `**Wiki for Prospecting**
+Everything to know about the game!
+
+https://prospecting.miraheze.org/
+
+**⚠️ DO NOT SPAM THIS COMMAND**`,
 };
 
 client.once('ready', () => {

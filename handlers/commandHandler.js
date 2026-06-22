@@ -36,7 +36,9 @@ module.exports = async (message) => {
     const mineralName = findClosestMineral(input, minerals);
 
     if (!mineralName) {
-        return;
+        return message.reply(
+        `❌ No results found for "${input}"`
+        );
     }
 
     const mineral = minerals[mineralName];

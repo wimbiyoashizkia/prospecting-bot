@@ -4,7 +4,7 @@ const { Client, GatewayIntentBits } = require('discord.js');
 
 const minerals = require('./data/minerals');
 const commands = require('./data/commands');
-const handleCommand = require('./handlers/commandHandler');
+const handleCommand = require('./handlers/commandHandler.js');
 
 const PREFIX = '?';
 

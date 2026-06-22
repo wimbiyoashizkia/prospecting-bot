@@ -1,11 +1,60 @@
-module.exports = (message, allCommands) => {
-  const command = message.content.slice(1).toLowerCase();
+const { EmbedBuilder } = require("discord.js");
 
-  const target = allCommands[command];
+const commands = require("../data/commands");
+const minerals = require("../data/minerals");
+const findClosestMineral = require("../utils/smartSearch");
 
-  if (!target) {
-    return message.reply('Command not found.');
-  }
+module.exports = async (message) => {
+    if (message.author.bot) return;
 
-  return message.reply(target.data);
+    const prefix = "?";
+    if (!message.content.startsWith(prefix)) return;
+
+    const input = message.content
+        .slice(prefix.length)
+        .trim()
+        .toLowerCase();
+
+    if (commands[input]) {
+        const cmd = commands[input];
+
+        const embed = new EmbedBuilder()
+            .setTitle(input.toUpperCase())
+            .setDescription(cmd.data);
+
+        if (cmd.description) {
+            embed.setFooter({
+                text: cmd.description
+            });
+        }
+
+        return message.reply({
+            embeds: [embed]
+        });
+    }
+
+    const mineralName = findClosestMineral(input, minerals);
+
+    if (!mineralName) {
+        return;
+    }
+
+    const mineral = minerals[mineralName];
+
+    const embed = new EmbedBuilder()
+        .setTitle(
+            mineralName.charAt(0).toUpperCase() +
+            mineralName.slice(1)
+        )
+        .setDescription(mineral.data);
+
+    if (mineral.description) {
+        embed.setFooter({
+            text: mineral.description
+        });
+    }
+
+    return message.reply({
+        embeds: [embed]
+    });
 };

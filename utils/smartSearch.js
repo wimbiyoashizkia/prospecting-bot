@@ -62,21 +62,28 @@ function findClosestMineral(input, minerals) {
 
   candidates.sort((a, b) => b.score - a.score);
 
-  if (candidates.length === 0 || candidates[0].score < 25) {
+  if (candidates.length === 0) {
+    return {
+      found: false,
+      suggestions: []
+    };
+  }
+
+  if (candidates[0].score < 25) {
     return {
       found: false,
       suggestions: candidates
-        .slice(0, 3)
-        .map(x => x.name)
+      .filter(x => x.score >= 15)
+      .slice(0, 3)
     };
   }
 
   return {
     found: true,
     name: candidates[0].name,
+    score: candidates[0].score,
     suggestions: candidates
-      .slice(1, 4)
-      .map(x => x.name)
+    .slice(1, 4)
   };
 }
 

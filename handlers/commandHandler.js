@@ -39,11 +39,21 @@ module.exports = async (message) => {
         let msg = `❌ No results found for "${input}"`;
 
         if (result.suggestions.length) {
-            msg +=
-            "\n\nDid you mean?\n• " +
-            result.suggestions.join("\n• ");
-        }
 
+        const highConfidence =
+            result.suggestions[0].score >= 20;
+
+            msg += highConfidence
+            ? "\n\nDid you mean?"
+            : "\n\nOther possible matches:";
+
+            for (const suggestion of result.suggestions) {
+                msg += `\n• ${minerals[suggestion.name].name} (${Math.round(suggestion.score)}%)`;
+            }
+        } else {
+            msg += "\n\nNo similar minerals found.";
+        }
+        
         return message.reply(msg);
     }
 

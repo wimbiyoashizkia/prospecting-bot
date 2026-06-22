@@ -1,5 +1,6 @@
 module.exports = {
   aa: {
+    name: "Admin Abuse",
     description: "Admin Abuse schedule & update info",
     data: `**Admin Abuse** — <t:1781358300:F>
     **Update** — <t:1781359200:F>
@@ -10,6 +11,7 @@ module.exports = {
   },
 
   codes: {
+    name: "Codes",
     description: "Active codes list",
     data: `**Active Codes**
 
@@ -20,6 +22,7 @@ module.exports = {
   },
 
   pans: {
+    name: "Pans",
     description: "All pans in Prospecting",
     data: `**All Pans in Prospecting**
 
@@ -31,6 +34,7 @@ module.exports = {
   },
 
   shovels: {
+    name: "Shovels",
     description: "All shovels in Prospecting",
     data: `**All Shovels in Prospecting**
 
@@ -42,6 +46,7 @@ module.exports = {
   },
 
   minerals: {
+    name: "Minerals",
     description: "All minerals in Prospecting",
     data: `**All Minerals in Prospecting**
 
@@ -53,6 +58,7 @@ module.exports = {
   },
 
   sluices: {
+    name: "Sluices",
     description: "All sluices in Prospecting",
     data: `**All Sluices in Prospecting**
 
@@ -64,6 +70,7 @@ module.exports = {
   },
 
   equipment: {
+    name: "Equipment",
     description: "All equipment in Prospecting",
     data: `**All Equipment in Prospecting**
     
@@ -75,6 +82,7 @@ module.exports = {
   },
 
   enchanting: {
+    name: "Enchanting",
     description: "Enchanting in Prospecting",
     data: `**Enchanting in Prospecting**
 
@@ -86,6 +94,7 @@ module.exports = {
   },
 
   locations: {
+    name: "Locations",
     description: "All locations in Prospecting",
     data: `**All Locations in Prospecting**
 
@@ -97,6 +106,7 @@ module.exports = {
   },
 
   museum: {
+    name: "Museum",
     description: "Museum in Prospecting",
     data: `**Museum in Prospecting**
 
@@ -108,6 +118,7 @@ module.exports = {
   },
 
   excavations: {
+    name: "Excavations",
     description: "Excavations",
     data: `**Excavations in Prospecting**
 
@@ -119,6 +130,7 @@ module.exports = {
   },
 
   relics: {
+    name: "Relics",
     description: "Relics",
     data: `**Relics in Prospecting**
 
@@ -130,6 +142,7 @@ module.exports = {
   },
 
   geodes: {
+    name: "Geodes",
     description: "Geodes",
     data: `**Geodes in Prospecting**
 
@@ -141,8 +154,10 @@ module.exports = {
   },
 
   runes: {
+    name: "Runes",
     description: "Runes",
     data: `**Runes in Prospecting**
+
     https://prospecting.miraheze.org/wiki/Runes
 
     Contains information on all obtainable runes and their effects.
@@ -151,6 +166,7 @@ module.exports = {
   },
 
   mastery: {
+    name: "Mastery",
     description: "Mastery",
     data: `**Mastery in Prospecting**
 
@@ -162,6 +178,7 @@ module.exports = {
   },
 
   mutations: {
+    name: "Mutations",
     description: "Mutations",
     data: `**Mutations in Prospecting**
 
@@ -173,6 +190,7 @@ module.exports = {
   },
 
   treasuremap: {
+    name: "Treasure Maps",
     description: "Treasure maps",
     data: `**Treasure Maps in Prospecting**
 
@@ -184,13 +202,14 @@ module.exports = {
   },
 
   wiki: {
+    name: "Wiki",
     description: "Official Prospecting wiki",
     data: `**Wiki for Prospecting**
 
     Everything to know about the game!
 
-  https://prospecting.miraheze.org/
+    https://prospecting.miraheze.org/
 
-  **⚠️ DO NOT SPAM THIS COMMAND**`
+    **⚠️ DO NOT SPAM THIS COMMAND**`
   }
 };

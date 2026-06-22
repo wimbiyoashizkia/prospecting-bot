@@ -1,6 +1,7 @@
 module.exports = {
   amethyst: {
-    description: "Amethyst mineral locations and chances",
+    name: "Amethyst",
+    description: "A purple amethyst gemstone.",
     data: `**Locations & Chances**
 
     Rubble Creek Sands - 7.0317% (~1 in 14)
@@ -10,7 +11,8 @@ module.exports = {
   },
 
   blueice: {
-    description: "Blue Ice mineral locations and chances",
+    name: "Blue Ice",
+    description: "A chunk of blue ice compressed in a glacier for millions of years.",
     data: `**Locations & Chances**
 
     Frozen Peak - 51.4969% (~1 in 2)
@@ -21,7 +23,8 @@ module.exports = {
   },
 
   copper: {
-    description: "Copper mineral locations and chances",
+    name: "Copper",
+    description: "A malleable metal commonly used in electronics.",
     data: `**Locations & Chances**
 
     Azuralite Oasis - 36.9786% (~1 in 3)
@@ -40,7 +43,8 @@ module.exports = {
   },
 
   gold: {
-    description: "Gold mineral locations and chances",
+    name: "Gold",
+    description: "A nugget of gold.",
     data: `**Locations & Chances**
 
     Rubble Creek Sands - 70.3167% (~1 in 2)
@@ -68,7 +72,8 @@ module.exports = {
   },
 
   obsidian: {
-    description: "Obsidian mineral locations and chances",
+    name: "Obsidian",
+    description: "A jet-black shard of obsidian. Formed when lava cools rapidly.",
     data: `**Locations & Chances**
 
     Infernal Heart - 73.6822% (~1 in 2)
@@ -80,7 +85,8 @@ module.exports = {
   },
 
   pearl: {
-    description: "Pearl mineral locations and chances",
+    name: "Pearl",
+    description: "A round pearl from an oyster.",
     data: `**Locations & Chances**
 
     Windswept Beach - 18.0809% (~1 in 6)
@@ -91,7 +97,8 @@ module.exports = {
   },
 
   platinum: {
-    description: "Platinum mineral locations and chances",
+    name: "Platinum",
+    description: "A nugget of platinum.",
     data: `**Locations & Chances**
 
     Fortune River - 28.6969% (~1 in 3)
@@ -101,7 +108,8 @@ module.exports = {
   },
 
   pyrite: {
-    description: "Pyrite mineral locations and chances",
+    name: "Pyrite",
+    description: "Also known as Fool's Gold. Essentially worthless.",
     data: `**Locations & Chances**
 
     Starfall River - 54.2535% (~1 in 2)
@@ -111,7 +119,8 @@ module.exports = {
   },
 
   seashell: {
-    description: "Seashell mineral locations and chances",
+    name: "Seashell",
+    description: "The shell of a clam.",
     data: `**Locations & Chances**
 
     Sunset Beach – 48.2158% (~1 in 2)
@@ -121,7 +130,8 @@ module.exports = {
   },
 
   silver: {
-    description: "Silver mineral locations and chances",
+    name: "Silver",
+    description: "A nugget of silver.",
     data: `**Locations & Chances**
 
     Frozen Peak - 32.1855% (~1 in 3)
@@ -144,7 +154,8 @@ module.exports = {
   },
 
   coral: {
-    description: "Coral mineral locations and chances",
+    name: "Coral",
+    description: "A piece of coral from an endangered species.",
     data: `**Locations & Chances**
 
     Windswept Beach - 6.0269% (~1 in 17)
@@ -155,7 +166,8 @@ module.exports = {
   },
 
   electrum: {
-    description: "Electrum mineral locations and chances",
+    name: "Electrum",
+    description: "An alloy of silver and gold. Also known as 'green gold'.",
     data: `**Locations & Chances**
 
     Starfall River - 2.7126% (~1 in 37)
@@ -168,7 +180,8 @@ module.exports = {
   },
 
   glowberry: {
-    description: "Glowberry mineral locations and chances",
+    name: "Glowberry",
+    description: "A luminescent berry.",
     data: `**Locations & Chances**
 
     Enchanted Ruins - 8.7556% (~1 in 11)
@@ -178,7 +191,8 @@ module.exports = {
   },
 
   malachite: {
-    description: "Malachite mineral locations and chances",
+    name: "Malachite",
+    description: "A vibrant green crystal, given its color by the copper within it.",
     data: `**Locations & Chances**
 
     Windswept Beach - 1.2053% (~1 in 83)
@@ -196,7 +210,8 @@ module.exports = {
   },
 
   neodymium: {
-    description: "Neodymium mineral locations and chances",
+    name: "Neodymium",
+    description: "A key ingredient in high-strength magnets.",
     data: `**Locations & Chances**
 
     Seashell Isle - 2.2664% (~1 in 44)
@@ -212,7 +227,8 @@ module.exports = {
   },
 
   nickel: {
-    description: "Nickel mineral locations and chances",
+    name: "Nickel",
+    description: "A tough nugget of nickel.",
     data: `**Locations & Chances**
 
     Starfall River - 10.8507% (~1 in 9)
@@ -222,7 +238,8 @@ module.exports = {
   },
 
   rockcandy: {
-    description: "Rock Candy mineral locations and chances",
+    name: "Rock Candy",
+    description: "A chunk of rock candy. Tasty!",
     data: `**Locations & Chances**
 
     Haunted Creek - 1.2967% (~1 in 77)
@@ -230,7 +247,8 @@ module.exports = {
   },
 
   sapphire: {
-    description: "Sapphire mineral locations and chances",
+    name: "Sapphire",
+    description: "A blue sapphire.",
     data: `**Locations & Chances**
 
     Starfall River - 4.3402% (~1 in 23)
@@ -246,7 +264,8 @@ module.exports = {
   },
 
   smokyquartz: {
-    description: "Smoky Quartz mineral locations and chances",
+    name: "Smoky Quartz",
+    description: "A type of quartz with a unique gray color.",
     data: `**Locations & Chances**
 
     Timelocked Sanctuary - 4.3402% (~1 in 23)
@@ -266,7 +285,8 @@ module.exports = {
   },
 
   titanium: {
-    description: "Titanium mineral locations and chances",
+    name: "Titanium",
+    description: "A piece of pure titanium.",
     data: `**Locations & Chances**
 
     Frozen Peak - 12.8742% (~1 in 8)
@@ -283,7 +303,8 @@ module.exports = {
   },
 
   topaz: {
-    description: "Topaz mineral locations and chances",
+    name: "Topaz",
+    description: "A topaz gemstone. A symbol of strength and honor.",
     data: `**Locations & Chances**
 
     Timelocked Sanctuary - 10.8505% (~1 in 9)
@@ -300,7 +321,8 @@ module.exports = {
   },
 
   zircon: {
-    description: "Zircon mineral locations and chances",
+    name: "Zircon",
+    description: "A dark orange gemstone that contains zirconium.",
     data: `**Locations & Chances**
 
     Infernal Heart - 1.4736% (~1 in 68)
@@ -311,7 +333,8 @@ module.exports = {
   },
 
   amber: {
-    description: "Amber mineral locations and chances",
+    name: "Amber",
+    description: "A piece of fossilized amber.",
     data: `**Locations & Chances**
 
     Enchanted Ruins - 0.05837% (~1 in 1,713)
@@ -321,7 +344,8 @@ module.exports = {
   },
 
   azuralite: {
-    description: "Azuralite mineral locations and chances",
+    name: "Azuralite",
+    description: "A mysterious azure crystal with strange growth properties and unknown origin.",
     data: `**Locations & Chances**
 
     Enchanted Ruins - 0.5837% (~1 in 171)
@@ -334,7 +358,8 @@ module.exports = {
   },
 
   candycane: {
-    description: "Candy Cane mineral locations and chances",
+    name: "Candy Cane",
+    description: "A tasty candy cane.",
     data: `**Locations & Chances**
 
     The Void (if in loot pool) - 0.09057% (~1 in 1,104)
@@ -342,7 +367,8 @@ module.exports = {
   },
 
   diopside: {
-    description: "Diopside mineral locations and chances",
+    name: "Diopside",
+    description: "A dull green gem.",
     data: `**Locations & Chances**
 
     Timelocked Sanctuary - 0.05425% (~1 in 1,843)
@@ -352,7 +378,8 @@ module.exports = {
   },
 
   glacialquartz: {
-    description: "Glacialquartz mineral locations and chances",
+    name: "Glacial Quartz",
+    description: "An icicle-shaped variant of quartz that forms in extreme cold.",
     data: `**Locations & Chances**
 
     North Pole - 0.2234% (~1 in 448)
@@ -363,7 +390,8 @@ module.exports = {
   },
 
   gloomberry: {
-    description: "Gloomberry mineral locations and chances",
+    name: "Gloomberry",
+    description: "A poisonous berry that grows deep underground.",
     data: `**Locations & Chances**
 
     Abyssal Depths - 0.0004846% (~1 in 206,315)
@@ -371,7 +399,8 @@ module.exports = {
   },
 
   jade: {
-    description: "Jade mineral locations and chances",
+    name: "Jade",
+    description: "A piece of green jade.",
     data: `**Locations & Chances**
 
     North Pole - 1.3963% (~1 in 72)
@@ -387,7 +416,8 @@ module.exports = {
   },
 
   lapislazuli: {
-    description: "Lapis Lazuli mineral locations and chances",
+    name: "Lapis Lazuli",
+    description: "A vibrant and intense stone of lapis lazuli.",
     data: `**Locations & Chances**
 
     Starfall River - 0.5425% (~1 in 184)
@@ -404,7 +434,8 @@ module.exports = {
   },
 
   meteoriciron: {
-    description: "Meteoric Iron mineral locations and chances",
+    name: "Meteoric Iron",
+    description: "A piece of iron infused with energy from exposure to the meteors.",
     data: `**Locations & Chances**
 
     Astral Caverns - 4.1597% (~1 in 24)
@@ -418,7 +449,8 @@ module.exports = {
   },
 
   onyx: {
-    description: "Onyx mineral locations and chances",
+    name: "Onyx",
+    description: "A jet black onyx gem.",
     data: `**Locations & Chances**
 
     Infernal Heart - 0.1473% (~1 in 679)
@@ -438,7 +470,8 @@ module.exports = {
   },
 
   peridot: {
-    description: "Peridot mineral locations and chances",
+    name: "Peridot",
+    description: "An olive-green gemstone that commonly appears in volcanic rock.",
     data: `**Locations & Chances**
 
     Infernal Heart - 0.07368% (~1 in 1,357)
@@ -450,7 +483,8 @@ module.exports = {
   },
 
   pyrelith: {
-    description: "Pyrelith mineral locations and chances",
+    name: "Pyrelith",
+    description: "An energetic crystal formed in the heart of a volcano.",
     data: `**Locations & Chances**
 
     Infernal Heart - 0.2947% (~1 in 339)
@@ -459,7 +493,8 @@ module.exports = {
   },
 
   ruby: {
-    description: "Ruby mineral locations and chances",
+    name: "Ruby",
+    description: "A bright red ruby gemstone.",
     data: `**Locations & Chances**
 
     Rubble Creek Sands - 0.2344% (~1 in 427)
@@ -469,7 +504,8 @@ module.exports = {
   },
 
   silverclamshell: {
-    description: "Silver Clamshell mineral locations and chances",
+    name: "Silver Clamshell",
+    description: "The shell of a rare silver clam.",
     data: `**Locations & Chances**
 
     Windswept Beach - 0.1808% (~1 in 553)
@@ -480,7 +516,8 @@ module.exports = {
   },
 
   ammonitefossil: {
-    description: "Ammonite Fossil mineral locations and chances",
+    name: "Ammonite Fossil",
+    description: "The remains of an ancient mollusk.",
     data: `**Locations & Chances**
 
     Windswept Beach - 0.006026% (~1 in 16,592)
@@ -489,7 +526,8 @@ module.exports = {
   },
 
   ashvein: {
-    description: "Ashvein Fossil mineral locations and chances",
+    name: "Ashvein",
+    description: "An obsidian-like crystal streaked with red.",
     data: `**Locations & Chances**
 
     Sunset Beach - 0.01133% (~1 in 8,824)
@@ -500,7 +538,8 @@ module.exports = {
   },
 
   aurorite: {
-    description: "Aurorite Fossil mineral locations and chances",
+    name: "Aurorite",
+    description: "A mysterious crystal filled with magical power. Perhaps I could use this for something...",
     data: `**Locations & Chances**
 
     Fortune River - 0.008609% (~1 in 11,616)
@@ -521,7 +560,8 @@ module.exports = {
   },
 
   bone: {
-    description: "Bone mineral locations and chances",
+    name: "Bone",
+    description: "...I should't have dug here.",
     data: `**Locations & Chances**
 
     Rotwood Swamp - 0.01085% (~1 in 9,217)
@@ -531,7 +571,8 @@ module.exports = {
   },
 
   borealite: {
-    description: "Borealite mineral locations and chances",
+    name: "Borealite",
+    description: "A cold gemstone.",
     data: `**Locations & Chances**
 
     Frostbite River - 0.005150% (~1 in 19,419)
@@ -544,7 +585,8 @@ module.exports = {
   },
 
   cobalt: {
-    description: "Cobalt mineral locations and chances",
+    name: "Cobalt",
+    description: "A strikingly blue piece of cobalt. Used in advanced electronics.",
     data: `**Locations & Chances**
 
     Overgrown Grotto - 0.01866% (~1 in 5,356)
@@ -564,7 +606,8 @@ module.exports = {
   },
 
   emerald: {
-    description: "Emerald mineral locations and chances",
+    name: "Emerald",
+    description: "A rare emerald with a vibrant green hue.",
     data: `**Locations & Chances**
 
     Fortune River - 0.004591% (~1 in 21,779)
@@ -585,7 +628,8 @@ module.exports = {
   },
 
   glowmoss: {
-    description: "Glowmoss mineral locations and chances",
+    name: "Glowmoss",
+    description: "A rare species of moss that emits a bright light.",
     data: `**Locations & Chances**
 
     Enchanted Ruins - 0.0005837% (~1 in 171,300)
@@ -596,7 +640,8 @@ module.exports = {
   },
 
   goldenpearl: {
-    description: "Golden Pearl mineral locations and chances",
+    name: "Golden Pearl",
+    description: "An incredibly rare pearl variant with a distinct gold color.",
     data: `**Locations & Chances**
 
     Sunset Beach - 0.02266% (~1 in 4,412)
@@ -606,7 +651,8 @@ module.exports = {
   },
 
   iridium: {
-    description: "Iridium mineral locations and chances",
+    name: "Iridium",
+    description: "A rare celestial metal brought to the earth by the meteors.",
     data: `**Locations & Chances**
 
     Rubble Creek Deposits - 0.01564% (~1 in 6,394)
@@ -624,7 +670,8 @@ module.exports = {
   },
 
   lightshard: {
-    description: "Lightshard mineral locations and chances",
+    name: "Lightshard",
+    description: "A light-infused glass-like crystal.",
     data: `**Locations & Chances**
 
     The Void (if in loot pool) - 0.003623% (~1 in 27,604)
@@ -637,7 +684,8 @@ module.exports = {
   },
 
   mercury: {
-    description: "Mercury mineral locations and chances",
+    name: "Mercury",
+    description: "A drop of toxic mercury, held together by an unknown force.",
     data: `**Locations & Chances**
 
     Meteor Falls - 0.001085% (~1 in 92,160)
@@ -648,7 +696,8 @@ module.exports = {
   },
 
   meteoricgold: {
-    description: "Meteoric Gold mineral locations and chances",
+    name: "Meteoric Gold",
+    description: "A nugget of gold from outer space.",
     data: `**Locations & Chances**
 
     Starfall River - 0.00001085% (~1 in 92,160)
@@ -657,7 +706,8 @@ module.exports = {
   },
 
   moonstone: {
-    description: "Moonstone mineral locations and chances",
+    name: "Moonstone",
+    description: "A piece of stone from the moon itself.",
     data: `**Locations & Chances**
 
     Sunset Beach - 0.005666% (~1 in 17,648)
@@ -670,7 +720,8 @@ module.exports = {
   },
 
   opal: {
-    description: "Opal mineral locations and chances",
+    name: "Opal",
+    description: "An iridescent opal.",
     data: `**Locations & Chances**
 
     Starfall River - 0.05425% (~1 in 1,843)
@@ -690,7 +741,8 @@ module.exports = {
   },
 
   osmium: {
-    description: "Osmium mineral locations and chances",
+    name: "Osmium",
+    description: "A dense and highly toxic metal prized for its rarity.",
     data: `**Locations & Chances**
 
     Rotwood Swamp - 0.002712% (~1 in 36,868)
@@ -709,7 +761,8 @@ module.exports = {
   },
 
   pyronium: {
-    description: "Pyronium mineral locations and chances",
+    name: "Pyronium",
+    description: "A volcanic metal that constantly emits heat.",
     data: `**Locations & Chances**
 
     Infernal Heart - 0.004420% (~1 in 22,620)
@@ -720,7 +773,8 @@ module.exports = {
   },
 
   aetherite: {
-    description: "Aetherite mineral locations and chances",
+    name: "Aetherite",
+    description: "A purified variant of aurorite used in enchanting rituals.",
     data: `**Locations & Chances**
 
     Enchanted Ruins - 0.0002919% (~1 in 342,639)
@@ -744,7 +798,8 @@ module.exports = {
   },
 
   aquamarine: {
-    description: "Aquamarine mineral locations and chances",
+    name: "Aquamarine",
+    description: "A pale blue-green crystal.",
     data: `**Locations & Chances**
 
     Starfall River - 0.0002712% (~1 in 368,639)
@@ -757,7 +812,8 @@ module.exports = {
   },
 
   bismuth: {
-    description: "Bismuth mineral locations and chances",
+    name: "Bismuth",
+    description: "A chunk of bismuth, known for being one of the densest non-radioactive metals.",
     data: `**Locations & Chances**
 
     Timelocked Sanctuary - 0.0001627% (~1 in 614,410)
@@ -767,7 +823,8 @@ module.exports = {
   },
 
   catseye: {
-    description: "Catseye mineral locations and chances",
+    name: "Catseye",
+    description: "A golden catseye. Commonly believed to hold a deadly curse within.",
     data: `**Locations & Chances**
 
     Windswept Beach - 0.0003013% (~1 in 331,841)
@@ -780,7 +837,8 @@ module.exports = {
   },
 
   cinnabar: {
-    description: "Cinnabar mineral locations and chances",
+    name: "Cinnabar",
+    description: "A vermillion chunk of cinnabar. Commonly used for extracting mercury.",
     data: `**Locations & Chances**
 
     Infernal Heart - 0.0002211% (~1 in 452,340)
@@ -791,7 +849,8 @@ module.exports = {
   },
 
   depletedshard: {
-    description: "Depleted Shard mineral locations and chances",
+    name: "Depleted Shard",
+    description: "The burnt-out remains of a once-powerful celestial fragment.",
     data: `**Locations & Chances**
 
     Astral Caverns - 0.00001039% (~1 in 9,615,981)
@@ -801,7 +860,8 @@ module.exports = {
   },
 
   diamond: {
-    description: "Diamond mineral locations and chances",
+    name: "Diamond",
+    description: "A rare diamond gem. Incredibly hard and reflective.",
     data: `**Locations & Chances**
 
     Sunset Beach - 0.0005666% (~1 in 176,477)
@@ -822,7 +882,8 @@ module.exports = {
   },
 
   dragonbone: {
-    description: "Dragonbone mineral locations and chances",
+    name: "Dragon Bone",
+    description: "The bone of an ancient dragon.",
     data: `**Locations & Chances**
 
     Infernal Heart - 0.001473% (~1 in 67,859)
@@ -832,7 +893,8 @@ module.exports = {
   },
 
   fireopal: {
-    description: "Fire Opal mineral locations and chances",
+    name: "Fire Opal",
+    description: "A type of opal with a brilliant orange shine.",
     data: `**Locations & Chances**
 
     Volcanic Springs - 0.0004388% (~1 in 227,895)
@@ -844,7 +906,8 @@ module.exports = {
   },
 
   fireflystone: {
-    description: "Firefly Stone mineral locations and chances",
+    name: "Firefly Stone",
+    description: "A glowing stone left behind by dying fireflies.",
     data: `**Locations & Chances**
 
     Overgrown Grotto (inside Firefly Zones) - 0.00002334% (~1 in 4,284,343)
@@ -857,7 +920,8 @@ module.exports = {
   },
 
   gloomcap: {
-    description: "Gloomcap mineral locations and chances",
+    name: "Gloomcap",
+    description: "An extraterrestrial lifeform that warps nearby matter.",
     data: `**Locations & Chances**
 
     Fungal Marsh - 0.0002712% (~1 in 368,682)
@@ -865,7 +929,8 @@ module.exports = {
   },
 
   lostsoul: {
-    description: "Lost Soul mineral locations and chances",
+    name: "Lost Soul",
+    description: "A lost soul doomed to wander aimlessly for eternity.",
     data: `**Locations & Chances**
 
     Haunted Creek - 0.0004322% (~1 in 231,342)
@@ -873,7 +938,8 @@ module.exports = {
   },
 
   luminum: {
-    description: "Luminum mineral locations and chances",
+    name: "Luminum",
+    description: "A strange metal that constantly emits a bright yellow light.",
     data: `**Locations & Chances**
 
     Seashell Isle - 0.001700% (~1 in 58,829)
@@ -887,7 +953,8 @@ module.exports = {
   },
 
   nautilusshell: {
-    description: "Nautilus Shell mineral locations and chances",
+    name: "Nautilus Shell",
+    description: "The shell of a nautilus.",
     data: `**Locations & Chances**
 
     Seashell Isle - 0.0005666% (~1 in 176,488)
@@ -895,7 +962,8 @@ module.exports = {
   },
 
   palladium: {
-    description: "Palladium mineral locations and chances",
+    name: "Palladium",
+    description: "A lustrous piece of palladium known for its unique properties.",
     data: `**Locations & Chances**
 
     Frostbite River - 0.0002575% (~1 in 388,341)
@@ -909,7 +977,8 @@ module.exports = {
   },
 
   peppermintprism: {
-    description: "Peppermint Prism mineral locations and chances",
+    name: "Peppermint Prism",
+    description: "A colorful crystal only found at the North Pole.",
     data: `**Locations & Chances**
 
     The Void (if in loot pool) - 0.0001811% (~1 in 552,084)
@@ -917,7 +986,8 @@ module.exports = {
   },
 
   radium: {
-    description: "Radium mineral locations and chances",
+    name: "Radium",
+    description: "A radioactive and dangerous metal.",
     data: `**Locations & Chances**
 
     Volcanic Springs - 0.0002194% (~1 in 455,790)
@@ -926,7 +996,8 @@ module.exports = {
   },
 
   rosegold: {
-    description: "Rose Gold mineral locations and chances",
+    name: "Rose Gold",
+    description: "An extremely rare form of a gold with a distinct rose color.",
     data: `**Locations & Chances**
 
     Windswept Beach - 0.001506% (~1 in 66,378)
@@ -942,7 +1013,8 @@ module.exports = {
   },
 
   specterite: {
-    description: "Specterite mineral locations and chances",
+    name: "Specterite",
+    description: "An extremely light and ghostly crystal.",
     data: `**Locations & Chances**
 
     Rotwood Swamp - 0.0002712% (~1 in 368,682)
@@ -955,7 +1027,8 @@ module.exports = {
   },
 
   starshine: {
-    description: "Starshine mineral locations and chances",
+    name: "Starshine",
+    description: "An astral fragment rarely found in the core of large meteors.",
     data: `**Locations & Chances**
 
     Azuralite Oasis - 0.00009245% (~1 in 1,081,704)
@@ -969,7 +1042,8 @@ module.exports = {
   },
 
   tourmaline: {
-    description: "Tourmaline mineral locations and chances",
+    name: "Tourmaline",
+    description: "A yellow tourmaline crystal.",
     data: `**Locations & Chances**
 
     Frostbite Waterfall - 0.0001609% (~1 in 621,347)
@@ -979,7 +1053,8 @@ module.exports = {
   },
 
   uranium: {
-    description: "Uranium mineral locations and chances",
+    name: "Uranium",
+    description: "A radioactive chunk of uranium.",
     data: `**Locations & Chances**
 
     Infernal Heart - 0.0004420% (~1 in 226,197)
@@ -990,7 +1065,8 @@ module.exports = {
   },
 
   volcanickey: {
-    description: "Volcanic Key mineral locations and chances",
+    name: "volcanic Key",
+    description: "A mysterious key. Could sell for a lot, but maybe it has some other use?",
     data: `**Locations & Chances**
 
     Infernal Heart - 0.001473% (~1 in 67,859)
@@ -999,7 +1075,8 @@ module.exports = {
   },
 
   aetherium: {
-    description: "Aetherium mineral locations and chances",
+    name: "Aetherium",
+    description: "An unnatural amalgamation of Aetherite and Iridium. Its unique properties make it a necessary ingredient in high-tier enchanting rituals.",
     data: `**Locations & Chances**
 
     Meteor Falls - 0.0000005425% (~1 in 184,319,616)
@@ -1009,7 +1086,8 @@ module.exports = {
   },
 
   chrysoberyl: {
-    description: "Chrysoberyl mineral locations and chances",
+    name: "Chrysoberyl",
+    description: "...",
     data: `**Locations & Chances**
 
     Rotwood Swamp - 0.000002169% (~1 in 46,085,203)
@@ -1019,7 +1097,8 @@ module.exports = {
   },
 
   flarebloom: {
-    description: "Flarebloom mineral locations and chances",
+    name: "Flarebloom",
+    description: "A mythical flower that only grows in the extreme heat of the center of a volcano.",
     data: `**Locations & Chances**
 
     Infernal Heart - 0.00001105% (~1 in 9,047,864)
@@ -1030,7 +1109,8 @@ module.exports = {
   },
 
   frostshard: {
-    description: "Frostshard mineral locations and chances",
+    name: "Frostshard",
+    description: "A jagged crystal formed in the mountains that constantly freezes the area around it.",
     data: `**Locations & Chances**
 
     North Pole - 0.000002234% (~1 in 44,760,456)
@@ -1040,7 +1120,8 @@ module.exports = {
   },
 
   inferlume: {
-    description: "Inferlume mineral locations and chances",
+    name: "Inferlume",
+    description: "A luminescent crystal with flame-like properties.",
     data: `**Locations & Chances**
 
     Infernal Heart - 0.00001105% (~1 in 9,047,864)
@@ -1055,7 +1136,8 @@ module.exports = {
   },
 
   mythril: {
-    description: "Mythril mineral locations and chances",
+    name: "Mythril",
+    description: "A nugget of the mythical metal mythril.",
     data: `**Locations & Chances**
 
     Fungal Marsh - 0.000003797% (~1 in 26,334,402)
@@ -1068,7 +1150,8 @@ module.exports = {
   },
 
   painite: {
-    description: "Painite mineral locations and chances",
+    name: "Painite",
+    description: "An extremely rare gemstone with a vibrant red color.",
     data: `**Locations & Chances**
 
     Sunset Beach - 0.00002267% (~1 in 4,411,419)
@@ -1083,7 +1166,8 @@ module.exports = {
   },
 
   pinkdiamond: {
-    description: "Pink Diamond mineral locations and chances",
+    name: "Pink Diamond",
+    description: "A variant of diamond with a unique pink tint.",
     data: `**Locations & Chances**
 
     Fortune River Delta - 0.00004377% (~1 in 2,284,525)
@@ -1096,7 +1180,8 @@ module.exports = {
   },
 
   prismara: {
-    description: "Prismara mineral locations and chances",
+    name: "Prismara",
+    description: "Formed by the world itself.",
     data: `**Locations & Chances**
 
     Overgrown Grotto - 0.000002800% (~1 in 35,702,851)
@@ -1106,7 +1191,8 @@ module.exports = {
   },
 
   radiantgold: {
-    description: "Radiant Gold mineral locations and chances",
+    name: "Radiant Gold",
+    description: "A nugget of gold exposed to powerful energy for millions of years.",
     data: `**Locations & Chances**
 
     Abyssal Depths - 0.000001454% (~1 in 68,771,969)
@@ -1118,7 +1204,8 @@ module.exports = {
   },
 
   redberyl: {
-    description: "Red Beryl mineral locations and chances",
+    name: "Red Beryl",
+    description: "An extremely rare form of beryl. Distinguished by its hexagonal crystals and distinctive red color.",
     data: `**Locations & Chances**
 
     Astral Caverns - 0.0000009359% (~1 in 106,844,237)
@@ -1129,7 +1216,8 @@ module.exports = {
   },
 
   stargarnet: {
-    description: "Star Garnet mineral locations and chances",
+    name: "Star Garnet",
+    description: "A garnet with a star reflected within.",
     data: `**Locations & Chances**
 
     Timelocked Sanctuary - 0.000001356% (~1 in 73,729,166)
@@ -1141,7 +1229,8 @@ module.exports = {
   },
 
   sunstone: {
-    description: "Sunstone mineral locations and chances",
+    name: "Sunstone",
+    description: "A stone that pulses with solar energy.",
     data: `**Locations & Chances**
 
     Meteor Falls - 0.0000005425% (~1 in 184,319,616)
@@ -1151,7 +1240,8 @@ module.exports = {
   },
 
   vortessence: {
-    description: "Vortessence mineral locations and chances",
+    name: "Vortessence",
+    description: "A celestial stone with distinct rings. Believed to be formed by the collapse of a star.",
     data: `**Locations & Chances**
 
     Windswept Beach - 0.000009040% (~1 in 11,061,369)
@@ -1168,7 +1258,8 @@ module.exports = {
   },
 
   volcaniccore: {
-    description: "Volcanic Core mineral locations and chances",
+    name: "Volcanic Core",
+    description: "The unstable core of a volcano. Contains the potential to cause immense destruction.",
     data: `**Locations & Chances**
 
     Infernal Heart - 0.000004421% (~1 in 22,619,048)
@@ -1177,14 +1268,16 @@ module.exports = {
   },
 
   adamantine: {
-    description: "Adamantine mineral locations and chances",
+    name: "Adamantine",
+    description: "The indestructible metal of many fables told and untold, Adamantine.",
     data: `**Locations & Chances**
 
     Enchanted Ruins - 0.0000001167% (~1 in 856,598,092)`
   },
 
   astralspore: {
-    description: "Astral Spore mineral locations and chances",
+    name: "Astral Spore",
+    description: "An extraterrestial lifeform that warps nearby matter.",
     data: `**Locations & Chances**
 
     Fungal Marsh - 0.00000006509% (~1 in 1,536,173,443)
@@ -1192,7 +1285,8 @@ module.exports = {
   },
 
   bloodstone: {
-    description: "Bloodstone mineral locations and chances",
+    name: "Bloodstone",
+    description: "A tainted stone believed to siphon the life of those who hold it.",
     data: `**Locations & Chances**
 
     Rotwood Swamp - 0.00000008679% (~1 in 1,152,130,082)
@@ -1200,87 +1294,98 @@ module.exports = {
   },
 
   celestium: {
-    description: "Celestium mineral locations and chances",
+    name: "Celestium",
+    description: "A celestial metal formed in the center of galaxies.",
     data: `**Locations & Chances**
 
     Astral Caverns - 0.0000000051997% (~1 in 19,231,962,581)`
   },
 
   cryonicartifact: {
-    description: "Cryonic Artifact mineral locations and chances",
+    name: "Cryonic Artifact",
+    description: "A mysterious artifact. What is its purpose?",
     data: `**Locations & Chances**
 
     Frozen Peak - 0.0000006437% (~1 in 155,336,658)`
   },
 
   dinosaurskull: {
-    description: "dinosaurskull mineral locations and chances",
+    name: "Dinosaur Skull",
+    description: "A skull of a dinosaur. What's this doing here!",
     data: `**Locations & Chances**
 
     Infernal Heart – 0.000001842% (~1 in 54,285,827)`
   },
 
   eternium: {
-    description: "Eternium mineral locations and chances",
+    name: "Eternium",
+    description: "An everlasting crystal that preserves its surroundings from the passage of time.",
     data: `**Locations & Chances**
 
     Timelocked Sanctuary - 0.00000002712% (~1 in 3,686,458,325)`
     },
 
   forgottentotem: {
-    description: "Forgotten Totem mineral locations and chances",
+    name: "Forgotten Totem",
+    description: "An mysterious, weathered totem. Its purpose remains unknown.",
     data: `**Locations & Chances**
 
     Seashell Isle - 0.0000002833% (~1 in 352,976,514)`
     },
 
   northstar: {
-    description: "North Star mineral locations and chances",
+    name: "North Star",
+    description: "-",
     data: `**Locations & Chances**
 
     North Pole - 0.0000002792% (~1 in 358,083,649)`
   },
 
   pumpkinsoul: {
-    description: "Pumpkin Soul mineral locations and chances",
+    name: "Pumpkin Soul",
+    description: "The soul of a cruel tyrant.",
     data: `**Locations & Chances**
 
     Haunted Creek - 0.0000004322% (~1 in 231,341,800)`
   },
 
   singularium: {
-    description: "Singularium mineral locations and chances",
+    name: "Singularium",
+    description: "An exotic substance that emits a gravitational pull.",
     data: `**Locations & Chances**
 
     Starfall River - 0.00000001085% (~1 in 9,215,980,801)`
   },
 
   starpiercer: {
-    description: "Starpiercer mineral locations and chances",
+    name: "Starpiercer",
+    description: "A mysterious alien artifact.",
     data: `**Locations & Chances**
 
     Meteor Falls - 0.00000002170% (~1 in 4,607,990,401)`
   },
 
   umbrite: {
-    description: "Umbrite mineral locations and chances",
+    name: "Umbrite",
+    description: "A crystal formed in complete darkness.",
     data: `**Locations & Chances**
 
     Abyssal Depths - 0.0000001454% (~1 in 687,719,698)`
   },
 
   vineheart: {
-    description: "Vineheart mineral locations and chances",
+    name: "Vineheart",
+    description: "The heart of the caverns, believed to be formed by the spirits themselves.",
     data: `**Locations & Chances**
 
     Deeproot Spring - 0.0000001807% (~1 in 553,292,791)`
   },
 
   voidstone: {
-    description: "Voidstone mineral locations and chances",
+    name: "Voidstone",
+    description: "A crystal formed from the void.",
     data: `**Locations & Chances**
 
     The Void - 0.0000007245% (~1 in 138,021,012)`
   },
 };
-

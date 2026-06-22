@@ -19,12 +19,12 @@ module.exports = async (message) => {
         const cmd = commands[input];
 
         const embed = new EmbedBuilder()
-            .setTitle(input.toUpperCase())
+            .setTitle(cmd.name || input.toUpperCase())
             .setDescription(cmd.data);
 
         if (cmd.description) {
             embed.setFooter({
-                text: cmd.description
+                text: cmd.description || ""
             });
         }
 
@@ -42,11 +42,8 @@ module.exports = async (message) => {
     const mineral = minerals[mineralName];
 
     const embed = new EmbedBuilder()
-        .setTitle(
-            mineralName.charAt(0).toUpperCase() +
-            mineralName.slice(1)
-        )
-        .setDescription(mineral.data);
+    .setTitle(mineral.name || mineralName.charAt(0).toUpperCase() + mineralName.slice(1))
+    .setDescription(mineral.data);
 
     if (mineral.description) {
         embed.setFooter({

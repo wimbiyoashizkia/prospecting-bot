@@ -1,5 +1,3 @@
-const similarity = require("string-similarity");
-
 function normalize(str) {
   return str.toLowerCase().replace(/[^a-z]/g, "");
 }
@@ -9,13 +7,38 @@ function isSubsequence(input, target) {
   let j = 0;
 
   while (i < input.length && j < target.length) {
-    if (input[i] === target[j]) {
-      i++;
-    }
+    if (input[i] === target[j]) i++;
     j++;
   }
 
   return i === input.length;
+}
+
+function levenshtein(a, b) {
+  const matrix = Array.from(
+    { length: b.length + 1 },
+    (_, i) => [i]
+  );
+
+  for (let j = 0; j <= a.length; j++) {
+    matrix[0][j] = j;
+  }
+
+  for (let i = 1; i <= b.length; i++) {
+    for (let j = 1; j <= a.length; j++) {
+      if (b[i - 1] === a[j - 1]) {
+        matrix[i][j] = matrix[i - 1][j - 1];
+      } else {
+        matrix[i][j] = Math.min(
+          matrix[i - 1][j - 1] + 1,
+          matrix[i][j - 1] + 1,
+          matrix[i - 1][j] + 1
+        );
+      }
+    }
+  }
+
+  return matrix[b.length][a.length];
 }
 
 function findClosestMineral(input, minerals) {
@@ -47,10 +70,13 @@ function findClosestMineral(input, minerals) {
     } else if (isSubsequence(cleanInput, cleanName)) {
       score = 90 - (cleanName.length - cleanInput.length);
     } else {
-      const fuzzy = similarity.compareTwoStrings(cleanInput, cleanName);
+      const distance = levenshtein(
+        cleanInput,
+        cleanName
+      );
 
-      if (fuzzy >= 0.5) {
-        score = fuzzy * 50;
+      if (distance <= 2) {
+        score = 80 - (distance * 10);
       }
     }
 
@@ -62,19 +88,19 @@ function findClosestMineral(input, minerals) {
 
   candidates.sort((a, b) => b.score - a.score);
 
-  if (candidates.length === 0) {
+  if (!candidates.length) {
     return {
       found: false,
       suggestions: []
     };
   }
 
-  if (candidates[0].score < 25) {
+  if (candidates[0].score < 40) {
     return {
       found: false,
       suggestions: candidates
-      .filter(x => x.score >= 15)
-      .slice(0, 3)
+        .filter(x => x.score >= 20)
+        .slice(0, 3)
     };
   }
 
@@ -82,8 +108,7 @@ function findClosestMineral(input, minerals) {
     found: true,
     name: candidates[0].name,
     score: candidates[0].score,
-    suggestions: candidates
-    .slice(1, 4)
+    suggestions: candidates.slice(1, 4)
   };
 }
 

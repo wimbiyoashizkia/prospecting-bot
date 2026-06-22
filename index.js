@@ -24,13 +24,15 @@ const allCommands = {
   ...commands
 };
 
-client.once('ready', () => {
+client.once('clientReady', () => {
   console.log(`Logged in as ${client.user.tag}`);
 });
 
 client.on('messageCreate', message => {
-  if (message.author.bot) return;
-  if (!message.content.startsWith(PREFIX)) return;
+  if (message.author.bot)
+    return;
+  if (!message.content.startsWith(PREFIX))
+    return;
 
   handleCommand(message, allCommands);
 });

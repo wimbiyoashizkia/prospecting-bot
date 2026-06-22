@@ -33,18 +33,27 @@ module.exports = async (message) => {
         });
     }
 
-    const mineralName = findClosestMineral(input, minerals);
+    const result = findClosestMineral(input, minerals);
 
-    if (!mineralName) {
-        return message.reply(
-        `❌ No results found for "${input}"`
-        );
+    if (!result.found) {
+        let msg = `❌ No results found for "${input}"`;
+
+        if (result.suggestions.length) {
+            msg +=
+            "\n\nDid you mean?\n• " +
+            result.suggestions.join("\n• ");
+        }
+
+        return message.reply(msg);
     }
 
-    const mineral = minerals[mineralName];
+const mineral = minerals[result.name];
 
     const embed = new EmbedBuilder()
-    .setTitle(mineral.name || mineralName.charAt(0).toUpperCase() + mineralName.slice(1))
+    .setTitle(
+        mineral.name ||
+        result.name.charAt(0).toUpperCase() + result.name.slice(1)
+        )
     .setDescription(mineral.data);
 
     if (mineral.description) {

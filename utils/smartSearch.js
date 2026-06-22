@@ -4,56 +4,80 @@ function normalize(str) {
   return str.toLowerCase().replace(/[^a-z]/g, "");
 }
 
-function consonantOnly(str) {
-  return str.replace(/[aeiou]/g, "");
+function isSubsequence(input, target) {
+  let i = 0;
+  let j = 0;
+
+  while (i < input.length && j < target.length) {
+    if (input[i] === target[j]) {
+      i++;
+    }
+    j++;
+  }
+
+  return i === input.length;
 }
 
 function findClosestMineral(input, minerals) {
-  const names = Object.keys(minerals);
-
   const cleanInput = normalize(input);
 
   if (cleanInput.length < 2) {
-    return null;
+    return {
+      found: false,
+      suggestions: []
+    };
   }
 
-  const inputC = consonantOnly(cleanInput);
+  const candidates = [];
 
-  let bestMatch = null;
-  let bestScore = 0;
-
-  for (const name of names) {
-    const cleanName = normalize(name);
-    const nameC = consonantOnly(cleanName);
+  for (const key of Object.keys(minerals)) {
+    const cleanName = normalize(key);
 
     if (cleanName === cleanInput) {
-      return name;
+      return {
+        found: true,
+        name: key
+      };
     }
 
-    let score = similarity.compareTwoStrings(cleanInput, cleanName);
+    let score = 0;
 
     if (cleanName.startsWith(cleanInput)) {
-      score += 1;
+      score = 100;
+    } else if (isSubsequence(cleanInput, cleanName)) {
+      score = 90 - (cleanName.length - cleanInput.length);
+    } else {
+      const fuzzy = similarity.compareTwoStrings(cleanInput, cleanName);
+
+      if (fuzzy >= 0.5) {
+        score = fuzzy * 50;
+      }
     }
 
-    if (
-      inputC.length >= 2 &&
-      nameC.startsWith(inputC)
-    ) {
-      score += 0.8;
-    }
-
-    if (score > bestScore) {
-      bestScore = score;
-      bestMatch = name;
-    }
+    candidates.push({
+      name: key,
+      score
+    });
   }
 
-  if (bestScore >= 0.6) {
-    return bestMatch;
+  candidates.sort((a, b) => b.score - a.score);
+
+  if (candidates.length === 0 || candidates[0].score < 25) {
+    return {
+      found: false,
+      suggestions: candidates
+        .slice(0, 3)
+        .map(x => x.name)
+    };
   }
 
-  return null;
+  return {
+    found: true,
+    name: candidates[0].name,
+    suggestions: candidates
+      .slice(1, 4)
+      .map(x => x.name)
+  };
 }
 
 module.exports = findClosestMineral;

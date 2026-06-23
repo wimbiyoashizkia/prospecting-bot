@@ -59,7 +59,9 @@ function findClosestMineral(input, minerals) {
     if (cleanName === cleanInput) {
       return {
         found: true,
-        name: key
+        name: key,
+        score: 100,
+        suggestions: []
       };
     }
 
@@ -70,10 +72,7 @@ function findClosestMineral(input, minerals) {
     } else if (isSubsequence(cleanInput, cleanName)) {
       score = 90 - (cleanName.length - cleanInput.length);
     } else {
-      const distance = levenshtein(
-        cleanInput,
-        cleanName
-      );
+      const distance = levenshtein(cleanInput, cleanName);
 
       if (distance <= 2) {
         score = 80 - (distance * 10);
@@ -88,27 +87,31 @@ function findClosestMineral(input, minerals) {
 
   candidates.sort((a, b) => b.score - a.score);
 
-  if (!candidates.length) {
+  const best = candidates[0];
+
+  if (!best || best.score < 50) {
     return {
       found: false,
       suggestions: []
     };
   }
 
-  if (candidates[0].score < 40) {
+  if (best.score >= 85) {
     return {
-      found: false,
+      found: true,
+      name: best.name,
+      score: best.score,
       suggestions: candidates
-        .filter(x => x.score >= 20)
+        .filter(x => x.name !== best.name && x.score >= 50)
         .slice(0, 3)
     };
   }
 
   return {
-    found: true,
-    name: candidates[0].name,
-    score: candidates[0].score,
-    suggestions: candidates.slice(1, 4)
+    found: false,
+    suggestions: candidates
+      .filter(x => x.score >= 50)
+      .slice(0, 3)
   };
 }
 

@@ -211,5 +211,15 @@ module.exports = {
     https://prospecting.miraheze.org/
 
     **⚠️ DO NOT SPAM THIS COMMAND**`
+  },
+
+  dredge: {
+    name: "Dredge Guide",
+    description: "Farming guide for specific minerals",
+    data: `**Dredge Guide**
+
+    Use ?dredge <mineral/ore> to view farming guide.
+
+    Example: ?dredge amber`
   }
 };

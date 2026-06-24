@@ -198,8 +198,18 @@ async function processCommand(message) {
             return message.reply({ embeds: [embed] });
         }
 
-        if (input.startsWith("dredge ")) {
-            return handleDredge(message, input);
+        const dredgeAliases = ["dredge", "dredg", "dred", "dre", "dr", "d"];
+        const inputParts = input.split(" ");
+        const commandPart = inputParts[0];
+        const hasMineralQuery = inputParts.length > 1 && inputParts[1].trim().length > 0;
+
+        if (dredgeAliases.includes(commandPart) && hasMineralQuery) {
+            const normalizedInput = "dredge " + inputParts.slice(1).join(" ");
+            return handleDredge(message, normalizedInput);
+        }
+
+        if (dredgeAliases.includes(commandPart) && !hasMineralQuery) {
+            return message.reply("❌ Please specify a mineral.\nExample: `?dredge amber`");
         }
 
         return handleMineralLookup(message, input);

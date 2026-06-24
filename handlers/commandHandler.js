@@ -126,6 +126,53 @@ async function showSuggestions(message, input, suggestions) {
     });
 }
 
+async function handleDredge(message, input) {
+    const mineralName = input.slice(7).trim();
+
+    if (!mineralName) {
+        return message.reply("❌ Please specify a mineral.\nExample: `?dredge amber`");
+    }
+
+    const result = findClosestMineral(mineralName);
+
+    if (!result.found) {
+        if (result.suggestions.length > 0) {
+            return showSuggestions(message, input, result.suggestions);
+        }
+        return message.reply(`❌ No results found for \`${mineralName}\`\n\nNo similar minerals found.`);
+    }
+
+    const mineral = minerals[result.name];
+    const guide = dredge[result.name];
+
+    if (!guide) {
+        const embed = new EmbedBuilder()
+            .setTitle(`${mineral.name} — Dredge Guide`)
+            .setDescription("❌ Dredge guide data is not available for this mineral yet.")
+            .setFooter({ text: `Use ?${result.name} to view full mineral info.` });
+
+        return message.reply({ embeds: [embed] });
+    }
+
+    const embed = buildDredgeEmbed(mineral, guide);
+    return message.reply({ embeds: [embed] });
+}
+
+async function handleMineralLookup(message, input) {
+    const result = findClosestMineral(input);
+
+    if (!result.found) {
+        if (result.suggestions.length > 0) {
+            return showSuggestions(message, input, result.suggestions);
+        }
+        return message.reply(`❌ No results found for \`${input}\`\n\nNo similar minerals found.`);
+    }
+
+    const mineral = minerals[result.name];
+    const embed = buildMineralEmbed(mineral, result.name);
+    return message.reply({ embeds: [embed] });
+}
+
 async function processCommand(message) {
     try {
         if (message.author.bot) return;
@@ -140,7 +187,6 @@ async function processCommand(message) {
 
         if (commands[input]) {
             const cmd = commands[input];
-
             const embed = new EmbedBuilder()
                 .setTitle(cmd.name || input.toUpperCase())
                 .setDescription(cmd.data);
@@ -153,44 +199,10 @@ async function processCommand(message) {
         }
 
         if (input.startsWith("dredge ")) {
-            const mineralName = input.slice(7).trim();
-
-            if (!mineralName) {
-                return message.reply("❌ Please specify a mineral.\nExample: `?dredge amber`");
-            }
-
-            const result = findClosestMineral(mineralName);
-
-            if (!result.found) {
-                if (result.suggestions.length > 0) {
-                    return showSuggestions(message, input, result.suggestions);
-                }
-                return message.reply(`❌ No results found for \`${mineralName}\`\n\nNo similar minerals found.`);
-            }
-
-            const mineral = minerals[result.name];
-            const guide = dredge[result.name];
-
-            if (!guide) {
-                return message.reply(`❌ No dredge guide found for \`${mineral.name}\`.`);
-            }
-
-            const embed = buildDredgeEmbed(mineral, guide);
-            return message.reply({ embeds: [embed] });
+            return handleDredge(message, input);
         }
 
-        const result = findClosestMineral(input);
-
-        if (!result.found) {
-            if (result.suggestions.length > 0) {
-                return showSuggestions(message, input, result.suggestions);
-            }
-            return message.reply(`❌ No results found for \`${input}\`\n\nNo similar minerals found.`);
-        }
-
-        const mineral = minerals[result.name];
-        const embed = buildMineralEmbed(mineral, result.name);
-        return message.reply({ embeds: [embed] });
+        return handleMineralLookup(message, input);
 
     } catch (error) {
         console.error(`[ERROR] ${error.message}`);

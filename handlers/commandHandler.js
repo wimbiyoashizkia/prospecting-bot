@@ -9,7 +9,10 @@ const skipLocations = ["the void", "haunted creek", "north pole", "seashell isle
 
 function createSuggestionButtons(suggestions) {
     const row = new ActionRowBuilder();
-    for (const suggestion of suggestions) {
+    const styles = [ButtonStyle.Success, ButtonStyle.Primary, ButtonStyle.Secondary];
+
+    for (let i = 0; i < suggestions.length; i++) {
+        const suggestion = suggestions[i];
         const mineral = minerals[suggestion.name];
         const displayName = mineral?.name || suggestion.name;
 
@@ -17,7 +20,7 @@ function createSuggestionButtons(suggestions) {
             new ButtonBuilder()
                 .setCustomId(`cmd_${suggestion.name}`)
                 .setLabel(displayName)
-                .setStyle(ButtonStyle.Primary)
+                .setStyle(styles[i] || ButtonStyle.Primary)
         );
     }
     return row;

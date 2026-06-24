@@ -1,5 +1,14 @@
+const normalizedCache = new Map();
+
 function normalize(str) {
   return str.toLowerCase().replace(/[^a-z]/g, "");
+}
+
+function getNormalized(key) {
+  if (!normalizedCache.has(key)) {
+    normalizedCache.set(key, normalize(key));
+  }
+  return normalizedCache.get(key);
 }
 
 function isSubsequence(input, target) {
@@ -52,9 +61,10 @@ function findClosestMineral(input, minerals) {
   }
 
   const candidates = [];
+  const keys = Object.keys(minerals);
 
-  for (const key of Object.keys(minerals)) {
-    const cleanName = normalize(key);
+  for (const key of keys) {
+    const cleanName = getNormalized(key);
 
     if (cleanName === cleanInput) {
       return {
@@ -79,20 +89,29 @@ function findClosestMineral(input, minerals) {
       }
     }
 
-    candidates.push({
-      name: key,
-      score
-    });
+    if (score > 0) {
+      candidates.push({
+        name: key,
+        score
+      });
+    }
+  }
+
+  if (candidates.length === 0) {
+    return {
+      found: false,
+      suggestions: []
+    };
   }
 
   candidates.sort((a, b) => b.score - a.score);
 
   const best = candidates[0];
 
-  if (!best || best.score < 50) {
+  if (best.score < 50) {
     return {
       found: false,
-      suggestions: []
+      suggestions: candidates.slice(0, 3)
     };
   }
 
@@ -109,9 +128,7 @@ function findClosestMineral(input, minerals) {
 
   return {
     found: false,
-    suggestions: candidates
-      .filter(x => x.score >= 50)
-      .slice(0, 3)
+    suggestions: candidates.slice(0, 3)
   };
 }
 

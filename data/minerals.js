@@ -1065,7 +1065,7 @@ module.exports = {
   },
 
   volcanickey: {
-    name: "volcanic Key",
+    name: "Volcanic Key",
     description: "A mysterious key. Could sell for a lot, but maybe it has some other use?",
     data: `**Locations & Chances**
 

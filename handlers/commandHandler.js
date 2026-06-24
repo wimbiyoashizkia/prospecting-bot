@@ -8,7 +8,8 @@ const findClosestMineral = require("../utils/smartSearch");
 const skipLocations = ["the void", "haunted creek", "north pole", "seashell isle"];
 
 module.exports = async (message) => {
-    if (message.author.bot) return;
+    try {
+        if (message.author.bot) return;
 
     const prefix = "?";
     if (!message.content.startsWith(prefix)) return;
@@ -175,4 +176,9 @@ const mineral = minerals[result.name];
     return message.reply({
         embeds: [embed]
     });
+
+    } catch (error) {
+        console.error(`[ERROR] ${error.message}`);
+        return message.reply("❌ An error occurred while processing your command.");
+    }
 };

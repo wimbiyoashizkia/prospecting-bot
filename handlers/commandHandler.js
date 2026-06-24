@@ -43,7 +43,7 @@ module.exports = async (message) => {
             return message.reply("❌ Please specify a mineral.\nExample: `?dredge amber`");
         }
 
-        const result = findClosestMineral(mineralName, minerals);
+        const result = findClosestMineral(mineralName);
 
         if (!result.found) {
             let msg = `❌ No results found for "${mineralName}"`;
@@ -131,7 +131,7 @@ module.exports = async (message) => {
         });
     }
 
-    const result = findClosestMineral(input, minerals);
+    const result = findClosestMineral(input);
 
     if (!result.found) {
         let msg = `❌ No results found for "${input}"`;

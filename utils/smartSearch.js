@@ -1,4 +1,7 @@
+const minerals = require("../data/minerals");
+
 const normalizedCache = new Map();
+const mineralKeys = Object.keys(minerals);
 
 function normalize(str) {
   return str.toLowerCase().replace(/[^a-z]/g, "");
@@ -50,7 +53,7 @@ function levenshtein(a, b) {
   return matrix[b.length][a.length];
 }
 
-function findClosestMineral(input, minerals) {
+function findClosestMineral(input) {
   const cleanInput = normalize(input);
 
   if (cleanInput.length < 2) {
@@ -61,9 +64,8 @@ function findClosestMineral(input, minerals) {
   }
 
   const candidates = [];
-  const keys = Object.keys(minerals);
 
-  for (const key of keys) {
+  for (const key of mineralKeys) {
     const cleanName = getNormalized(key);
 
     if (cleanName === cleanInput) {

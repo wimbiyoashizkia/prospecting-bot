@@ -7,6 +7,115 @@ const findClosestMineral = require("../utils/smartSearch");
 
 const skipLocations = ["the void", "haunted creek", "north pole", "seashell isle"];
 
+const mineralColors = {
+    amethyst: "#A44AD1",
+    blueice: "#5B9BD5",
+    copper: "#C19358",
+    gold: "#F0BE41",
+    obsidian: "#1F1F1F",
+    pearl: "#E5E6E6",
+    platinum: "#86999C",
+    pyrite: "#B28F31",
+    seashell: "#E5CDA3",
+    silver: "#C3CEC9",
+    coral: "#4B54A6",
+    electrum: "#AEC035",
+    glowberry: "#FDB830",
+    malachite: "#1A7A40",
+    neodymium: "#7A7A7A",
+    nickel: "#DFD6BA",
+    rockcandy: "#CD6A7A",
+    sapphire: "#2A4AF4",
+    smokyquartz: "#9B8E85",
+    titanium: "#878A8E",
+    topaz: "#FCDC4E",
+    zircon: "#B4512E",
+    amber: "#E79228",
+    azuralite: "#5699D1",
+    candycane: "#E53B3B",
+    diopside: "#3FA65D",
+    glacialquartz: "#6BA5C4",
+    gloomberry: "#7036E9",
+    jade: "#3FCF75",
+    lapislazuli: "#2F4696",
+    meteoriciron: "#D17D35",
+    onyx: "#23170D",
+    peridot: "#7FD741",
+    pyrelith: "#BFA58A",
+    ruby: "#EA5D5D",
+    silverclamshell: "#CEE3F5",
+    ammonitefossil: "#B7A58D",
+    ashvein: "#4B4852",
+    aurorite: "#4892ED",
+    bone: "#E6D2B5",
+    borealite: "#1E504B",
+    cobalt: "#3C78D8",
+    emerald: "#2EE08B",
+    glowmoss: "#44592D",
+    goldenpearl: "#F3ED8C",
+    iridium: "#C6C8CA",
+    lightshard: "#5B95FC",
+    mercury: "#DDE6EA",
+    meteoricgold: "#E88332",
+    moonstone: "#EFE6D3",
+    opal: "#EBECEE",
+    osmium: "#4E698C",
+    pyronium: "#E64128",
+    aetherite: "#9070D3",
+    aquamarine: "#72B5A7",
+    bismuth: "#8C8E98",
+    catseye: "#3C2C1E",
+    cinnabar: "#9B2222",
+    depletedshard: "#A628E0",
+    diamond: "#D8F1F7",
+    dragonbone: "#5A1F22",
+    fireopal: "#E86A23",
+    fireflystone: "#F9F2AC",
+    gloomcap: "#4BF0FC",
+    lostsoul: "#6BD1FA",
+    luminum: "#F6F6AF",
+    nautilusshell: "#E0D4C2",
+    palladium: "#D98A46",
+    peppermintprism: "#A9F0A3",
+    radium: "#3F402D",
+    rosegold: "#DB9596",
+    specterite: "#D1E2EB",
+    starshine: "#E86182",
+    tourmaline: "#C9D96A",
+    uranium: "#3FE045",
+    volcanickey: "#CF6425",
+    aetherium: "#872BFF",
+    chrysoberyl: "#D6EBA0",
+    flarebloom: "#D96B1E",
+    frostshard: "#E9F0F2",
+    inferlume: "#EAA74A",
+    mythril: "#3CE0B0",
+    painite: "#692236",
+    pinkdiamond: "#F9D4F4",
+    prismara: "#A9D06B",
+    radiantgold: "#A66626",
+    redberyl: "#C44962",
+    stargarnet: "#AA3A5C",
+    sunstone: "#DCA23C",
+    vortessence: "#D6C07F",
+    volcaniccore: "#C57632",
+    adamantine: "#1FB4EF",
+    astralspore: "#7255E0",
+    bloodstone: "#9E2025",
+    celestium: "#F330A6",
+    cryonicartifact: "#36C1E8",
+    dinosaurskull: "#D8CCB4",
+    eternium: "#E2F6E9",
+    forgottentotem: "#F4E8BD",
+    northstar: "#FAFAE9",
+    pumpkinsoul: "#E08A40",
+    singularium: "#0A0A0A",
+    starpiercer: "#C5C5C7",
+    umbrite: "#5D155E",
+    vineheart: "#C4FA38",
+    voidstone: "#7A7A7A"
+};
+
 function createSuggestionButtons(suggestions) {
     const row = new ActionRowBuilder();
     const styles = [ButtonStyle.Success, ButtonStyle.Primary, ButtonStyle.Secondary];
@@ -27,9 +136,12 @@ function createSuggestionButtons(suggestions) {
 }
 
 function buildMineralEmbed(mineral, displayName) {
+    const color = mineralColors[mineral.name?.toLowerCase()] || "#5865F2";
+
     const embed = new EmbedBuilder()
         .setTitle(mineral.name || displayName.charAt(0).toUpperCase() + displayName.slice(1))
-        .setDescription(mineral.data);
+        .setDescription(mineral.data)
+        .setColor(color);
 
     if (mineral.description) {
         embed.setFooter({ text: mineral.description });
@@ -39,6 +151,8 @@ function buildMineralEmbed(mineral, displayName) {
 }
 
 function buildDredgeEmbed(mineral, guide) {
+    const color = mineralColors[mineral.name?.toLowerCase()] || "#00FF00";
+
     const lines = mineral.data.split("\n");
     const locationLines = [];
     let foundLocations = false;
@@ -60,7 +174,8 @@ function buildDredgeEmbed(mineral, guide) {
     }
 
     const embed = new EmbedBuilder()
-        .setTitle(`${guide.name} Dredge Guide`);
+        .setTitle(`${guide.name} Dredge Guide`)
+        .setColor(color);
 
     embed.addFields({ name: "Luck Setting", value: guide.luck, inline: false });
     embed.addFields({

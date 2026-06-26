@@ -4,7 +4,8 @@
   "description": "Discord bot for ores system",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "convert": "node scripts/convert-minerals.js"
   },
   "dependencies": {
     "discord.js": "^14.21.0",

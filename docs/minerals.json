@@ -1,0 +1,532 @@
+{
+  "amethyst": {
+    "name": "Amethyst",
+    "description": "A purple amethyst gemstone.",
+    "data": "**Locations & Chances**\n\n    Rubble Creek Sands - 7.0317% (~1 in 14)\n    Azuralite Oasis - 4.6223% (~1 in 22)\n    Crystal Cavern River - 4.2311% (~1 in 24)\n    The Void (if in loot pool) - 18.1132% (~1 in 6)"
+  },
+  "blueice": {
+    "name": "Blue Ice",
+    "description": "A chunk of blue ice compressed in a glacier for millions of years.",
+    "data": "**Locations & Chances**\n\n    Frozen Peak - 51.4969% (~1 in 2)\n    Frostbite River - 51.4960% (~1 in 2)\n    Frostbite Waterfall - 51.4960% (~1 in 2)\n    North Pole - 27.9264% (~1 in 4)\n    The Void (if in loot pool) - 18.1132% (~1 in 6)"
+  },
+  "copper": {
+    "name": "Copper",
+    "description": "A malleable metal commonly used in electronics.",
+    "data": "**Locations & Chances**\n\n    Azuralite Oasis - 36.9786% (~1 in 3)\n    Crystal Cavern River - 33.8494% (~1 in 3)\n    Rotwood Swamp - 27.1236% (~1 in 4)\n    Fungal Marsh - 27.1237% (~1 in 4)\n    Abyssal Depths - 24.2346% (~1 in 4)\n    Overgrown Grotto - 23.3366% (~1 in 4)\n    Deeproot Spring - 22.5883% (~1 in 4)\n    Infernal Heart - 22.1046% (~1 in 5)\n    Haunted Creek - 21.6130% (~1 in 5)\n    Volcanic Springs - 19.20% (~1 in 5)\n    Volcanic Sands - 16.7306% (~1 in 6)\n    The Magma Furnace - 17.0729% (~1 in 6)\n    The Void (if in loot pool) - 18.1132% (~1 in 6)"
+  },
+  "gold": {
+    "name": "Gold",
+    "description": "A nugget of gold.",
+    "data": "**Locations & Chances**\n\n    Rubble Creek Sands - 70.3167% (~1 in 2)\n    Enchanted Ruins - 58.3704% (~1 in 2)\n    Fortune River - 57.3939% (~1 in 2)\n    Fortune River Delta - 54.7160% (~1 in 2)\n    Meteor Falls - 54.2536% (~1 in 2)\n    Starfall River - 54.2536% (~1 in 2)\n    Timelocked Sanctuary - 54.2526% (~1 in 2)\n    Rotwood Swamp - 54.2473% (~1 in 2)\n    Fungal Marsh - 54.2473% (~1 in 2)\n    Astral Caverns - 52.1996% (~1 in 2)\n    Rubble Creek Deposits - 52.1295% (~1 in 2)\n    Abyssal Depths - 48.4694% (~1 in 2)\n    Overgrown Grotto - 46.6816% (~1 in 2)\n    Deeproot Spring - 45.1840% (~1 in 2)\n    Haunted Creek - 43.2261% (~1 in 2)\n    Crystal Cavern River - 42.3118% (~1 in 2)\n    Volcanic Springs - 38.39% (~1 in 3)\n    Azuralite Oasis - 36.9787% (~1 in 3)\n    Volcanic Sands - 34.1459% (~1 in 3)\n    The Magma Furnace - 33.4613% (~1 in 3)\n    North Pole - 27.9264% (~1 in 4)\n    The Void (if in loot pool) - 18.1132% (~1 in 6)"
+  },
+  "obsidian": {
+    "name": "Obsidian",
+    "description": "A jet-black shard of obsidian. Formed when lava cools rapidly.",
+    "data": "**Locations & Chances**\n\n    Infernal Heart - 73.6822% (~1 in 2)\n    The Magma Furnace - 73.6726% (~1 in 2)\n    Volcanic Sands - 44.6150% (~1 in 2)\n    Volcanic Springs - 38.39% (~1 in 3)\n    Windswept Beach - 24.1079% (~1 in 4)\n    The Void (if in loot pool) - 18.1132% (~1 in 6)"
+  },
+  "pearl": {
+    "name": "Pearl",
+    "description": "A round pearl from an oyster.",
+    "data": "**Locations & Chances**\n\n    Windswept Beach - 18.0809% (~1 in 6)\n    Seashell Isle - 16.9983% (~1 in 6)\n    Sunset Beach - 16.9994% (~1 in 6)\n    Fortune River Delta - 10.9431% (~1 in 9)\n    The Void (if in loot pool) - 18.1132% (~1 in 6)"
+  },
+  "platinum": {
+    "name": "Platinum",
+    "description": "A nugget of platinum.",
+    "data": "**Locations & Chances**\n\n    Fortune River - 28.6969% (~1 in 3)\n    Rubble Creek Deposits - 26.0648% (~1 in 4)\n    Rubble Creek Sands - 18.7511% (~1 in 5)\n    The Void (if in loot pool) - 18.1132% (~1 in 6)"
+  },
+  "pyrite": {
+    "name": "Pyrite",
+    "description": "Also known as Fool's Gold. Essentially worthless.",
+    "data": "**Locations & Chances**\n\n    Starfall River - 54.2535% (~1 in 2)\n    Meteor Falls - 54.2535% (~1 in 2)\n    Rubble Creek Deposits - 15.6389% (~1 in 6)\n    The Void (if in loot pool) - 18.1132% (~1 in 6)"
+  },
+  "seashell": {
+    "name": "Seashell",
+    "description": "The shell of a clam.",
+    "data": "**Locations & Chances**\n\n    Sunset Beach – 48.2158% (~1 in 2)\n    Seashell Isle - 45.3288% (~1 in 2)\n    Windswept Beach - 45.3317% (~1 in 2)\n    The Void (if in loot pool) - 18.1132% (~1 in 6)"
+  },
+  "silver": {
+    "name": "Silver",
+    "description": "A nugget of silver.",
+    "data": "**Locations & Chances**\n\n    Frozen Peak - 32.1855% (~1 in 3)\n    Frostbite River - 32.1850% (~1 in 3)\n    Frostbite Waterfall - 32.1850% (~1 in 3)\n    Enchanted Ruins - 29.1852% (~1 in 3)\n    Seashell Isle - 28.3305% (~1 in 4)\n    North Pole - 27.9264% (~1 in 4)\n    Fortune River Delta - 27.3579% (~1 in 4)\n    Timelocked Sanctuary - 27.1263% (~1 in 4)\n    Astral Caverns - 25.9983% (~1 in 4)\n    Abyssal Depths - 24.2346% (~1 in 4)\n    Overgrown Grotto - 23.3366% (~1 in 4)\n    Deeproot Spring - 22.5883% (~1 in 4)\n    Haunted Creek - 21.6130% (~1 in 5)\n    Crystal Cavern River - 18.4893% (~1 in 5)\n    Azuralite Oasis - 16.92473130% (~1 in 6)\n    Sunset Beach – 13.16825956% (~1 in 8)\n    The Void (if in loot pool) - 18.1132% (~1 in 6)"
+  },
+  "coral": {
+    "name": "Coral",
+    "description": "A piece of coral from an endangered species.",
+    "data": "**Locations & Chances**\n\n    Windswept Beach - 6.0269% (~1 in 17)\n    Seashell Isle - 5.6661% (~1 in 18)\n    Sunset Beach - 5.6664% (~1 in 18)\n    Fortune River Delta - 3.2829% (~1 in 30)\n    The Void (if in loot pool) - 1.8113% (~1 in 55)"
+  },
+  "electrum": {
+    "name": "Electrum",
+    "description": "An alloy of silver and gold. Also known as 'green gold'.",
+    "data": "**Locations & Chances**\n\n    Starfall River - 2.7126% (~1 in 37)\n    Meteor Falls - 2.7126% (~1 in 37)\n    Timelocked Sanctuary - 2.7126% (~1 in 37)\n    Fungal Marsh - 2.7124% (~1 in 37)\n    Rotwood Swamp - 2.7123% (~1 in 37)\n    Astral Caverns - 2.5998% (~1 in 38)\n    The Void (if in loot pool) - 1.8113% (~1 in 55)"
+  },
+  "glowberry": {
+    "name": "Glowberry",
+    "description": "A luminescent berry.",
+    "data": "**Locations & Chances**\n\n    Enchanted Ruins - 8.7556% (~1 in 11)\n    Overgrown Grotto - 1.4002% (~1 in 71)\n    Deeproot Spring - 1.3553% (~1 in 74)\n    The Void (if in loot pool) - 1.8113% (~1 in 55)"
+  },
+  "malachite": {
+    "name": "Malachite",
+    "description": "A vibrant green crystal, given its color by the copper within it.",
+    "data": "**Locations & Chances**\n\n    Windswept Beach - 1.2053% (~1 in 83)\n    Rotwood Swamp - 0.5424% (~1 in 184)\n    Fungal Marsh - 0.5425% (~1 in 184)\n    Timelocked Sanctuary - 0.5425% (~1 in 184)\n    Enchanted Ruins - 0.1167% (~1 in 857)\n    Abyssal Depths - 0.09693% (~1 in 1031)\n    Overgrown Grotto - 0.09334% (~1 in 1,071)\n    Azuralite Oasis - 0.09244% (~1 in 1,082)\n    Deeproot Spring - 0.09049% (~1 in 1,107)\n    Haunted Creek - 0.08645% (~1 in 1,157)\n    Crystal Cavern River - 0.08462% (~1 in 1,182)\n    The Void (if in loot pool) - 1.8113% (~1 in 55)"
+  },
+  "neodymium": {
+    "name": "Neodymium",
+    "description": "A key ingredient in high-strength magnets.",
+    "data": "**Locations & Chances**\n\n    Seashell Isle - 2.2664% (~1 in 44)\n    Sunset Beach - 2.2665% (~1 in 44)\n    Enchanted Ruins - 1.7511% (~1 in 57)\n    Fortune River Delta - 1.6414% (~1 in 61)\n    Abyssal Depths - 1.4540% (~1 in 68)\n    Overgrown Grotto - 1.4001% (~1 in 71)\n    Azuralite Oasis - 1.3867% (~1 in 72)\n    Deeproot Spring - 1.3553% (~1 in 74)\n    Crystal Cavern River - 1.2693% (~1 in 79)\n    The Void (if in loot pool) - 1.8113% (~1 in 55)"
+  },
+  "nickel": {
+    "name": "Nickel",
+    "description": "A tough nugget of nickel.",
+    "data": "**Locations & Chances**\n\n    Starfall River - 10.8507% (~1 in 9)\n    Meteor Falls - 10.8507% (~1 in 9)\n    Astral Caverns - 10.3993%(~1 in 10)\n    The Void (if in loot pool) - 1.8113% (~1 in 55)"
+  },
+  "rockcandy": {
+    "name": "Rock Candy",
+    "description": "A chunk of rock candy. Tasty!",
+    "data": "**Locations & Chances**\n\n    Haunted Creek - 1.2967% (~1 in 77)\n    The Void (if in loot pool) - 1.8113% (~1 in 55)"
+  },
+  "sapphire": {
+    "name": "Sapphire",
+    "description": "A blue sapphire.",
+    "data": "**Locations & Chances**\n\n    Starfall River - 4.3402% (~1 in 23)\n    Meteor Falls - 4.3402% (~1 in 23)\n    Astral Caverns - 4.1597% (~1 in 24)\n    North Pole - 3.3512% (~1 in 30)\n    Frozen Peak - 1.9311% (~1 in 52)\n    Frostbite River - 1.9311% (~1 in 52)\n    Frostbite Waterfall - 1.9311% (~1 in 52)\n    Rubble Creek Deposits - 0.5213% (~1 in 192)\n    Fortune River - 0.5739% (~1 in 174)\n    The Void (if in loot pool) - 1.8113% (~1 in 55)"
+  },
+  "smokyquartz": {
+    "name": "Smoky Quartz",
+    "description": "A type of quartz with a unique gray color.",
+    "data": "**Locations & Chances**\n\n    Timelocked Sanctuary - 4.3402% (~1 in 23)\n    Rotwood Swamp - 4.3397% (~1 in 23)\n    Fungal Marsh - 4.3398% (~1 in 23)\n    Haunted Creek - 3.46% (~1 in 29)\n    Enchanted Ruins - 1.1674% (~1 in 86)\n    Seashell Isle - 1.1332% (~1 in 88)\n    Sunset Beach - 1.1332% (~1 in 88)\n    Fortune River Delta - 1.0943% (~1 in 91)\n    Abyssal Depths - 0.9693% (~1 in 103)\n    Azuralite Oasis - 0.9244% (~1 in 108)\n    Overgrown Grotto - 0.9334% (~1 in 107)\n    Deeproot Spring - 0.9035% (~1 in 111)\n    Crystal Cavern River - 0.8462% (~1 in 118)\n    The Void (if in loot pool) - 1.8113% (~1 in 55)"
+  },
+  "titanium": {
+    "name": "Titanium",
+    "description": "A piece of pure titanium.",
+    "data": "**Locations & Chances**\n\n    Frozen Peak - 12.8742% (~1 in 8)\n    Frostbite River - 12.8740% (~1 in 8)\n    Frostbite Waterfall - 12.8740% (~1 in 8)\n    Fortune River - 11.4787% (~1 in 9)\n    North Pole - 11.1706% (~1 in 9)\n    Fungal Marsh - 10.8495% (~1 in 9)\n    Rotwood Swamp - 10.8494% (~1 in 9)\n    Haunted Creek - 8.6452% (~1 in 12)\n    Rubble Creek Deposits - 4.1704% (~1 in 24)\n    Rubble Creek Sands - 2.3439% (~1 in 43)\n    The Void (if in loot pool) - 1.8113% (~1 in 55)"
+  },
+  "topaz": {
+    "name": "Topaz",
+    "description": "A topaz gemstone. A symbol of strength and honor.",
+    "data": "**Locations & Chances**\n\n    Timelocked Sanctuary - 10.8505% (~1 in 9)\n    Infernal Heart - 2.2104% (~1 in 45)\n    Volcanic Springs - 2.194% (~1 in 46)\n    Windswept Beach - 1.8080% (~1 in 55)\n    The Magma Furnace - 1.7072% (~1 in 59)\n    Volcanic Sands - 1.6730% (~1 in 60)\n    Fortune River - 1.4348% (~1 in 70)\n    Rubble Creek Sands - 1.1719% (~1 in 85)\n    Rubble Creek Deposits - 1.0426% (~1 in 96)\n    Fortune River Delta - 0.5471% (~1 in 183)\n    The Void (if in loot pool) - 1.8113% (~1 in 55)"
+  },
+  "zircon": {
+    "name": "Zircon",
+    "description": "A dark orange gemstone that contains zirconium.",
+    "data": "**Locations & Chances**\n\n    Infernal Heart - 1.4736% (~1 in 68)\n    Volcanic Springs - 1.371% (~1 in 73)\n    The Magma Furnace - 1.1381% (~1 in 88)\n    Volcanic Sands - 1.1153% (~1 in 90)\n    The Void (if in loot pool) - 1.8113% (~1 in 55)"
+  },
+  "amber": {
+    "name": "Amber",
+    "description": "A piece of fossilized amber.",
+    "data": "**Locations & Chances**\n\n    Enchanted Ruins - 0.05837% (~1 in 1,713)\n    Abyssal Depths - 0.04846% (~1 in 2,063)\n    Deeproot Spring - 0.04516% (~1 in 2,214)\n    The Void (if in loot pool) - 0.09057% (~1 in 1,104)"
+  },
+  "azuralite": {
+    "name": "Azuralite",
+    "description": "A mysterious azure crystal with strange growth properties and unknown origin.",
+    "data": "**Locations & Chances**\n\n    Enchanted Ruins - 0.5837% (~1 in 171)\n    Abyssal Depths - 0.4846% (~1 in 206)\n    Overgrown Grotto - 0.4667% (~1 in 214)\n    Azuralite Oasis - 0.4622% (~1 in 216)\n    Deeproot Spring - 0.4518% (~1 in 221)\n    Crystal Cavern River - 0.4231% (~1 in 236)\n    The Void (if in loot pool) - 0.09057% (~1 in 1,104)"
+  },
+  "candycane": {
+    "name": "Candy Cane",
+    "description": "A tasty candy cane.",
+    "data": "**Locations & Chances**\n\n    The Void (if in loot pool) - 0.09057% (~1 in 1,104)\n    North Pole - 0.05586% (~1 in 1,790)"
+  },
+  "diopside": {
+    "name": "Diopside",
+    "description": "A dull green gem.",
+    "data": "**Locations & Chances**\n\n    Timelocked Sanctuary - 0.05425% (~1 in 1,843)\n    Rotwood Swamp - 0.05425% (~1 in 1,843)\n    Fungal Marsh - 0.05425% (~1 in 1,843)\n    The Void (if in loot pool) - 0.09057% (~1 in 1,104)"
+  },
+  "glacialquartz": {
+    "name": "Glacial Quartz",
+    "description": "An icicle-shaped variant of quartz that forms in extreme cold.",
+    "data": "**Locations & Chances**\n\n    North Pole - 0.2234% (~1 in 448)\n    Frozen Peak - 0.1287% (~1 in 777)\n    Frostbite River - 0.1287% (~1 in 777)\n    Frostbite Waterfall - 0.1287% (~1 in 777)\n    The Void (if in loot pool) - 0.09057% (~1 in 1,104)"
+  },
+  "gloomberry": {
+    "name": "Gloomberry",
+    "description": "A poisonous berry that grows deep underground.",
+    "data": "**Locations & Chances**\n\n    Abyssal Depths - 0.0004846% (~1 in 206,315)\n    The Void (if in loot pool) - 0.09057% (~1 in 1,104)"
+  },
+  "jade": {
+    "name": "Jade",
+    "description": "A piece of green jade.",
+    "data": "**Locations & Chances**\n\n    North Pole - 1.3963% (~1 in 72)\n    Frozen Peak - 1.2874% (~1 in 78)\n    Frostbite River - 1.2874% (~1 in 78)\n    Frostbite Waterfall - 1.2874% (~1 in 78)\n    Fortune River - 0.2869% (~1 in 348)\n    Fortune River Delta - 0.2188% (~1 in 457)\n    Meteor Falls - 0.1085% (~1 in 922)\n    Starfall River - 0.1085% (~1 in 922)\n    Astral Caverns - 0.1049% (~1 in 962)\n    The Void (if in loot pool) - 0.09057% (~1 in 1,104)"
+  },
+  "lapislazuli": {
+    "name": "Lapis Lazuli",
+    "description": "A vibrant and intense stone of lapis lazuli.",
+    "data": "**Locations & Chances**\n\n    Starfall River - 0.5425% (~1 in 184)\n    Meteor Falls - 0.5425% (~1 in 184)\n    Astral Caverns - 0.5199% (~1 in 192)\n    Rubble Creek Deposits - 0.1303% (~1 in 767)\n    Fortune River - 0.1033% (~1 in 968)\n    Rubble Creek Sands - 0.09376% (~1 in 1,067)\n    Frozen Peak - 0.06437% (~1 in 1,554)\n    Frostbite River - 0.06437% (~1 in 1,554)\n    Frostbite Waterfall - 0.06437% (~1 in 1,554)\n    Haunted Creek - 0.04323% (~1 in 2,313)\n    The Void (if in loot pool) - 0.09057% (~1 in 1,104)"
+  },
+  "meteoriciron": {
+    "name": "Meteoric Iron",
+    "description": "A piece of iron infused with energy from exposure to the meteors.",
+    "data": "**Locations & Chances**\n\n    Astral Caverns - 4.1597% (~1 in 24)\n    Volcanic Sands - 2.2307% (~1 in 45)\n    Volcanic Springs - 0.2468% (~1 in 405)\n    Windswept Beach - 0.2410% (~1 in 415)\n    Rubble Creek Deposits - 0.06256% (~1 in 1,599)\n    Fortune River - 0.05739% (~1 in 1,742)\n    Rubble Creek Sands - 0.03281% (~1 in 3,047)\n    The Void (if in loot pool) - 0.09057% (~1 in 1,104)"
+  },
+  "onyx": {
+    "name": "Onyx",
+    "description": "A jet black onyx gem.",
+    "data": "**Locations & Chances**\n\n    Infernal Heart - 0.1473% (~1 in 679)\n    Volcanic Springs - 0.1371% (~1 in 729)\n    Windswept Beach - 0.1205% (~1 in 829)\n    The Magma Furnace - 0.1138% (~1 in 879)\n    Volcanic Sands - 0.1115% (~1 in 897)\n    Timelocked Sanctuary - 0.1085% (~1 in 922)\n    Rotwood Swamp - 0.1084% (~1 in 922)\n    Fungal Marsh - 0.1085% (~1 in 922)\n    Seashell Isle - 0.05666% (~1 in 1,765)\n    Sunset Beach - 0.05666% (~1 in 1,765)\n    Fortune River Delta - 0.05471% (~1 in 1,828)\n    Azuralite Oasis - 0.04622% (~1 in 2,163)\n    Crystal Cavern River - 0.04231% (~1 in 2,363)\n    The Void (if in loot pool) - 0.09057% (~1 in 1,104)"
+  },
+  "peridot": {
+    "name": "Peridot",
+    "description": "An olive-green gemstone that commonly appears in volcanic rock.",
+    "data": "**Locations & Chances**\n\n    Infernal Heart - 0.07368% (~1 in 1,357)\n    Windswept Beach - 0.06026% (~1 in 1,659)\n    The Magma Furnace - 0.05690% (~1 in 1,757)\n    Volcanic Sands - 0.05576% (~1 in 1,793)\n    Volcanic Springs - 0.05485% (~1 in 1,823)\n    The Void (if in loot pool) - 0.09057% (~1 in 1,104)"
+  },
+  "pyrelith": {
+    "name": "Pyrelith",
+    "description": "An energetic crystal formed in the heart of a volcano.",
+    "data": "**Locations & Chances**\n\n    Infernal Heart - 0.2947% (~1 in 339)\n    The Magma Furnace - 0.2276% (~1 in 439)\n    The Void (if in loot pool) - 0.09057% (~1 in 1,104)"
+  },
+  "ruby": {
+    "name": "Ruby",
+    "description": "A bright red ruby gemstone.",
+    "data": "**Locations & Chances**\n\n    Rubble Creek Sands - 0.2344% (~1 in 427)\n    Fortune River - 0.2295% (~1 in 436)\n    Rubble Creek Deposits - 0.2085% (~1 in 480)\n    The Void (if in loot pool) - 0.09057% (~1 in 1,104)"
+  },
+  "silverclamshell": {
+    "name": "Silver Clamshell",
+    "description": "The shell of a rare silver clam.",
+    "data": "**Locations & Chances**\n\n    Windswept Beach - 0.1808% (~1 in 553)\n    Seashell Isle - 0.1700% (~1 in 588)\n    Sunset Beach - 0.1699% (~1 in 588)\n    Fortune River Delta - 0.1094% (~1 in 914)\n    The Void (if in loot pool) - 0.09057% (~1 in 1,104)"
+  },
+  "ammonitefossil": {
+    "name": "Ammonite Fossil",
+    "description": "The remains of an ancient mollusk.",
+    "data": "**Locations & Chances**\n\n    Windswept Beach - 0.006026% (~1 in 16,592)\n    Seashell Isle - 0.005666% (~1 in 17,649)\n    The Void (if in loot pool) - 0.003623% (~1 in 27,604)"
+  },
+  "ashvein": {
+    "name": "Ashvein",
+    "description": "An obsidian-like crystal streaked with red.",
+    "data": "**Locations & Chances**\n\n    Sunset Beach - 0.01133% (~1 in 8,824)\n    Seashell Isle - 0.01133% (~1 in 8,824)\n    Azuralite Oasis - 0.009244% (~1 in 10,817)\n    Crystal Cavern River - 0.008462% (~1 in 11,817)\n    The Void (if in loot pool) - 0.003623% (~1 in 27,604)"
+  },
+  "aurorite": {
+    "name": "Aurorite",
+    "description": "A mysterious crystal filled with magical power. Perhaps I could use this for something...",
+    "data": "**Locations & Chances**\n\n    Fortune River - 0.008609% (~1 in 11,616)\n    Rubble Creek Deposits - 0.007819% (~1 in 12,789)\n    Rubble Creek Sands - 0.005625% (~1 in 17,777)\n    Fortune River Delta - 0.005471% (~1 in 18,276)\n    Frozen Peak - 0.002575% (~1 in 38,837)\n    Overgrown Grotto - 0.002334% (~1 in 42,851)\n    Starfall River - 0.002170% (~1 in 46,080)\n    Haunted Creek - 0.002161% (~1 in 46,268)\n    Astral Caverns - 0.002079% (~1 in 48,080)\n    Frostbite Waterfall - 0.001931% (~1 in 51,784)\n    Enchanted Ruins - 0.001751% (~1 in 57,100)\n    North Pole - 0.001675% (~1 in 59,681)\n    Abyssal Depths - 0.001454% (~1 in 68,771)\n    Deeproot Spring - 0.001355% (~1 in 73,784)\n    The Void (if in loot pool) - 0.003623% (~1 in 27,604)"
+  },
+  "bone": {
+    "name": "Bone",
+    "description": "...I should't have dug here.",
+    "data": "**Locations & Chances**\n\n    Rotwood Swamp - 0.01085% (~1 in 9,217)\n    Fungal Marsh - 0.01085% (~1 in 9,217)\n    Haunted Creek - 0.008645% (~1 in 11,567)\n    The Void (if in loot pool) - 0.003623% (~1 in 27,604)"
+  },
+  "borealite": {
+    "name": "Borealite",
+    "description": "A cold gemstone.",
+    "data": "**Locations & Chances**\n\n    Frostbite River - 0.005150% (~1 in 19,419)\n    Frostbite Waterfall - 0.005150% (~1 in 19,419)\n    Frozen Peak - 0.005150% (~1 in 19,419)\n    Azuralite Oasis - 0.004622% (~1 in 21,634)\n    North Pole - 0.004468% (~1 in 22,380)\n    Crystal Cavern River - 0.004231% (~1 in 23,534)\n    The Void (if in loot pool) - 0.003623% (~1 in 27,604)"
+  },
+  "cobalt": {
+    "name": "Cobalt",
+    "description": "A strikingly blue piece of cobalt. Used in advanced electronics.",
+    "data": "**Locations & Chances**\n\n    Overgrown Grotto - 0.01866% (~1 in 5,356)\n    Deeproot Spring - 0.01807% (~1 in 5,534)\n    Frostbite River - 0.002575% (~1 in 38,838)\n    Frozen Peak - 0.002575% (~1 in 38,837)\n    Frostbite Waterfall - 0.002575% (~1 in 38,838)\n    Enchanted Ruins - 0.002335% (~1 in 42,800)\n    Meteor Falls - 0.002170% (~1 in 46,080)\n    Rotwood Swamp - 0.002169% (~1 in 46,085)\n    Fungal Marsh - 0.002169% (~1 in 46,085)\n    Timelocked Sanctuary - 0.002107% (~1 in 46,081)\n    North Pole - 0.002234% (~1 in 44,761)\n    Abyssal Depths - 0.001938% (~1 in 51,578)\n    Haunted Creek - 0.001729% (~1 in 57,835)\n    The Void (if in loot pool) - 0.003623% (~1 in 27,604)"
+  },
+  "emerald": {
+    "name": "Emerald",
+    "description": "A rare emerald with a vibrant green hue.",
+    "data": "**Locations & Chances**\n\n    Fortune River - 0.004591% (~1 in 21,779)\n    Timelocked Sanctuary - 0.004340% (~1 in 23,040)\n    Rotwood Swamp - 0.004339% (~1 in 23,043)\n    Fungal Marsh - 0.004339% (~1 in 23,043)\n    Rubble Creek Deposits - 0.004170% (~1 in 23,979)\n    Enchanted Ruins - 0.003502% (~1 in 28,550)\n    Haunted Creek - 0.004358% (~1 in 28,918)\n    Abyssal Depths - 0.002908% (~1 in 34,385)\n    Overgrown Grotto - 0.002800% (~1 in 35,709)\n    Azuralite Oasis - 0.002773% (~1 in 36,057)\n    Deeproot Spring - 0.002710% (~1 in 36,892)\n    Crystal Cavern River - 0.002538% (~1 in 39,390)\n    Rubble Creek Sands - 0.002344% (~1 in 42,664)\n    Frostbite River - 0.001931% (~1 in 51,784)\n    The Void (if in loot pool) - 0.003623% (~1 in 27,604)"
+  },
+  "glowmoss": {
+    "name": "Glowmoss",
+    "description": "A rare species of moss that emits a bright light.",
+    "data": "**Locations & Chances**\n\n    Enchanted Ruins - 0.0005837% (~1 in 171,300)\n    Timelocked Sanctuary - 0.0005425% (~1 in 184,323)\n    Overgrown Grotto - 0.0004667% (~1 in 214,255)\n    Deeproot Spring - 0.0004517% (~1 in 221,353)\n    The Void (if in loot pool) - 0.003623% (~1 in 27,604)"
+  },
+  "goldenpearl": {
+    "name": "Golden Pearl",
+    "description": "An incredibly rare pearl variant with a distinct gold color.",
+    "data": "**Locations & Chances**\n\n    Sunset Beach - 0.02266% (~1 in 4,412)\n    Seashell Isle - 0.02266% (~1 in 4,412)\n    Fortune River Delta - 0.01641% (~1 in 6,092)\n    The Void (if in loot pool) - 0.003623% (~1 in 27,604)"
+  },
+  "iridium": {
+    "name": "Iridium",
+    "description": "A rare celestial metal brought to the earth by the meteors.",
+    "data": "**Locations & Chances**\n\n    Rubble Creek Deposits - 0.01564% (~1 in 6,394)\n    Rubble Creek Sands - 0.01406% (~1 in 7,111)\n    North Pole - 0.01396% (~1 in 7,162)\n    Frostbite River - 0.01287% (~1 in 7,768)\n    Frostbite Waterfall - 0.01287% (~1 in 7,768)\n    Frozen Peak - 0.01287% (~1 in 7,768)\n    Fortune River - 0.008609% (~1 in 11,616)\n    Fortune River Delta - 0.005471% (~1 in 18,276)\n    Meteor Falls - 0.004340% (~1 in 23,040)\n    Starfall River - 0.004340% (~1 in 23,040)\n    Astral Caverns - 0.004159% (~1 in 24,040)\n    The Void (if in loot pool) - 0.003623% (~1 in 27,604)"
+  },
+  "lightshard": {
+    "name": "Lightshard",
+    "description": "A light-infused glass-like crystal.",
+    "data": "**Locations & Chances**\n\n    The Void (if in loot pool) - 0.003623% (~1 in 27,604)\n    Haunted Creek - 0.0008645% (~1 in 115,671)\n    Enchanted Ruins - 0.0005837% (~1 in 171,320)\n    Timelocked Sanctuary - 0.0005425% (~1 in 184,323)\n    Abyssal Depths - 0.0004846% (~1 in 206,315)\n    Overgrown Grotto - 0.0004667% (~1 in 214,255)\n    Deeproot Spring - 0.0004517% (~1 in 221,353)"
+  },
+  "mercury": {
+    "name": "Mercury",
+    "description": "A drop of toxic mercury, held together by an unknown force.",
+    "data": "**Locations & Chances**\n\n    Meteor Falls - 0.001085% (~1 in 92,160)\n    Timelocked Sanctuary - 0.001084% (~1 in 92,161)\n    Rotwood Swamp - 0.001085% (~1 in 92,170)\n    Fungal Marsh - 0.001085% (~1 in 92,170)\n    The Void (if in loot pool) - 0.003623% (~1 in 27,604)"
+  },
+  "meteoricgold": {
+    "name": "Meteoric Gold",
+    "description": "A nugget of gold from outer space.",
+    "data": "**Locations & Chances**\n\n    Starfall River - 0.00001085% (~1 in 92,160)\n    Astral Caverns - 0.00001040% (~1 in 96,160)\n    The Void (if in loot pool) - 0.003623% (~1 in 27,604)"
+  },
+  "moonstone": {
+    "name": "Moonstone",
+    "description": "A piece of stone from the moon itself.",
+    "data": "**Locations & Chances**\n\n    Sunset Beach - 0.005666% (~1 in 17,648)\n    Seashell Isle - 0.005666% (~1 in 17,649)\n    Fortune River Delta - 0.005471% (~1 in 18,276)\n    Meteor Falls - 0.002712% (~1 in 36,864)\n    Starfall River - 0.002712% (~1 in 36,864)\n    Astral Caverns - 0.002599% (~1 in 38,464)\n    The Void (if in loot pool) - 0.003623% (~1 in 27,604)"
+  },
+  "opal": {
+    "name": "Opal",
+    "description": "An iridescent opal.",
+    "data": "**Locations & Chances**\n\n    Starfall River - 0.05425% (~1 in 1,843)\n    Meteor Falls - 0.05425% (~1 in 1,843)\n    Astral Caverns - 0.05199% (~1 in 1,923)\n    Fortune River - 0.002295% (~1 in 43,559)\n    Sunset Beach - 0.002266% (~1 in 44,119)\n    Seashell Isle - 0.002266% (~1 in 44,122)\n    Infernal Heart - 0.002210% (~1 in 45,239)\n    Windswept Beach - 0.001808% (~1 in 55,307)\n    The Magma Furnace - 0.001707% (~1 in 58,572)\n    Volcanic Sands - 0.001673% (~1 in 59,771)\n    Volcanic Springs - 0.001645% (~1 in 60,772)\n    Rubble Creek Deposits - 0.001564% (~1 in 63,943)\n    Rubble Creek Sands - 0.0009376% (~1 in 106,660)\n    The Void (if in loot pool) - 0.003623% (~1 in 27,604)"
+  },
+  "osmium": {
+    "name": "Osmium",
+    "description": "A dense and highly toxic metal prized for its rarity.",
+    "data": "**Locations & Chances**\n\n    Rotwood Swamp - 0.002712% (~1 in 36,868)\n    Fungal Marsh - 0.002712% (~1 in 36,868)\n    Timelocked Sanctuary - 0.002712% (~1 in 36,868)\n    Infernal Heart - 0.002210% (~1 in 45,239)\n    Windswept Beach - 0.001808% (~1 in 55,307)\n    The Magma Furnace - 0.001707% (~1 in 58,572)\n    Volcanic Sands - 0.001673% (~1 in 59,771)\n    Volcanic Springs - 0.001645% (~1 in 60,772)\n    Fortune River - 0.001434% (~1 in 69,694)\n    Azuralite Oasis - 0.001386% (~1 in 72,114)\n    Crystal Cavern River - 0.001269% (~1 in 78,780)\n    Rubble Creek Deposits - 0.001043% (~1 in 95,915)\n    The Void (if in loot pool) - 0.003623% (~1 in 27,604)"
+  },
+  "pyronium": {
+    "name": "Pyronium",
+    "description": "A volcanic metal that constantly emits heat.",
+    "data": "**Locations & Chances**\n\n    Infernal Heart - 0.004420% (~1 in 22,620)\n    Volcanic Springs - 0.003839% (~1 in 26,045)\n    The Magma Furnace - 0.003414% (~1 in 29,286)\n    Volcanic Sands - 0.003346% (~1 in 29,885)\n    The Void (if in loot pool) - 0.003623% (~1 in 27,604)"
+  },
+  "aetherite": {
+    "name": "Aetherite",
+    "description": "A purified variant of aurorite used in enchanting rituals.",
+    "data": "**Locations & Chances**\n\n    Enchanted Ruins - 0.0002919% (~1 in 342,639)\n    Timelocked Sanctuary - 0.0002712% (~1 in 368,646)\n    Frostbite Waterfall - 0.0002574% (~1 in 388,342)\n    Frozen Peak - 0.0002576% (~1 in 388,342)\n    Abyssal Depths - 0.0002423% (~1 in 412,631)\n    Overgrown Grotto - 0.0002333% (~1 in 428,511)\n    Deeproot Spring - 0.0002258% (~1 in 442,707)\n    North Pole - 0.0002234% (~1 in 447,605)\n    Fortune River Delta - 0.0001367% (~1 in 731,048)\n    Haunted Creek - 0.0001296% (~1 in 771,139)\n    Crystal Cavern River - 0.0001269% (~1 in 787,802)\n    Seashell Isle - 0.0001133% (~1 in 882,441)\n    Azuralite Oasis - 0.0001155% (~1 in 865,363)\n    Sunset Beach - 0.0001133% (~1 in 882,384)\n    Rubble Creek Sands - 0.00009376% (~1 in 1,066,603)\n    Rubble Creek Deposits - 0.00007819% (~1 in 1,278,865)\n    Fortune River - 0.00005739% (~1 in 1,742,345)\n    The Void (if in loot pool) - 0.0001811% (~1 in 552,084)"
+  },
+  "aquamarine": {
+    "name": "Aquamarine",
+    "description": "A pale blue-green crystal.",
+    "data": "**Locations & Chances**\n\n    Starfall River - 0.0002712% (~1 in 368,639)\n    Astral Caverns - 0.0002599% (~1 in 384,639)\n    North Pole - 0.0002234% (~1 in 447,605)\n    The Void (if in loot pool) - 0.0001811% (~1 in 552,084)\n    Frostbite Waterfall - 0.0001288% (~1 in 776,683)\n    Frostbite River - 0.0001286% (~1 in 776,701)\n    Frozen Peak - 0.00002574% (~1 in 3,883,688)"
+  },
+  "bismuth": {
+    "name": "Bismuth",
+    "description": "A chunk of bismuth, known for being one of the densest non-radioactive metals.",
+    "data": "**Locations & Chances**\n\n    Timelocked Sanctuary - 0.0001627% (~1 in 614,410)\n    Rotwood Swamp - 0.0001627% (~1 in 614,469)\n    Fungal Marsh - 0.0001627% (~1 in 614,469)\n    The Void (if in loot pool) - 0.0001811% (~1 in 552,084)"
+  },
+  "catseye": {
+    "name": "Catseye",
+    "description": "A golden catseye. Commonly believed to hold a deadly curse within.",
+    "data": "**Locations & Chances**\n\n    Windswept Beach - 0.0003013% (~1 in 331,841)\n    The Magma Furnace - 0.0002845% (~1 in 351,434)\n    Volcanic Sands - 0.0002788% (~1 in 358,623)\n    Volcanic Springs - 0.0002742% (~1 in 364,632)\n    Fortune River - 0.0001147% (~1 in 871,172)\n    Rubble Creek Deposits - 0.0001043% (~1 in 959,149)\n    The Void (if in loot pool) - 0.0001811% (~1 in 552,084)"
+  },
+  "cinnabar": {
+    "name": "Cinnabar",
+    "description": "A vermillion chunk of cinnabar. Commonly used for extracting mercury.",
+    "data": "**Locations & Chances**\n\n    Infernal Heart - 0.0002211% (~1 in 452,340)\n    The Magma Furnace - 0.0001138% (~1 in 878,584)\n    Volcanic Sands - 0.0001115% (~1 in 896,559)\n    Volcanic Springs - 0.0001097% (~1 in 911,580)\n    The Void (if in loot pool) - 0.0001811% (~1 in 552,084)"
+  },
+  "depletedshard": {
+    "name": "Depleted Shard",
+    "description": "The burnt-out remains of a once-powerful celestial fragment.",
+    "data": "**Locations & Chances**\n\n    Astral Caverns - 0.00001039% (~1 in 9,615,981)\n    Meteor Falls - 0.000005425% (~1 in 18,431,962)\n    Starfall River - 0.000005425% (~1 in 18,431,962)\n    The Void (if in loot pool) - 0.0001811% (~1 in 552,084)"
+  },
+  "diamond": {
+    "name": "Diamond",
+    "description": "A rare diamond gem. Incredibly hard and reflective.",
+    "data": "**Locations & Chances**\n\n    Sunset Beach - 0.0005666% (~1 in 176,477)\n    Fortune River Delta - 0.0005471% (~1 in 182,762)\n    Timelocked Sanctuary - 0.0005425% (~1 in 184,323)\n    Rotwood Swamp - 0.0005424% (~1 in 184,341)\n    Fungal Marsh - 0.0005425% (~1 in 184,341)\n    Frostbite Waterfall - 0.0005148% (~1 in 194,171)\n    Frozen Peak - 0.0005152% (~1 in 194,171)\n    Frostbite River - 0.0005145% (~1 in 194,175)\n    North Pole - 0.0004468% (~1 in 223,802)\n    Haunted Creek - 0.0004322% (~1 in 231,342)\n    Meteor Falls - 0.0002712% (~1 in 368,639)\n    Fortune River - 0.0002295% (~1 in 435,586)\n    Rubble Creek Deposits - 0.0002085% (~1 in 479,574)\n    The Void (if in loot pool) - 0.0001811% (~1 in 552,084)\n    Rubble Creek Sands - 0.0001406% (~1 in 711,068)"
+  },
+  "dragonbone": {
+    "name": "Dragon Bone",
+    "description": "The bone of an ancient dragon.",
+    "data": "**Locations & Chances**\n\n    Infernal Heart - 0.001473% (~1 in 67,859)\n    Windswept Beach - 0.0009040% (~1 in 110,614)\n    The Magma Furnace - 0.0008536% (~1 in 117,145)\n    The Void (if in loot pool) - 0.0001811% (~1 in 552,084)"
+  },
+  "fireopal": {
+    "name": "Fire Opal",
+    "description": "A type of opal with a brilliant orange shine.",
+    "data": "**Locations & Chances**\n\n    Volcanic Springs - 0.0004388% (~1 in 227,895)\n    Infernal Heart - 0.0002947% (~1 in 339,295)\n    Windswept Beach - 0.0001506% (~1 in 664,076)\n    Volcanic Sands - 0.0001423% (~1 in 702,856)\n    The Magma Furnace - 0.0001423% (~1 in 702,866)\n    The Void (if in loot pool) - 0.0001811% (~1 in 552,084)"
+  },
+  "fireflystone": {
+    "name": "Firefly Stone",
+    "description": "A glowing stone left behind by dying fireflies.",
+    "data": "**Locations & Chances**\n\n    Overgrown Grotto (inside Firefly Zones) - 0.00002334% (~1 in 4,284,343)\n    Deeproot Spring (inside Firefly Zones) - 0.00002259% (~1 in 4,426,343)\n    Enchanted Ruins (outside Firefly Zones) - 0.000005837% (~1 in 17,131,962)\n    Timelocked Sanctuary - 0.000005425% (~1 in 18,432,292)\n    Overgrown Grotto (outside Firefly Zones) - 0.000004668% (~1 in 21,421,712)\n    Deeproot Spring (outside Firefly Zones) - 0.000004518% (~1 in 22,131,712)\n    The Void (if in loot pool) - 0.0001811% (~1 in 552,084)"
+  },
+  "gloomcap": {
+    "name": "Gloomcap",
+    "description": "An extraterrestrial lifeform that warps nearby matter.",
+    "data": "**Locations & Chances**\n\n    Fungal Marsh - 0.0002712% (~1 in 368,682)\n    The Void (if in loot pool) - 0.0001811% (~1 in 552,084)"
+  },
+  "lostsoul": {
+    "name": "Lost Soul",
+    "description": "A lost soul doomed to wander aimlessly for eternity.",
+    "data": "**Locations & Chances**\n\n    Haunted Creek - 0.0004322% (~1 in 231,342)\n    The Void (if in loot pool) - 0.0001811% (~1 in 552,084)"
+  },
+  "luminum": {
+    "name": "Luminum",
+    "description": "A strange metal that constantly emits a bright yellow light.",
+    "data": "**Locations & Chances**\n\n    Seashell Isle - 0.001700% (~1 in 58,829)\n    Sunset Beach - 0.0008499% (~1 in 117,651)\n    Enchanted Ruins - 0.0007004% (~1 in 142,766)\n    Overgrown Grotto - 0.0005600% (~1 in 178,546)\n    Azuralite Oasis - 0.0005546% (~1 in 180,284)\n    Deeproot Spring - 0.0005421% (~1 in 184,461)\n    Crystal Caverns - 0.0004231% (~1 in 236,341)\n    The Void (if in loot pool) - 0.0001811% (~1 in 552,084)"
+  },
+  "nautilusshell": {
+    "name": "Nautilus Shell",
+    "description": "The shell of a nautilus.",
+    "data": "**Locations & Chances**\n\n    Seashell Isle - 0.0005666% (~1 in 176,488)\n    The Void (if in loot pool) - 0.0001811% (~1 in 552,084)"
+  },
+  "palladium": {
+    "name": "Palladium",
+    "description": "A lustrous piece of palladium known for its unique properties.",
+    "data": "**Locations & Chances**\n\n    Frostbite River - 0.0002575% (~1 in 388,341)\n    Azuralite Oasis - 0.00009245% (~1 in 1,081,704)\n    Crystal Cavern River - 0.00008462% (~1 in 1,181,703)\n    Fortune River Delta - 0.00008207% (~1 in 1,218,414)\n    Starfall River - 0.00005425% (~1 in 1,843,196)\n    Astral Caverns - 0.00005199% (~1 in 1,923,196)\n    Fortune River - 0.00002296% (~1 in 4,355,862)\n    The Void (if in loot pool) - 0.0001811% (~1 in 552,084)"
+  },
+  "peppermintprism": {
+    "name": "Peppermint Prism",
+    "description": "A colorful crystal only found at the North Pole.",
+    "data": "**Locations & Chances**\n\n    The Void (if in loot pool) - 0.0001811% (~1 in 552,084)\n    North Pole - 0.0001117% (~1 in 895,209)"
+  },
+  "radium": {
+    "name": "Radium",
+    "description": "A radioactive and dangerous metal.",
+    "data": "**Locations & Chances**\n\n    Volcanic Springs - 0.0002194% (~1 in 455,790)\n    Meteor Falls - 0.00005425% (~1 in 1,843,196)\n    The Void (if in loot pool) - 0.0001811% (~1 in 552,084)"
+  },
+  "rosegold": {
+    "name": "Rose Gold",
+    "description": "An extremely rare form of a gold with a distinct rose color.",
+    "data": "**Locations & Chances**\n\n    Windswept Beach - 0.001506% (~1 in 66,378)\n    Enchanted Ruins - 0.001459% (~1 in 68,528)\n    The Magma Furnace - 0.001422% (~1 in 70,287)\n    Volcanic Sands - 0.001394% (~1 in 71,725)\n    Fortune River - 0.0005739% (~1 in 174,234)\n    Rubble Creek Deposits - 0.0005213% (~1 in 191,830)\n    Volcanic Springs - 0.0005485% (~1 in 182,316)\n    Rubble Creek Sands - 0.0004688% (~1 in 213,321)\n    Infernal Heart - 0.0004420% (~1 in 226,197)\n    The Void (if in loot pool) - 0.0001811% (~1 in 552,084)"
+  },
+  "specterite": {
+    "name": "Specterite",
+    "description": "An extremely light and ghostly crystal.",
+    "data": "**Locations & Chances**\n\n    Rotwood Swamp - 0.0002712% (~1 in 368,682)\n    Haunted Creek - 0.0002161% (~1 in 462,684)\n    Enchanted Ruins - 0.0001751% (~1 in 571,066)\n    Abyssal Depths - 0.0001454% (~1 in 687,719)\n    Overgrown Grotto - 0.0001400% (~1 in 714,184)\n    Deeproot Spring - 0.0001355% (~1 in 737,844)\n    The Void (if in loot pool) - 0.0001811% (~1 in 552,084)"
+  },
+  "starshine": {
+    "name": "Starshine",
+    "description": "An astral fragment rarely found in the core of large meteors.",
+    "data": "**Locations & Chances**\n\n    Azuralite Oasis - 0.00009245% (~1 in 1,081,704)\n    Crystal Cavern River - 0.00008462% (~1 in 1,181,703)\n    Enchanted Ruins - 0.00005837% (~1 in 1,713,196)\n    Timelocked Sanctuary - 0.00005425% (~1 in 1,843,229)\n    Abyssal Depths - 0.00004846% (~1 in 2,063,159)\n    Overgrown Grotto - 0.00004667% (~1 in 2,142,553)\n    Deeproot Spring - 0.00004517% (~1 in 2,213,533)\n    The Void (if in loot pool) - 0.0001811% (~1 in 552,084)"
+  },
+  "tourmaline": {
+    "name": "Tourmaline",
+    "description": "A yellow tourmaline crystal.",
+    "data": "**Locations & Chances**\n\n    Frostbite Waterfall - 0.0001609% (~1 in 621,347)\n    Frostbite River - 0.0001602% (~1 in 621,361)\n    Frozen Peak - 0.00003218% (~1 in 3,106,950)\n    The Void (if in loot pool) - 0.0001811% (~1 in 552,084)"
+  },
+  "uranium": {
+    "name": "Uranium",
+    "description": "A radioactive chunk of uranium.",
+    "data": "**Locations & Chances**\n\n    Infernal Heart - 0.0004420% (~1 in 226,197)\n    Fortune River Delta - 0.0002735% (~1 in 365,524)\n    Azuralite Oasis - 0.0002311% (~1 in 432,682)\n    Fortune River - 0.0001721% (~1 in 580,782)\n    The Void (if in loot pool) - 0.0001811% (~1 in 552,084)"
+  },
+  "volcanickey": {
+    "name": "Volcanic Key",
+    "description": "A mysterious key. Could sell for a lot, but maybe it has some other use?",
+    "data": "**Locations & Chances**\n\n    Infernal Heart - 0.001473% (~1 in 67,859)\n    The Magma Furnace - 0.0008536% (~1 in 117,149)\n    The Void (if in loot pool) - 0.0001811% (~1 in 552,084)"
+  },
+  "aetherium": {
+    "name": "Aetherium",
+    "description": "An unnatural amalgamation of Aetherite and Iridium. Its unique properties make it a necessary ingredient in high-tier enchanting rituals.",
+    "data": "**Locations & Chances**\n\n    Meteor Falls - 0.0000005425% (~1 in 184,319,616)\n    Starfall River - 0.0000005425% (~1 in 184,319,616)\n    Astral Caverns - 0.0000005199% (~1 in 192,319,626)\n    The Void (if in loot pool) - 0.000002536% (~1 in 39,434,575)"
+  },
+  "chrysoberyl": {
+    "name": "Chrysoberyl",
+    "description": "...",
+    "data": "**Locations & Chances**\n\n    Rotwood Swamp - 0.000002169% (~1 in 46,085,203)\n    Deeproot Spring - 0.000001807% (~1 in 55,329,276)\n    Overgrown Grotto - 0.000001400% (~1 in 71,418,421)\n    The Void (if in loot pool) - 0.000002536% (~1 in 39,434,575)"
+  },
+  "flarebloom": {
+    "name": "Flarebloom",
+    "description": "A mythical flower that only grows in the extreme heat of the center of a volcano.",
+    "data": "**Locations & Chances**\n\n    Infernal Heart - 0.00001105% (~1 in 9,047,864)\n    The Magma Furnace - 0.000008536% (~1 in 11,714,451)\n    Volcanic Sands - 0.000002788% (~1 in 35,862,342)\n    Volcanic Springs - 0.000002742% (~1 in 36,463,190)\n    The Void (if in loot pool) - 0.000002536% (~1 in 39,434,575)"
+  },
+  "frostshard": {
+    "name": "Frostshard",
+    "description": "A jagged crystal formed in the mountains that constantly freezes the area around it.",
+    "data": "**Locations & Chances**\n\n    North Pole - 0.000002234% (~1 in 44,760,456)\n    Frozen Peak - 0.000001609% (~1 in 62,134,663)\n    Frostbite Waterfall - 0.000001609% (~1 in 62,134,666)\n    The Void (if in loot pool) - 0.000002536% (~1 in 39,434,575)"
+  },
+  "inferlume": {
+    "name": "Inferlume",
+    "description": "A luminescent crystal with flame-like properties.",
+    "data": "**Locations & Chances**\n\n    Infernal Heart - 0.00001105% (~1 in 9,047,864)\n    Windswept Beach - 0.000009040% (~1 in 11,061,369)\n    Sunset Beach - 0.000008499% (~1 in 11,765,117)\n    Seashell Isle - 0.000008499% (~1 in 11,765,884)\n    Volcanic Sands - 0.000007807% (~1 in 12,807,979)\n    Volcanic Springs - 0.000007679% (~1 in 13,022,568)\n    Azuralite Oasis - 0.000007395% (~1 in 13,521,298)\n    Crystal Cavern River - 0.000006769% (~1 in 14,771,283)\n    The Void (if in loot pool) - 0.000002536% (~1 in 39,434,575)"
+  },
+  "mythril": {
+    "name": "Mythril",
+    "description": "A nugget of the mythical metal mythril.",
+    "data": "**Locations & Chances**\n\n    Fungal Marsh - 0.000003797% (~1 in 26,334,402)\n    Rotwood Swamp - 0.000003797% (~1 in 26,334,402)\n    Frozen Peak - 0.000003218% (~1 in 31,067,332)\n    Enchanted Ruins - 0.000002919% (~1 in 34,263,924)\n    Frostbite River - 0.000002575% (~1 in 38,834,166)\n    Frostbite Waterfall - 0.000002575% (~1 in 38,834,166)\n    The Void (if in loot pool) - 0.000002536% (~1 in 39,434,575)"
+  },
+  "painite": {
+    "name": "Painite",
+    "description": "An extremely rare gemstone with a vibrant red color.",
+    "data": "**Locations & Chances**\n\n    Sunset Beach - 0.00002267% (~1 in 4,411,419)\n    Seashell Isle - 0.00002266% (~1 in 4,412,206)\n    Infernal Heart - 0.00002210% (~1 in 4,523,932)\n    Fortune River Delta - 0.00002189% (~1 in 4,569,051)\n    Fortune River - 0.00001722% (~1 in 5,807,816)\n    Volcanic Springs - 0.00001645% (~1 in 6,077,198)\n    Haunted Creek - 0.000003458% (~1 in 28,917,729)\n    Abyssal Depths - 0.000002908% (~1 in 34,385,984)\n    The Void (if in loot pool) - 0.000002536% (~1 in 39,434,575)"
+  },
+  "pinkdiamond": {
+    "name": "Pink Diamond",
+    "description": "A variant of diamond with a unique pink tint.",
+    "data": "**Locations & Chances**\n\n    Fortune River Delta - 0.00004377% (~1 in 2,284,525)\n    Fortune River - 0.00002870% (~1 in 3,484,689)\n    Volcanic Sands - 0.00002231% (~1 in 4,482,793)\n    Rubble Creek Deposits - 0.00002085% (~1 in 4,795,745)\n    Rubble Creek Sands - 0.00001875% (~1 in 5,333,013)\n    North Pole - 0.00001117% (~1 in 8,952,091)\n    The Void (if in loot pool) - 0.000002536% (~1 in 39,434,575)"
+  },
+  "prismara": {
+    "name": "Prismara",
+    "description": "Formed by the world itself.",
+    "data": "**Locations & Chances**\n\n    Overgrown Grotto - 0.000002800% (~1 in 35,702,851)\n    Azuralite Oasis - 0.000002773% (~1 in 36,056,795)\n    Enchanted Ruins - 0.0000007296% (~1 in 137,055,695)\n    The Void (if in loot pool) - 0.000002536% (~1 in 39,434,575)"
+  },
+  "radiantgold": {
+    "name": "Radiant Gold",
+    "description": "A nugget of gold exposed to powerful energy for millions of years.",
+    "data": "**Locations & Chances**\n\n    Abyssal Depths - 0.000001454% (~1 in 68,771,969)\n    Haunted Creek - 0.000001296% (~1 in 77,113,940)\n    Enchanted Ruins - 0.000001167% (~1 in 85,659,809)\n    Timelocked Sanctuary - 0.000001085% (~1 in 92,161,458)\n    Deeproot Spring - 0.0000009036% (~1 in 110,658,553)\n    The Void (if in loot pool) - 0.000002536% (~1 in 39,434,575)"
+  },
+  "redberyl": {
+    "name": "Red Beryl",
+    "description": "An extremely rare form of beryl. Distinguished by its hexagonal crystals and distinctive red color.",
+    "data": "**Locations & Chances**\n\n    Astral Caverns - 0.0000009359% (~1 in 106,844,237)\n    Seashell Isle - 0.0000008499% (~1 in 117,658,838)\n    Timelocked Sanctuary - 0.0000008138% (~1 in 122,881,944)\n    Fungal Marsh - 0.0000008137% (~1 in 122,893,874)\n    The Void (if in loot pool) - 0.000002536% (~1 in 39,434,575)"
+  },
+  "stargarnet": {
+    "name": "Star Garnet",
+    "description": "A garnet with a star reflected within.",
+    "data": "**Locations & Chances**\n\n    Timelocked Sanctuary - 0.000001356% (~1 in 73,729,166)\n    Fungal Marsh - 0.000001356% (~1 in 73,736,324)\n    Meteor Falls - 0.000001085% (~1 in 92,159,808)\n    Starfall River - 0.000001085% (~1 in 92,159,808)\n    Rotwood Swamp - 0.000001084% (~1 in 92,170,407)\n    The Void (if in loot pool) - 0.000002536% (~1 in 39,434,575)"
+  },
+  "sunstone": {
+    "name": "Sunstone",
+    "description": "A stone that pulses with solar energy.",
+    "data": "**Locations & Chances**\n\n    Meteor Falls - 0.0000005425% (~1 in 184,319,616)\n    Starfall River - 0.0000005425% (~1 in 184,319,616)\n    Astral Caverns - 0.0000005199% (~1 in 192,319,626)\n    The Void (if in loot pool) - 0.000002536% (~1 in 39,434,575)"
+  },
+  "vortessence": {
+    "name": "Vortessence",
+    "description": "A celestial stone with distinct rings. Believed to be formed by the collapse of a star.",
+    "data": "**Locations & Chances**\n\n    Windswept Beach - 0.000009040% (~1 in 11,061,369)\n    Frostbite River - 0.000008368% (~1 in 11,948,974)\n    Frostbite Waterfall - 0.000008368% (~1 in 11,948,974) \n    Fortune River Delta - 0.000008207% (~1 in 12,184,135)\n    Azuralite Oasis - 0.000007395% (~1 in 13,521,298)\n    Crystal Cavern River - 0.000006769% (~1 in 14,771,283)\n    Haunted Creek - 0.000002161% (~1 in 46,268,364)\n    Meteor Falls - 0.000001627% (~1 in 61,439,872)\n    Starfall River - 0.000001627% (~1 in 61,439,872)\n    Astral Caverns - 0.000001559% (~1 in 64,106,542)\n    The Void (if in loot pool) - 0.000002536% (~1 in 39,434,575)"
+  },
+  "volcaniccore": {
+    "name": "Volcanic Core",
+    "description": "The unstable core of a volcano. Contains the potential to cause immense destruction.",
+    "data": "**Locations & Chances**\n\n    Infernal Heart - 0.000004421% (~1 in 22,619,048)\n    The Magma Furnace - 0.000002845% (~1 in 35,143,354)\n    The Void (if in loot pool) - 0.000002536% (~1 in 39,434,575)"
+  },
+  "adamantine": {
+    "name": "Adamantine",
+    "description": "The indestructible metal of many fables told and untold, Adamantine.",
+    "data": "**Locations & Chances**\n\n    Enchanted Ruins - 0.0000001167% (~1 in 856,598,092)"
+  },
+  "astralspore": {
+    "name": "Astral Spore",
+    "description": "An extraterrestial lifeform that warps nearby matter.",
+    "data": "**Locations & Chances**\n\n    Fungal Marsh - 0.00000006509% (~1 in 1,536,173,443)\n    Timelocked Sanctuary - 0.00000004340% (~1 in 2,304,036,453)"
+  },
+  "bloodstone": {
+    "name": "Bloodstone",
+    "description": "A tainted stone believed to siphon the life of those who hold it.",
+    "data": "**Locations & Chances**\n\n    Rotwood Swamp - 0.00000008679% (~1 in 1,152,130,082)\n    Timelocked Sanctuary - 0.00000005425% (~1 in 1,843,229,162)"
+  },
+  "celestium": {
+    "name": "Celestium",
+    "description": "A celestial metal formed in the center of galaxies.",
+    "data": "**Locations & Chances**\n\n    Astral Caverns - 0.0000000051997% (~1 in 19,231,962,581)"
+  },
+  "cryonicartifact": {
+    "name": "Cryonic Artifact",
+    "description": "A mysterious artifact. What is its purpose?",
+    "data": "**Locations & Chances**\n\n    Frozen Peak - 0.0000006437% (~1 in 155,336,658)"
+  },
+  "dinosaurskull": {
+    "name": "Dinosaur Skull",
+    "description": "A skull of a dinosaur. What's this doing here!",
+    "data": "**Locations & Chances**\n\n    Infernal Heart – 0.000001842% (~1 in 54,285,827)"
+  },
+  "eternium": {
+    "name": "Eternium",
+    "description": "An everlasting crystal that preserves its surroundings from the passage of time.",
+    "data": "**Locations & Chances**\n\n    Timelocked Sanctuary - 0.00000002712% (~1 in 3,686,458,325)"
+  },
+  "forgottentotem": {
+    "name": "Forgotten Totem",
+    "description": "An mysterious, weathered totem. Its purpose remains unknown.",
+    "data": "**Locations & Chances**\n\n    Seashell Isle - 0.0000002833% (~1 in 352,976,514)"
+  },
+  "northstar": {
+    "name": "North Star",
+    "description": "-",
+    "data": "**Locations & Chances**\n\n    North Pole - 0.0000002792% (~1 in 358,083,649)"
+  },
+  "pumpkinsoul": {
+    "name": "Pumpkin Soul",
+    "description": "The soul of a cruel tyrant.",
+    "data": "**Locations & Chances**\n\n    Haunted Creek - 0.0000004322% (~1 in 231,341,800)"
+  },
+  "singularium": {
+    "name": "Singularium",
+    "description": "An exotic substance that emits a gravitational pull.",
+    "data": "**Locations & Chances**\n\n    Starfall River - 0.00000001085% (~1 in 9,215,980,801)"
+  },
+  "starpiercer": {
+    "name": "Starpiercer",
+    "description": "A mysterious alien artifact.",
+    "data": "**Locations & Chances**\n\n    Meteor Falls - 0.00000002170% (~1 in 4,607,990,401)"
+  },
+  "umbrite": {
+    "name": "Umbrite",
+    "description": "A crystal formed in complete darkness.",
+    "data": "**Locations & Chances**\n\n    Abyssal Depths - 0.0000001454% (~1 in 687,719,698)"
+  },
+  "vineheart": {
+    "name": "Vineheart",
+    "description": "The heart of the caverns, believed to be formed by the spirits themselves.",
+    "data": "**Locations & Chances**\n\n    Deeproot Spring - 0.0000001807% (~1 in 553,292,791)"
+  },
+  "voidstone": {
+    "name": "Voidstone",
+    "description": "A crystal formed from the void.",
+    "data": "**Locations & Chances**\n\n    The Void - 0.0000007245% (~1 in 138,021,012)"
+  }
+}

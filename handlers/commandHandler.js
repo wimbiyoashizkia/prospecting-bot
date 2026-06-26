@@ -116,6 +116,33 @@ const mineralColors = {
     voidstone: "#7A7A7A"
 };
 
+function shakeSpeedToR(x) {
+    x = Math.max(0, Number(x) || 0);
+    x = Math.min(x, 3000);
+    return (4.03266e-9 * Math.pow(x, 3)) -
+           (1.68935e-5 * Math.pow(x, 2)) +
+           (0.0255557 * x) +
+           0.206594;
+}
+
+function attemptsForTarget(pAttempt, target) {
+    if (!isFinite(pAttempt) || pAttempt <= 0) return Infinity;
+    if (pAttempt >= 1) return 1;
+    return Math.log(1 - target) / Math.log(1 - pAttempt);
+}
+
+function fmtDuration(seconds) {
+    if (!isFinite(seconds) || seconds < 0) return '∞';
+    if (seconds === Infinity) return '∞';
+    const s = Math.round(seconds);
+    const h = Math.floor(s / 3600);
+    const m = Math.floor((s % 3600) / 60);
+    const sec = s % 60;
+    if (h > 0) return `${h}h ${m}m`;
+    if (m > 0) return `${m}m ${sec}s`;
+    return `${sec}s`;
+}
+
 function createSuggestionButtons(suggestions) {
     const row = new ActionRowBuilder();
     const styles = [ButtonStyle.Success, ButtonStyle.Primary, ButtonStyle.Secondary];
@@ -291,6 +318,141 @@ async function handleMineralLookup(message, input) {
     return message.reply({ embeds: [embed] });
 }
 
+async function handleCalc(message, input) {
+    const parts = input.slice(5).trim().split(/\s+/);
+    const mineralName = parts[0];
+
+    if (!mineralName) {
+        return message.reply(
+            "Usage: `?calc <mineral> [luck] [capacity] [digStrength] [digSpeed] [shakeStrength] [shakeSpeed]`\n" +
+            "Example: `?calc ruby 500 200 3 100 1 500`"
+        );
+    }
+
+    const luck = parseInt(parts[1]) || 100;
+    const capacity = parseInt(parts[2]) || 50;
+    const digStrength = parseInt(parts[3]) || 3;
+    const digSpeed = parseInt(parts[4]) || 100;
+    const shakeStrength = parseFloat(parts[5]) || 1;
+    const shakeSpeed = parseInt(parts[6]) || 500;
+
+    const result = findClosestMineral(mineralName);
+
+    if (!result.found) {
+        let msg = `Mineral "${mineralName}" not found.`;
+        if (result.suggestions.length) {
+            msg += "\n\nDid you mean?";
+            for (const suggestion of result.suggestions) {
+                msg += `\n• ${minerals[suggestion.name].name}`;
+            }
+        }
+        return message.reply(msg);
+    }
+
+    const mineral = minerals[result.name];
+    const baseData = mineral.data;
+    const lines = baseData.split('\n');
+    let found = false;
+    const locations = [];
+
+    for (const line of lines) {
+        if (line.includes('**Locations & Chances**')) {
+            found = true;
+            continue;
+        }
+        if (!found) continue;
+        const trimmed = line.trim();
+        if (!trimmed) continue;
+        const parts2 = trimmed.split(' - ');
+        if (parts2.length < 2) continue;
+        const chance = parseFloat(parts2[1].replace('%', '')) || 0;
+        locations.push({
+            location: parts2[0].trim(),
+            chance_percent: chance
+        });
+    }
+
+    if (locations.length === 0) {
+        return message.reply(`No location data found for "${mineral.name}".`);
+    }
+
+    const rolls = luck * capacity;
+    const r = shakeSpeedToR(shakeSpeed);
+    const rs = r * shakeStrength;
+    let cycleSeconds = Infinity;
+    if (rs > 0) {
+        cycleSeconds = capacity / rs + 0.75 + 190 * (Math.max(0, digStrength - 1)) / digSpeed;
+    }
+
+    let bestLoc = locations[0];
+    let bestP = 0;
+    for (const loc of locations) {
+        const p = loc.chance_percent / 100;
+        const pAttempt = 1 - Math.pow(1 - p, rolls);
+        if (pAttempt > bestP) {
+            bestP = pAttempt;
+            bestLoc = loc;
+        }
+    }
+
+    const bestPct = bestLoc.chance_percent / 100;
+    const pAttemptBest = 1 - Math.pow(1 - bestPct, rolls);
+    const expected = rolls * bestPct;
+
+    const a50 = attemptsForTarget(pAttemptBest, 0.50);
+    const a90 = attemptsForTarget(pAttemptBest, 0.90);
+    const a99 = attemptsForTarget(pAttemptBest, 0.99);
+
+    const t50 = isFinite(a50) && isFinite(cycleSeconds) ? a50 * cycleSeconds : Infinity;
+    const t90 = isFinite(a90) && isFinite(cycleSeconds) ? a90 * cycleSeconds : Infinity;
+    const t99 = isFinite(a99) && isFinite(cycleSeconds) ? a99 * cycleSeconds : Infinity;
+
+    const embed = new EmbedBuilder()
+        .setTitle(`${mineral.name} - Farming Calculator`)
+        .setColor(mineralColors[mineral.name?.toLowerCase()] || '#5865F2')
+        .addFields(
+            {
+                name: 'Setup',
+                value:
+                    `Luck: ${luck}\n` +
+                    `Capacity: ${capacity}\n` +
+                    `Dig Strength: ${digStrength}\n` +
+                    `Dig Speed: ${digSpeed}%\n` +
+                    `Shake Strength: ${shakeStrength}\n` +
+                    `Shake Speed: ${shakeSpeed}%`,
+                inline: true
+            },
+            {
+                name: 'Results',
+                value:
+                    `Chance per attempt: ${(pAttemptBest * 100).toFixed(5)}%\n` +
+                    `~1 in ${pAttemptBest > 0 ? Math.round(1 / pAttemptBest).toLocaleString() : '∞'} attempts\n` +
+                    `Expected finds: ${expected.toFixed(4)}`,
+                inline: true
+            },
+            {
+                name: 'Time Estimates',
+                value:
+                    `50%: ${isFinite(a50) ? Math.round(a50).toLocaleString() : '∞'} attempts (${fmtDuration(t50)})\n` +
+                    `90%: ${isFinite(a90) ? Math.round(a90).toLocaleString() : '∞'} attempts (${fmtDuration(t90)})\n` +
+                    `99%: ${isFinite(a99) ? Math.round(a99).toLocaleString() : '∞'} attempts (${fmtDuration(t99)})`,
+                inline: false
+            },
+            {
+                name: 'Best Location',
+                value: `${bestLoc.location} - ${bestLoc.chance_percent.toFixed(8)}%`,
+                inline: false
+            },
+            {
+                name: 'Full Details',
+                value: 'https://wimbiyoashizkia.github.io/prospecting-bot/',
+                inline: false
+            }
+        );
+
+    return message.reply({ embeds: [embed] });
+}
+
 async function processCommand(message) {
     try {
         if (message.author.bot) return;
@@ -314,6 +476,10 @@ async function processCommand(message) {
             }
 
             return message.reply({ embeds: [embed] });
+        }
+
+        if (input.startsWith("calc ")) {
+            return handleCalc(message, input);
         }
 
         const dredgeAliases = ["dredge", "dredg", "dred", "dre", "dr", "d"];

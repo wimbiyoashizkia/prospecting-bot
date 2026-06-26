@@ -194,7 +194,7 @@ function calculate() {
   const shakeStrength = parseFloat(shakeStrengthInput.value) || 0;
   const shakeSpeed = parseFloat(shakeSpeedInput.value) || 0;
 
-  const rolls = luck * C;
+  const rolls = luck * Math.sqrt(C);
 
   const r = shakeSpeedToR(shakeSpeed);
   const rs = r * shakeStrength;

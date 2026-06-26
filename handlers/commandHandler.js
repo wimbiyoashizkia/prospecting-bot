@@ -376,7 +376,8 @@ async function handleCalc(message, input) {
         return message.reply(`No location data found for "${mineral.name}".`);
     }
 
-    const rolls = luck * capacity;
+    const rolls = luck * Math.sqrt(capacity);
+
     const r = shakeSpeedToR(shakeSpeed);
     const rs = r * shakeStrength;
     let cycleSeconds = Infinity;

@@ -2,6 +2,7 @@ module.exports = {
   amethyst: {
     name: "Amethyst",
     description: "A purple amethyst gemstone.",
+    bestLocation: "Azuralite Oasis",
     locations: [
       { location: "Rubble Creek Sands", chance_percent: 7.0317 },
       { location: "Azuralite Oasis", chance_percent: 4.6223 },
@@ -19,6 +20,7 @@ module.exports = {
   blueice: {
     name: "Blue Ice",
     description: "A chunk of blue ice compressed in a glacier for millions of years.",
+    bestLocation: "Frozen Peak",
     locations: [
       { location: "Frozen Peak", chance_percent: 51.4969 },
       { location: "Frostbite River", chance_percent: 51.496 },
@@ -38,6 +40,7 @@ module.exports = {
   copper: {
     name: "Copper",
     description: "A malleable metal commonly used in electronics.",
+    bestLocation: "Azuralite Oasis",
     locations: [
       { location: "Azuralite Oasis", chance_percent: 36.9786 },
       { location: "Crystal Cavern River", chance_percent: 33.8494 },
@@ -73,6 +76,7 @@ module.exports = {
   gold: {
     name: "Gold",
     description: "A nugget of gold.",
+    bestLocation: "Rubble Creek Sands",
     locations: [
       { location: "Rubble Creek Sands", chance_percent: 70.3167 },
       { location: "Enchanted Ruins", chance_percent: 58.3704 },
@@ -126,6 +130,7 @@ module.exports = {
   obsidian: {
     name: "Obsidian",
     description: "A jet-black shard of obsidian. Formed when lava cools rapidly.",
+    bestLocation: "Infernal Heart",
     locations: [
       { location: "Infernal Heart", chance_percent: 73.6822 },
       { location: "The Magma Furnace", chance_percent: 73.6726 },
@@ -147,6 +152,7 @@ module.exports = {
   pearl: {
     name: "Pearl",
     description: "A round pearl from an oyster.",
+    bestLocation: "Windswept Beach",
     locations: [
       { location: "Windswept Beach", chance_percent: 18.0809 },
       { location: "Seashell Isle", chance_percent: 16.9983 },
@@ -166,6 +172,7 @@ module.exports = {
   platinum: {
     name: "Platinum",
     description: "A nugget of platinum.",
+    bestLocation: "Fortune River",
     locations: [
       { location: "Fortune River", chance_percent: 28.6969 },
       { location: "Rubble Creek Deposits", chance_percent: 26.0648 },
@@ -183,6 +190,7 @@ module.exports = {
   pyrite: {
     name: "Pyrite",
     description: "Also known as Fool's Gold. Essentially worthless.",
+    bestLocation: "Starfall River",
     locations: [
       { location: "Starfall River", chance_percent: 54.2535 },
       { location: "Meteor Falls", chance_percent: 54.2535 },
@@ -200,6 +208,7 @@ module.exports = {
   seashell: {
     name: "Seashell",
     description: "The shell of a clam.",
+    bestLocation: "Windswept Beach",
     locations: [
       { location: "Seashell Isle", chance_percent: 45.3288 },
       { location: "Windswept Beach", chance_percent: 45.3317 },
@@ -216,6 +225,7 @@ module.exports = {
   silver: {
     name: "Silver",
     description: "A nugget of silver.",
+    bestLocation: "Frozen Peak",
     locations: [
       { location: "Frozen Peak", chance_percent: 32.1855 },
       { location: "Frostbite River", chance_percent: 32.185 },
@@ -258,6 +268,7 @@ module.exports = {
   coral: {
     name: "Coral",
     description: "A piece of coral from an endangered species.",
+    bestLocation: "Windswept Beach",
     locations: [
       { location: "Windswept Beach", chance_percent: 6.0269 },
       { location: "Seashell Isle", chance_percent: 5.6661 },
@@ -277,6 +288,7 @@ module.exports = {
   electrum: {
     name: "Electrum",
     description: "An alloy of silver and gold. Also known as 'green gold'.",
+    bestLocation: "Starfall River",
     locations: [
       { location: "Starfall River", chance_percent: 2.7126 },
       { location: "Meteor Falls", chance_percent: 2.7126 },
@@ -300,6 +312,7 @@ module.exports = {
   glowberry: {
     name: "Glowberry",
     description: "A luminescent berry.",
+    bestLocation: "Enchanted Ruins",
     locations: [
       { location: "Enchanted Ruins", chance_percent: 8.7556 },
       { location: "Overgrown Grotto", chance_percent: 1.4002 },
@@ -317,6 +330,7 @@ module.exports = {
   malachite: {
     name: "Malachite",
     description: "A vibrant green crystal, given its color by the copper within it.",
+    bestLocation: "Windswept Beach",
     locations: [
       { location: "Windswept Beach", chance_percent: 1.2053 },
       { location: "Rotwood Swamp", chance_percent: 0.5424 },
@@ -350,6 +364,7 @@ module.exports = {
   neodymium: {
     name: "Neodymium",
     description: "A key ingredient in high-strength magnets.",
+    bestLocation: "Sunset Beach",
     locations: [
       { location: "Seashell Isle", chance_percent: 2.2664 },
       { location: "Sunset Beach", chance_percent: 2.2665 },
@@ -379,6 +394,7 @@ module.exports = {
   nickel: {
     name: "Nickel",
     description: "A tough nugget of nickel.",
+    bestLocation: "Starfall River",
     locations: [
       { location: "Starfall River", chance_percent: 10.8507 },
       { location: "Meteor Falls", chance_percent: 10.8507 },
@@ -396,6 +412,7 @@ module.exports = {
   rockcandy: {
     name: "Rock Candy",
     description: "A chunk of rock candy. Tasty!",
+    bestLocation: "N/A",
     locations: [
       { location: "Haunted Creek", chance_percent: 1.2967 },
       { location: "The Void (if in loot pool)", chance_percent: 1.8113 },
@@ -409,6 +426,7 @@ module.exports = {
   sapphire: {
     name: "Sapphire",
     description: "A blue sapphire.",
+    bestLocation: "Starfall River",
     locations: [
       { location: "Starfall River", chance_percent: 4.3402 },
       { location: "Meteor Falls", chance_percent: 4.3402 },
@@ -438,6 +456,7 @@ module.exports = {
   smokyquartz: {
     name: "Smoky Quartz",
     description: "A type of quartz with a unique gray color.",
+    bestLocation: "Timelocked Sanctuary",
     locations: [
       { location: "Timelocked Sanctuary", chance_percent: 4.3402 },
       { location: "Rotwood Swamp", chance_percent: 4.3397 },
@@ -475,6 +494,7 @@ module.exports = {
   titanium: {
     name: "Titanium",
     description: "A piece of pure titanium.",
+    bestLocation: "Frozen Peak",
     locations: [
       { location: "Frozen Peak", chance_percent: 12.8742 },
       { location: "Frostbite River", chance_percent: 12.874 },
@@ -506,6 +526,7 @@ module.exports = {
   topaz: {
     name: "Topaz",
     description: "A topaz gemstone. A symbol of strength and honor.",
+    bestLocation: "Timelocked Sanctuary",
     locations: [
       { location: "Timelocked Sanctuary", chance_percent: 10.8505 },
       { location: "Infernal Heart", chance_percent: 2.2104 },
@@ -537,6 +558,7 @@ module.exports = {
   zircon: {
     name: "Zircon",
     description: "A dark orange gemstone that contains zirconium.",
+    bestLocation: "Infernal Heart",
     locations: [
       { location: "Infernal Heart", chance_percent: 1.4736 },
       { location: "Volcanic Springs", chance_percent: 1.371 },
@@ -556,6 +578,7 @@ module.exports = {
   amber: {
     name: "Amber",
     description: "A piece of fossilized amber.",
+    bestLocation: "Enchanted Ruins",
     locations: [
       { location: "Enchanted Ruins", chance_percent: 0.05837 },
       { location: "Abyssal Depths", chance_percent: 0.04846 },
@@ -573,6 +596,7 @@ module.exports = {
   azuralite: {
     name: "Azuralite",
     description: "A mysterious azure crystal with strange growth properties and unknown origin.",
+    bestLocation: "Enchanted Ruins",
     locations: [
       { location: "Enchanted Ruins", chance_percent: 0.5837 },
       { location: "Abyssal Depths", chance_percent: 0.4846 },
@@ -596,6 +620,7 @@ module.exports = {
   candycane: {
     name: "Candy Cane",
     description: "A tasty candy cane.",
+    bestLocation: "N/A",
     locations: [
       { location: "The Void (if in loot pool)", chance_percent: 0.09057 },
       { location: "North Pole", chance_percent: 0.05586 },
@@ -609,6 +634,7 @@ module.exports = {
   diopside: {
     name: "Diopside",
     description: "A dull green gem.",
+    bestLocation: "Timelocked Sanctuary",
     locations: [
       { location: "Timelocked Sanctuary", chance_percent: 0.05425 },
       { location: "Rotwood Swamp", chance_percent: 0.05425 },
@@ -626,6 +652,7 @@ module.exports = {
   glacialquartz: {
     name: "Glacial Quartz",
     description: "An icicle-shaped variant of quartz that forms in extreme cold.",
+    bestLocation: "Frozen Peak",
     locations: [
       { location: "North Pole", chance_percent: 0.2234 },
       { location: "Frozen Peak", chance_percent: 0.1287 },
@@ -645,6 +672,7 @@ module.exports = {
   gloomberry: {
     name: "Gloomberry",
     description: "A poisonous berry that grows deep underground.",
+    bestLocation: "Abyssal Depths",
     locations: [
       { location: "Abyssal Depths", chance_percent: 0.0004846 },
       { location: "The Void (if in loot pool)", chance_percent: 0.09057 },
@@ -658,6 +686,7 @@ module.exports = {
   jade: {
     name: "Jade",
     description: "A piece of green jade.",
+    bestLocation: "Frozen Peak",
     locations: [
       { location: "North Pole", chance_percent: 1.3963 },
       { location: "Frozen Peak", chance_percent: 1.2874 },
@@ -687,6 +716,7 @@ module.exports = {
   lapislazuli: {
     name: "Lapis Lazuli",
     description: "A vibrant and intense stone of lapis lazuli.",
+    bestLocation: "Starfall River",
     locations: [
       { location: "Starfall River", chance_percent: 0.5425 },
       { location: "Meteor Falls", chance_percent: 0.5425 },
@@ -718,6 +748,7 @@ module.exports = {
   meteoriciron: {
     name: "Meteoric Iron",
     description: "A piece of iron infused with energy from exposure to the meteors.",
+    bestLocation: "Astral Caverns",
     locations: [
       { location: "Astral Caverns", chance_percent: 4.1597 },
       { location: "Volcanic Sands", chance_percent: 2.2307 },
@@ -743,6 +774,7 @@ module.exports = {
   onyx: {
     name: "Onyx",
     description: "A jet black onyx gem.",
+    bestLocation: "Infernal Heart",
     locations: [
       { location: "Infernal Heart", chance_percent: 0.1473 },
       { location: "Volcanic Springs", chance_percent: 0.1371 },
@@ -780,6 +812,7 @@ module.exports = {
   peridot: {
     name: "Peridot",
     description: "An olive-green gemstone that commonly appears in volcanic rock.",
+    bestLocation: "Infernal Heart",
     locations: [
       { location: "Infernal Heart", chance_percent: 0.07368 },
       { location: "Windswept Beach", chance_percent: 0.06026 },
@@ -801,6 +834,7 @@ module.exports = {
   pyrelith: {
     name: "Pyrelith",
     description: "An energetic crystal formed in the heart of a volcano.",
+    bestLocation: "Infernal Heart",
     locations: [
       { location: "Infernal Heart", chance_percent: 0.2947 },
       { location: "The Magma Furnace", chance_percent: 0.2276 },
@@ -816,6 +850,7 @@ module.exports = {
   ruby: {
     name: "Ruby",
     description: "A bright red ruby gemstone.",
+    bestLocation: "Rubble Creek Sands",
     locations: [
       { location: "Rubble Creek Sands", chance_percent: 0.2344 },
       { location: "Fortune River", chance_percent: 0.2295 },
@@ -833,6 +868,7 @@ module.exports = {
   silverclamshell: {
     name: "Silver Clamshell",
     description: "The shell of a rare silver clam.",
+    bestLocation: "Windswept Beach",
     locations: [
       { location: "Windswept Beach", chance_percent: 0.1808 },
       { location: "Seashell Isle", chance_percent: 0.17 },
@@ -852,6 +888,7 @@ module.exports = {
   ammonitefossil: {
     name: "Ammonite Fossil",
     description: "The remains of an ancient mollusk.",
+    bestLocation: "Windswept Beach",
     locations: [
       { location: "Windswept Beach", chance_percent: 0.006026 },
       { location: "Seashell Isle", chance_percent: 0.005666 },
@@ -867,6 +904,7 @@ module.exports = {
   ashvein: {
     name: "Ashvein",
     description: "An obsidian-like crystal streaked with red.",
+    bestLocation: "Sunset Beach",
     locations: [
       { location: "Sunset Beach", chance_percent: 0.01133 },
       { location: "Seashell Isle", chance_percent: 0.01133 },
@@ -886,6 +924,7 @@ module.exports = {
   aurorite: {
     name: "Aurorite",
     description: "A mysterious crystal filled with magical power. Perhaps I could use this for something...",
+    bestLocation: "Fortune River",
     locations: [
       { location: "Fortune River", chance_percent: 0.008609 },
       { location: "Rubble Creek Deposits", chance_percent: 0.007819 },
@@ -925,6 +964,7 @@ module.exports = {
   bone: {
     name: "Bone",
     description: "...I should't have dug here.",
+    bestLocation: "Fungal Marsh",
     locations: [
       { location: "Rotwood Swamp", chance_percent: 0.01085 },
       { location: "Fungal Marsh", chance_percent: 0.01085 },
@@ -942,6 +982,7 @@ module.exports = {
   borealite: {
     name: "Borealite",
     description: "A cold gemstone.",
+    bestLocation: "Frozen Peak",
     locations: [
       { location: "Frostbite River", chance_percent: 0.00515 },
       { location: "Frostbite Waterfall", chance_percent: 0.00515 },
@@ -965,6 +1006,7 @@ module.exports = {
   cobalt: {
     name: "Cobalt",
     description: "A strikingly blue piece of cobalt. Used in advanced electronics.",
+    bestLocation: "Frozen Peak",
     locations: [
       { location: "Overgrown Grotto", chance_percent: 0.01866 },
       { location: "Deeproot Spring", chance_percent: 0.01807 },
@@ -1002,6 +1044,7 @@ module.exports = {
   emerald: {
     name: "Emerald",
     description: "A rare emerald with a vibrant green hue.",
+    bestLocation: "Fortune River",
     locations: [
       { location: "Fortune River", chance_percent: 0.004591 },
       { location: "Timelocked Sanctuary", chance_percent: 0.00434 },
@@ -1041,6 +1084,7 @@ module.exports = {
   glowmoss: {
     name: "Glowmoss",
     description: "A rare species of moss that emits a bright light.",
+    bestLocation: "Enchanted Ruins",
     locations: [
       { location: "Enchanted Ruins", chance_percent: 0.0005837 },
       { location: "Timelocked Sanctuary", chance_percent: 0.0005425 },
@@ -1060,6 +1104,7 @@ module.exports = {
   goldenpearl: {
     name: "Golden Pearl",
     description: "An incredibly rare pearl variant with a distinct gold color.",
+    bestLocation: "Sunset Beach",
     locations: [
       { location: "Sunset Beach", chance_percent: 0.02266 },
       { location: "Seashell Isle", chance_percent: 0.02266 },
@@ -1077,6 +1122,7 @@ module.exports = {
   iridium: {
     name: "Iridium",
     description: "A rare celestial metal brought to the earth by the meteors.",
+    bestLocation: "Rubble Creek Deposits",
     locations: [
       { location: "Rubble Creek Deposits", chance_percent: 0.01564 },
       { location: "Rubble Creek Sands", chance_percent: 0.01406 },
@@ -1110,6 +1156,7 @@ module.exports = {
   lightshard: {
     name: "Lightshard",
     description: "A light-infused glass-like crystal.",
+    bestLocation: "Enchanted Ruins",
     locations: [
       { location: "The Void (if in loot pool)", chance_percent: 0.003623 },
       { location: "Haunted Creek", chance_percent: 0.0008645 },
@@ -1133,6 +1180,7 @@ module.exports = {
   mercury: {
     name: "Mercury",
     description: "A drop of toxic mercury, held together by an unknown force.",
+    bestLocation: "Meteor Falls",
     locations: [
       { location: "Meteor Falls", chance_percent: 0.001085 },
       { location: "Timelocked Sanctuary", chance_percent: 0.001084 },
@@ -1152,6 +1200,7 @@ module.exports = {
   meteoricgold: {
     name: "Meteoric Gold",
     description: "A nugget of gold from outer space.",
+    bestLocation: "Starfall River",
     locations: [
       { location: "Starfall River", chance_percent: 0.00001085 },
       { location: "Astral Caverns", chance_percent: 0.0000104 },
@@ -1167,6 +1216,7 @@ module.exports = {
   moonstone: {
     name: "Moonstone",
     description: "A piece of stone from the moon itself.",
+    bestLocation: "Sunset Beach",
     locations: [
       { location: "Sunset Beach", chance_percent: 0.005666 },
       { location: "Seashell Isle", chance_percent: 0.005666 },
@@ -1190,6 +1240,7 @@ module.exports = {
   opal: {
     name: "Opal",
     description: "An iridescent opal.",
+    bestLocation: "Starfall River",
     locations: [
       { location: "Starfall River", chance_percent: 0.05425 },
       { location: "Meteor Falls", chance_percent: 0.05425 },
@@ -1227,6 +1278,7 @@ module.exports = {
   osmium: {
     name: "Osmium",
     description: "A dense and highly toxic metal prized for its rarity.",
+    bestLocation: "Timelocked Sanctuary",
     locations: [
       { location: "Rotwood Swamp", chance_percent: 0.002712 },
       { location: "Fungal Marsh", chance_percent: 0.002712 },
@@ -1262,6 +1314,7 @@ module.exports = {
   pyronium: {
     name: "Pyronium",
     description: "A volcanic metal that constantly emits heat.",
+    bestLocation: "Infernal Heart",
     locations: [
       { location: "Infernal Heart", chance_percent: 0.00442 },
       { location: "Volcanic Springs", chance_percent: 0.003839 },
@@ -1281,6 +1334,7 @@ module.exports = {
   aetherite: {
     name: "Aetherite",
     description: "A purified variant of aurorite used in enchanting rituals.",
+    bestLocation: "Enchanted Ruins",
     locations: [
       { location: "Enchanted Ruins", chance_percent: 0.0002919 },
       { location: "Timelocked Sanctuary", chance_percent: 0.0002712 },
@@ -1326,6 +1380,7 @@ module.exports = {
   aquamarine: {
     name: "Aquamarine",
     description: "A pale blue-green crystal.",
+    bestLocation: "Starfall River",
     locations: [
       { location: "Starfall River", chance_percent: 0.0002712 },
       { location: "Astral Caverns", chance_percent: 0.0002599 },
@@ -1349,6 +1404,7 @@ module.exports = {
   bismuth: {
     name: "Bismuth",
     description: "A chunk of bismuth, known for being one of the densest non-radioactive metals.",
+    bestLocation: "Timelocked Sanctuary",
     locations: [
       { location: "Timelocked Sanctuary", chance_percent: 0.0001627 },
       { location: "Rotwood Swamp", chance_percent: 0.0001627 },
@@ -1366,6 +1422,7 @@ module.exports = {
   catseye: {
     name: "Catseye",
     description: "A golden catseye. Commonly believed to hold a deadly curse within.",
+    bestLocation: "Windswept Beach",
     locations: [
       { location: "Windswept Beach", chance_percent: 0.0003013 },
       { location: "The Magma Furnace", chance_percent: 0.0002845 },
@@ -1389,6 +1446,7 @@ module.exports = {
   cinnabar: {
     name: "Cinnabar",
     description: "A vermillion chunk of cinnabar. Commonly used for extracting mercury.",
+    bestLocation: "Infernal Heart",
     locations: [
       { location: "Infernal Heart", chance_percent: 0.0002211 },
       { location: "The Magma Furnace", chance_percent: 0.0001138 },
@@ -1408,6 +1466,7 @@ module.exports = {
   depletedshard: {
     name: "Depleted Shard",
     description: "The burnt-out remains of a once-powerful celestial fragment.",
+    bestLocation: "Astral Caverns",
     locations: [
       { location: "Astral Caverns", chance_percent: 0.00001039 },
       { location: "Meteor Falls", chance_percent: 0.000005425 },
@@ -1425,6 +1484,7 @@ module.exports = {
   diamond: {
     name: "Diamond",
     description: "A rare diamond gem. Incredibly hard and reflective.",
+    bestLocation: "Sunset Beach",
     locations: [
       { location: "Sunset Beach", chance_percent: 0.0005666 },
       { location: "Fortune River Delta", chance_percent: 0.0005471 },
@@ -1464,6 +1524,7 @@ module.exports = {
   dragonbone: {
     name: "Dragon Bone",
     description: "The bone of an ancient dragon.",
+    bestLocation: "Infernal Heart",
     locations: [
       { location: "Infernal Heart", chance_percent: 0.001473 },
       { location: "Windswept Beach", chance_percent: 0.000904 },
@@ -1481,6 +1542,7 @@ module.exports = {
   fireopal: {
     name: "Fire Opal",
     description: "A type of opal with a brilliant orange shine.",
+    bestLocation: "Volcanic Springs",
     locations: [
       { location: "Volcanic Springs", chance_percent: 0.0004388 },
       { location: "Infernal Heart", chance_percent: 0.0002947 },
@@ -1502,6 +1564,7 @@ module.exports = {
   fireflystone: {
     name: "Firefly Stone",
     description: "A glowing stone left behind by dying fireflies.",
+    bestLocation: "Enchanted Ruins",
     locations: [
       { location: "Overgrown Grotto (inside Firefly Zones)", chance_percent: 0.00002334 },
       { location: "Deeproot Spring (inside Firefly Zones)", chance_percent: 0.00002259 },
@@ -1525,6 +1588,7 @@ module.exports = {
   gloomcap: {
     name: "Gloomcap",
     description: "An extraterrestrial lifeform that warps nearby matter.",
+    bestLocation: "Fungal Marsh",
     locations: [
       { location: "Fungal Marsh", chance_percent: 0.0002712 },
       { location: "The Void (if in loot pool)", chance_percent: 0.0001811 },
@@ -1538,6 +1602,7 @@ module.exports = {
   lostsoul: {
     name: "Lost Soul",
     description: "A lost soul doomed to wander aimlessly for eternity.",
+    bestLocation: "N/A",
     locations: [
       { location: "Haunted Creek", chance_percent: 0.0004322 },
       { location: "The Void (if in loot pool)", chance_percent: 0.0001811 },
@@ -1551,6 +1616,7 @@ module.exports = {
   luminum: {
     name: "Luminum",
     description: "A strange metal that constantly emits a bright yellow light.",
+    bestLocation: "Sunset Beach",
     locations: [
       { location: "Seashell Isle", chance_percent: 0.0017 },
       { location: "Sunset Beach", chance_percent: 0.0008499 },
@@ -1576,6 +1642,7 @@ module.exports = {
   nautilusshell: {
     name: "Nautilus Shell",
     description: "The shell of a nautilus.",
+    bestLocation: "N/A",
     locations: [
       { location: "Seashell Isle", chance_percent: 0.0005666 },
       { location: "The Void (if in loot pool)", chance_percent: 0.0001811 },
@@ -1589,6 +1656,7 @@ module.exports = {
   palladium: {
     name: "Palladium",
     description: "A lustrous piece of palladium known for its unique properties.",
+    bestLocation: "Frostbite River",
     locations: [
       { location: "Frostbite River", chance_percent: 0.0002575 },
       { location: "Azuralite Oasis", chance_percent: 0.00009245 },
@@ -1614,6 +1682,7 @@ module.exports = {
   peppermintprism: {
     name: "Peppermint Prism",
     description: "A colorful crystal only found at the North Pole.",
+    bestLocation: "N/A",
     locations: [
       { location: "The Void (if in loot pool)", chance_percent: 0.0001811 },
       { location: "North Pole", chance_percent: 0.0001117 },
@@ -1627,6 +1696,7 @@ module.exports = {
   radium: {
     name: "Radium",
     description: "A radioactive and dangerous metal.",
+    bestLocation: "Volcanic Springs",
     locations: [
       { location: "Volcanic Springs", chance_percent: 0.0002194 },
       { location: "Meteor Falls", chance_percent: 0.00005425 },
@@ -1642,6 +1712,7 @@ module.exports = {
   rosegold: {
     name: "Rose Gold",
     description: "An extremely rare form of a gold with a distinct rose color.",
+    bestLocation: "Enchanted Ruins",
     locations: [
       { location: "Windswept Beach", chance_percent: 0.001506 },
       { location: "Enchanted Ruins", chance_percent: 0.001459 },
@@ -1671,6 +1742,7 @@ module.exports = {
   specterite: {
     name: "Specterite",
     description: "An extremely light and ghostly crystal.",
+    bestLocation: "Rotwood Swamp",
     locations: [
       { location: "Rotwood Swamp", chance_percent: 0.0002712 },
       { location: "Haunted Creek", chance_percent: 0.0002161 },
@@ -1694,6 +1766,7 @@ module.exports = {
   starshine: {
     name: "Starshine",
     description: "An astral fragment rarely found in the core of large meteors.",
+    bestLocation: "Azuralite Oasis",
     locations: [
       { location: "Azuralite Oasis", chance_percent: 0.00009245 },
       { location: "Crystal Cavern River", chance_percent: 0.00008462 },
@@ -1719,6 +1792,7 @@ module.exports = {
   tourmaline: {
     name: "Tourmaline",
     description: "A yellow tourmaline crystal.",
+    bestLocation: "Frozen Peak",
     locations: [
       { location: "Frostbite Waterfall", chance_percent: 0.0001609 },
       { location: "Frostbite River", chance_percent: 0.0001602 },
@@ -1736,6 +1810,7 @@ module.exports = {
   uranium: {
     name: "Uranium",
     description: "A radioactive chunk of uranium.",
+    bestLocation: "Infernal Heart",
     locations: [
       { location: "Infernal Heart", chance_percent: 0.000442 },
       { location: "Fortune River Delta", chance_percent: 0.0002735 },
@@ -1755,6 +1830,7 @@ module.exports = {
   volcanickey: {
     name: "Volcanic Key",
     description: "A mysterious key. Could sell for a lot, but maybe it has some other use?",
+    bestLocation: "Infernal Heart",
     locations: [
       { location: "Infernal Heart", chance_percent: 0.001473 },
       { location: "The Magma Furnace", chance_percent: 0.0008536 },
@@ -1770,6 +1846,7 @@ module.exports = {
   aetherium: {
     name: "Aetherium",
     description: "An unnatural amalgamation of Aetherite and Iridium. Its unique properties make it a necessary ingredient in high-tier enchanting rituals.",
+    bestLocation: "Starfall River",
     locations: [
       { location: "Meteor Falls", chance_percent: 5.425e-7 },
       { location: "Starfall River", chance_percent: 5.425e-7 },
@@ -1787,6 +1864,7 @@ module.exports = {
   chrysoberyl: {
     name: "Chrysoberyl",
     description: "...",
+    bestLocation: "Rotwood Swamp",
     locations: [
       { location: "Rotwood Swamp", chance_percent: 0.000002169 },
       { location: "Deeproot Spring", chance_percent: 0.000001807 },
@@ -1804,6 +1882,7 @@ module.exports = {
   flarebloom: {
     name: "Flarebloom",
     description: "A mythical flower that only grows in the extreme heat of the center of a volcano.",
+    bestLocation: "Infernal Heart",
     locations: [
       { location: "Infernal Heart", chance_percent: 0.00001105 },
       { location: "The Magma Furnace", chance_percent: 0.000008536 },
@@ -1823,6 +1902,7 @@ module.exports = {
   frostshard: {
     name: "Frostshard",
     description: "A jagged crystal formed in the mountains that constantly freezes the area around it.",
+    bestLocation: "Frozen Peak",
     locations: [
       { location: "North Pole", chance_percent: 0.000002234 },
       { location: "Frozen Peak", chance_percent: 0.000001609 },
@@ -1840,6 +1920,7 @@ module.exports = {
   inferlume: {
     name: "Inferlume",
     description: "A luminescent crystal with flame-like properties.",
+    bestLocation: "Infernal Heart",
     locations: [
       { location: "Infernal Heart", chance_percent: 0.00001105 },
       { location: "Windswept Beach", chance_percent: 0.00000904 },
@@ -1867,6 +1948,7 @@ module.exports = {
   mythril: {
     name: "Mythril",
     description: "A nugget of the mythical metal mythril.",
+    bestLocation: "Fungal Marsh",
     locations: [
       { location: "Fungal Marsh", chance_percent: 0.000003797 },
       { location: "Rotwood Swamp", chance_percent: 0.000003797 },
@@ -1890,6 +1972,7 @@ module.exports = {
   painite: {
     name: "Painite",
     description: "An extremely rare gemstone with a vibrant red color.",
+    bestLocation: "Sunset Beach",
     locations: [
       { location: "Sunset Beach", chance_percent: 0.00002267 },
       { location: "Seashell Isle", chance_percent: 0.00002266 },
@@ -1917,6 +2000,7 @@ module.exports = {
   pinkdiamond: {
     name: "Pink Diamond",
     description: "A variant of diamond with a unique pink tint.",
+    bestLocation: "Fortune River Delta",
     locations: [
       { location: "Fortune River Delta", chance_percent: 0.00004377 },
       { location: "Fortune River", chance_percent: 0.0000287 },
@@ -1940,6 +2024,7 @@ module.exports = {
   prismara: {
     name: "Prismara",
     description: "Formed by the world itself.",
+    bestLocation: "Overgrown Grotto",
     locations: [
       { location: "Overgrown Grotto", chance_percent: 0.0000028 },
       { location: "Azuralite Oasis", chance_percent: 0.000002773 },
@@ -1957,6 +2042,7 @@ module.exports = {
   radiantgold: {
     name: "Radiant Gold",
     description: "A nugget of gold exposed to powerful energy for millions of years.",
+    bestLocation: "Abyssal Depths",
     locations: [
       { location: "Abyssal Depths", chance_percent: 0.000001454 },
       { location: "Haunted Creek", chance_percent: 0.000001296 },
@@ -1978,6 +2064,7 @@ module.exports = {
   redberyl: {
     name: "Red Beryl",
     description: "An extremely rare form of beryl. Distinguished by its hexagonal crystals and distinctive red color.",
+    bestLocation: "Astral Caverns",
     locations: [
       { location: "Astral Caverns", chance_percent: 9.359e-7 },
       { location: "Seashell Isle", chance_percent: 8.499e-7 },
@@ -1997,6 +2084,7 @@ module.exports = {
   stargarnet: {
     name: "Star Garnet",
     description: "A garnet with a star reflected within.",
+    bestLocation: "Timelocked Sanctuary",
     locations: [
       { location: "Timelocked Sanctuary", chance_percent: 0.000001356 },
       { location: "Fungal Marsh", chance_percent: 0.000001356 },
@@ -2018,6 +2106,7 @@ module.exports = {
   sunstone: {
     name: "Sunstone",
     description: "A stone that pulses with solar energy.",
+    bestLocation: "Starfall River",
     locations: [
       { location: "Meteor Falls", chance_percent: 5.425e-7 },
       { location: "Starfall River", chance_percent: 5.425e-7 },
@@ -2035,6 +2124,7 @@ module.exports = {
   vortessence: {
     name: "Vortessence",
     description: "A celestial stone with distinct rings. Believed to be formed by the collapse of a star.",
+    bestLocation: "Windswept Beach",
     locations: [
       { location: "Windswept Beach", chance_percent: 0.00000904 },
       { location: "Frostbite River", chance_percent: 0.000008368 },
@@ -2066,6 +2156,7 @@ module.exports = {
   volcaniccore: {
     name: "Volcanic Core",
     description: "The unstable core of a volcano. Contains the potential to cause immense destruction.",
+    bestLocation: "Infernal Heart",
     locations: [
       { location: "Infernal Heart", chance_percent: 0.000004421 },
       { location: "The Magma Furnace", chance_percent: 0.000002845 },
@@ -2081,6 +2172,7 @@ module.exports = {
   adamantine: {
     name: "Adamantine",
     description: "The indestructible metal of many fables told and untold, Adamantine.",
+    bestLocation: "Enchanted Ruins",
     locations: [
       { location: "Enchanted Ruins", chance_percent: 1.167e-7 },
     ],
@@ -2092,6 +2184,7 @@ module.exports = {
   astralspore: {
     name: "Astral Spore",
     description: "An extraterrestial lifeform that warps nearby matter.",
+    bestLocation: "Fungal Marsh",
     locations: [
       { location: "Fungal Marsh", chance_percent: 6.509e-8 },
       { location: "Timelocked Sanctuary", chance_percent: 4.34e-8 },
@@ -2105,6 +2198,7 @@ module.exports = {
   bloodstone: {
     name: "Bloodstone",
     description: "A tainted stone believed to siphon the life of those who hold it.",
+    bestLocation: "Rotwood Swamp",
     locations: [
       { location: "Rotwood Swamp", chance_percent: 8.679e-8 },
       { location: "Timelocked Sanctuary", chance_percent: 5.425e-8 },
@@ -2118,6 +2212,7 @@ module.exports = {
   celestium: {
     name: "Celestium",
     description: "A celestial metal formed in the center of galaxies.",
+    bestLocation: "Astral Caverns",
     locations: [
       { location: "Astral Caverns", chance_percent: 5.1997e-9 },
     ],
@@ -2129,6 +2224,7 @@ module.exports = {
   cryonicartifact: {
     name: "Cryonic Artifact",
     description: "A mysterious artifact. What is its purpose?",
+    bestLocation: "Frozen Peak",
     locations: [
       { location: "Frozen Peak", chance_percent: 6.437e-7 },
     ],
@@ -2140,6 +2236,7 @@ module.exports = {
   dinosaurskull: {
     name: "Dinosaur Skull",
     description: "A skull of a dinosaur. What's this doing here!",
+    bestLocation: "Infernal Heart",
     locations: [
     ],
     data: `**Locations & Chances**
@@ -2150,6 +2247,7 @@ module.exports = {
   eternium: {
     name: "Eternium",
     description: "An everlasting crystal that preserves its surroundings from the passage of time.",
+    bestLocation: "Timelocked Sanctuary",
     locations: [
       { location: "Timelocked Sanctuary", chance_percent: 2.712e-8 },
     ],
@@ -2161,6 +2259,7 @@ module.exports = {
   forgottentotem: {
     name: "Forgotten Totem",
     description: "An mysterious, weathered totem. Its purpose remains unknown.",
+    bestLocation: "Seashell Isle",
     locations: [
       { location: "Seashell Isle", chance_percent: 2.833e-7 },
     ],
@@ -2172,6 +2271,7 @@ module.exports = {
   northstar: {
     name: "North Star",
     description: "-",
+    bestLocation: "North Pole",
     locations: [
       { location: "North Pole", chance_percent: 2.792e-7 },
     ],
@@ -2183,6 +2283,7 @@ module.exports = {
   pumpkinsoul: {
     name: "Pumpkin Soul",
     description: "The soul of a cruel tyrant.",
+    bestLocation: "Haunted Creek",
     locations: [
       { location: "Haunted Creek", chance_percent: 4.322e-7 },
     ],
@@ -2194,6 +2295,7 @@ module.exports = {
   singularium: {
     name: "Singularium",
     description: "An exotic substance that emits a gravitational pull.",
+    bestLocation: "Starfall River",
     locations: [
       { location: "Starfall River", chance_percent: 1.085e-8 },
     ],
@@ -2205,6 +2307,7 @@ module.exports = {
   starpiercer: {
     name: "Starpiercer",
     description: "A mysterious alien artifact.",
+    bestLocation: "Meteor Falls",
     locations: [
       { location: "Meteor Falls", chance_percent: 2.17e-8 },
     ],
@@ -2216,6 +2319,7 @@ module.exports = {
   umbrite: {
     name: "Umbrite",
     description: "A crystal formed in complete darkness.",
+    bestLocation: "Abyssal Depths",
     locations: [
       { location: "Abyssal Depths", chance_percent: 1.454e-7 },
     ],
@@ -2227,6 +2331,7 @@ module.exports = {
   vineheart: {
     name: "Vineheart",
     description: "The heart of the caverns, believed to be formed by the spirits themselves.",
+    bestLocation: "Deeproot Spring",
     locations: [
       { location: "Deeproot Spring", chance_percent: 1.807e-7 },
     ],
@@ -2238,8 +2343,9 @@ module.exports = {
   voidstone: {
     name: "Voidstone",
     description: "A crystal formed from the void.",
+    bestLocation: "The Void",
     locations: [
-      { location: "The Void", chance_percent: 0.0000007245 }
+      { location: "The Void", chance_percent: 7.245e-7 },
     ],
     data: `**Locations & Chances**
 

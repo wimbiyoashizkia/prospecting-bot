@@ -138,9 +138,16 @@ function createSuggestionButtons(suggestions) {
 function buildMineralEmbed(mineral, displayName) {
     const color = mineralColors[mineral.name?.toLowerCase()] || "#5865F2";
 
+    let description = mineral.data;
+
+    if (mineral.bestLocation && mineral.bestLocation !== "N/A") {
+        const bestLine = `**Best Location:** ${mineral.bestLocation}`;
+        description = `${bestLine}\n\n${description}`;
+    }
+
     const embed = new EmbedBuilder()
         .setTitle(mineral.name || displayName.charAt(0).toUpperCase() + displayName.slice(1))
-        .setDescription(mineral.data)
+        .setDescription(description)
         .setColor(color);
 
     if (mineral.description) {

@@ -145,8 +145,10 @@ function buildMineralEmbed(mineral, displayName) {
         description = `${bestLine}\n\n${description}`;
     }
 
+    const title = `**${mineral.name || displayName.charAt(0).toUpperCase() + displayName.slice(1)}**`;
+
     const embed = new EmbedBuilder()
-        .setTitle(mineral.name || displayName.charAt(0).toUpperCase() + displayName.slice(1))
+        .setTitle(title)
         .setDescription(description)
         .setColor(color);
 

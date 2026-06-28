@@ -296,7 +296,7 @@ module.exports = {
       shovelEnchant: "Excavating",
       museum: "Capacity Museum"
     },
-    relics: "Rainstone"
+    relics: ["Rainstone"]
   },
 
   meteoriciron: {

@@ -116,6 +116,9 @@ const mineralColors = {
     voidstone: "#7A7A7A"
 };
 
+const cooldowns = new Map();
+const COOLDOWN_TIME = 2000;
+
 function createSuggestionButtons(suggestions) {
     const row = new ActionRowBuilder();
     const styles = [ButtonStyle.Success, ButtonStyle.Primary, ButtonStyle.Secondary];
@@ -343,6 +346,16 @@ async function processCommand(message) {
             .slice(prefix.length)
             .trim()
             .toLowerCase();
+
+        const now = Date.now();
+        if (cooldowns.has(message.author.id)) {
+            const expiration = cooldowns.get(message.author.id);
+            if (now < expiration) {
+                const remaining = Math.ceil((expiration - now) / 1000);
+                return message.reply(`⏳ Please wait ${remaining} second(s) before using commands again.`);
+            }
+        }
+        cooldowns.set(message.author.id, now + COOLDOWN_TIME);
 
         if (commands[input]) {
             const cmd = commands[input];

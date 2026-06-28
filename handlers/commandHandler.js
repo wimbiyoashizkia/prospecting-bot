@@ -153,25 +153,29 @@ function buildMineralEmbed(mineral, displayName) {
 function buildDredgeEmbed(mineral, guide) {
     const color = mineralColors[mineral.name?.toLowerCase()] || "#00FF00";
 
-    const lines = mineral.data.split("\n");
-    const locationLines = [];
-    let foundLocations = false;
+    let locationLines = [];
 
-    for (const line of lines) {
-        if (line.includes("**Locations & Chances**")) {
-            foundLocations = true;
-            continue;
-        }
-        if (foundLocations && line.trim() && line.includes("-")) {
-            const trimmed = line.trim();
-            const lowerTrimmed = trimmed.toLowerCase();
-            const shouldSkip = skipLocations.some(skip => lowerTrimmed.includes(skip));
-            if (!shouldSkip) {
-                locationLines.push(trimmed);
-                if (locationLines.length === 5) break;
-            }
-        }
+    let allLocs = mineral.locations ? [...mineral.locations] : [];
+
+    allLocs = allLocs.filter(loc => loc && loc.location && loc.location.trim() !== '');
+
+    allLocs = allLocs.filter(loc => {
+        const lowerLoc = loc.location.toLowerCase();
+        return !skipLocations.some(skip => lowerLoc.includes(skip));
+    });
+
+    allLocs.sort((a, b) => b.chance_percent - a.chance_percent);
+
+    const topLocs = allLocs.slice(0, 5);
+
+    for (const loc of topLocs) {
+        const chance = loc.chance_percent;
+        const oneIn = chance > 0 ? Math.round(100 / chance) : 0;
+        let line = `${loc.location} - (~1 in ${oneIn})`;
+        locationLines.push(`- ${line}`);
     }
+
+    locationLines = locationLines.filter(line => line && line.trim() !== '');
 
     const embed = new EmbedBuilder()
         .setTitle(`${guide.name} Dredge Guide`)
@@ -180,7 +184,7 @@ function buildDredgeEmbed(mineral, guide) {
     embed.addFields({ name: "Luck Setting", value: guide.luck, inline: false });
     embed.addFields({
         name: "Recommended Locations",
-        value: locationLines.length > 0 ? locationLines.map(loc => `- ${loc}`).join("\n") : "No locations found",
+        value: locationLines.length > 0 ? locationLines.join("\n").trim() : "No locations found",
         inline: false
     });
     embed.addFields({

@@ -2,6 +2,12 @@ module.exports = {
   amethyst: {
     name: "Amethyst",
     description: "A purple amethyst gemstone.",
+    locations: [
+      { location: "Rubble Creek Sands", chance_percent: 7.0317 },
+      { location: "Azuralite Oasis", chance_percent: 4.6223 },
+      { location: "Crystal Cavern River", chance_percent: 4.2311 },
+      { location: "The Void (if in loot pool)", chance_percent: 18.1132 },
+    ],
     data: `**Locations & Chances**
 
     Rubble Creek Sands - 7.0317% (~1 in 14)
@@ -13,6 +19,13 @@ module.exports = {
   blueice: {
     name: "Blue Ice",
     description: "A chunk of blue ice compressed in a glacier for millions of years.",
+    locations: [
+      { location: "Frozen Peak", chance_percent: 51.4969 },
+      { location: "Frostbite River", chance_percent: 51.496 },
+      { location: "Frostbite Waterfall", chance_percent: 51.496 },
+      { location: "North Pole", chance_percent: 27.9264 },
+      { location: "The Void (if in loot pool)", chance_percent: 18.1132 },
+    ],
     data: `**Locations & Chances**
 
     Frozen Peak - 51.4969% (~1 in 2)
@@ -25,6 +38,21 @@ module.exports = {
   copper: {
     name: "Copper",
     description: "A malleable metal commonly used in electronics.",
+    locations: [
+      { location: "Azuralite Oasis", chance_percent: 36.9786 },
+      { location: "Crystal Cavern River", chance_percent: 33.8494 },
+      { location: "Rotwood Swamp", chance_percent: 27.1236 },
+      { location: "Fungal Marsh", chance_percent: 27.1237 },
+      { location: "Abyssal Depths", chance_percent: 24.2346 },
+      { location: "Overgrown Grotto", chance_percent: 23.3366 },
+      { location: "Deeproot Spring", chance_percent: 22.5883 },
+      { location: "Infernal Heart", chance_percent: 22.1046 },
+      { location: "Haunted Creek", chance_percent: 21.613 },
+      { location: "Volcanic Springs", chance_percent: 19.2 },
+      { location: "Volcanic Sands", chance_percent: 16.7306 },
+      { location: "The Magma Furnace", chance_percent: 17.0729 },
+      { location: "The Void (if in loot pool)", chance_percent: 18.1132 },
+    ],
     data: `**Locations & Chances**
 
     Azuralite Oasis - 36.9786% (~1 in 3)
@@ -45,6 +73,30 @@ module.exports = {
   gold: {
     name: "Gold",
     description: "A nugget of gold.",
+    locations: [
+      { location: "Rubble Creek Sands", chance_percent: 70.3167 },
+      { location: "Enchanted Ruins", chance_percent: 58.3704 },
+      { location: "Fortune River", chance_percent: 57.3939 },
+      { location: "Fortune River Delta", chance_percent: 54.716 },
+      { location: "Meteor Falls", chance_percent: 54.2536 },
+      { location: "Starfall River", chance_percent: 54.2536 },
+      { location: "Timelocked Sanctuary", chance_percent: 54.2526 },
+      { location: "Rotwood Swamp", chance_percent: 54.2473 },
+      { location: "Fungal Marsh", chance_percent: 54.2473 },
+      { location: "Astral Caverns", chance_percent: 52.1996 },
+      { location: "Rubble Creek Deposits", chance_percent: 52.1295 },
+      { location: "Abyssal Depths", chance_percent: 48.4694 },
+      { location: "Overgrown Grotto", chance_percent: 46.6816 },
+      { location: "Deeproot Spring", chance_percent: 45.184 },
+      { location: "Haunted Creek", chance_percent: 43.2261 },
+      { location: "Crystal Cavern River", chance_percent: 42.3118 },
+      { location: "Volcanic Springs", chance_percent: 38.39 },
+      { location: "Azuralite Oasis", chance_percent: 36.9787 },
+      { location: "Volcanic Sands", chance_percent: 34.1459 },
+      { location: "The Magma Furnace", chance_percent: 33.4613 },
+      { location: "North Pole", chance_percent: 27.9264 },
+      { location: "The Void (if in loot pool)", chance_percent: 18.1132 },
+    ],
     data: `**Locations & Chances**
 
     Rubble Creek Sands - 70.3167% (~1 in 2)
@@ -74,6 +126,14 @@ module.exports = {
   obsidian: {
     name: "Obsidian",
     description: "A jet-black shard of obsidian. Formed when lava cools rapidly.",
+    locations: [
+      { location: "Infernal Heart", chance_percent: 73.6822 },
+      { location: "The Magma Furnace", chance_percent: 73.6726 },
+      { location: "Volcanic Sands", chance_percent: 44.615 },
+      { location: "Volcanic Springs", chance_percent: 38.39 },
+      { location: "Windswept Beach", chance_percent: 24.1079 },
+      { location: "The Void (if in loot pool)", chance_percent: 18.1132 },
+    ],
     data: `**Locations & Chances**
 
     Infernal Heart - 73.6822% (~1 in 2)
@@ -87,6 +147,13 @@ module.exports = {
   pearl: {
     name: "Pearl",
     description: "A round pearl from an oyster.",
+    locations: [
+      { location: "Windswept Beach", chance_percent: 18.0809 },
+      { location: "Seashell Isle", chance_percent: 16.9983 },
+      { location: "Sunset Beach", chance_percent: 16.9994 },
+      { location: "Fortune River Delta", chance_percent: 10.9431 },
+      { location: "The Void (if in loot pool)", chance_percent: 18.1132 },
+    ],
     data: `**Locations & Chances**
 
     Windswept Beach - 18.0809% (~1 in 6)
@@ -99,6 +166,12 @@ module.exports = {
   platinum: {
     name: "Platinum",
     description: "A nugget of platinum.",
+    locations: [
+      { location: "Fortune River", chance_percent: 28.6969 },
+      { location: "Rubble Creek Deposits", chance_percent: 26.0648 },
+      { location: "Rubble Creek Sands", chance_percent: 18.7511 },
+      { location: "The Void (if in loot pool)", chance_percent: 18.1132 },
+    ],
     data: `**Locations & Chances**
 
     Fortune River - 28.6969% (~1 in 3)
@@ -110,6 +183,12 @@ module.exports = {
   pyrite: {
     name: "Pyrite",
     description: "Also known as Fool's Gold. Essentially worthless.",
+    locations: [
+      { location: "Starfall River", chance_percent: 54.2535 },
+      { location: "Meteor Falls", chance_percent: 54.2535 },
+      { location: "Rubble Creek Deposits", chance_percent: 15.6389 },
+      { location: "The Void (if in loot pool)", chance_percent: 18.1132 },
+    ],
     data: `**Locations & Chances**
 
     Starfall River - 54.2535% (~1 in 2)
@@ -121,6 +200,11 @@ module.exports = {
   seashell: {
     name: "Seashell",
     description: "The shell of a clam.",
+    locations: [
+      { location: "Seashell Isle", chance_percent: 45.3288 },
+      { location: "Windswept Beach", chance_percent: 45.3317 },
+      { location: "The Void (if in loot pool)", chance_percent: 18.1132 },
+    ],
     data: `**Locations & Chances**
 
     Sunset Beach – 48.2158% (~1 in 2)
@@ -132,6 +216,24 @@ module.exports = {
   silver: {
     name: "Silver",
     description: "A nugget of silver.",
+    locations: [
+      { location: "Frozen Peak", chance_percent: 32.1855 },
+      { location: "Frostbite River", chance_percent: 32.185 },
+      { location: "Frostbite Waterfall", chance_percent: 32.185 },
+      { location: "Enchanted Ruins", chance_percent: 29.1852 },
+      { location: "Seashell Isle", chance_percent: 28.3305 },
+      { location: "North Pole", chance_percent: 27.9264 },
+      { location: "Fortune River Delta", chance_percent: 27.3579 },
+      { location: "Timelocked Sanctuary", chance_percent: 27.1263 },
+      { location: "Astral Caverns", chance_percent: 25.9983 },
+      { location: "Abyssal Depths", chance_percent: 24.2346 },
+      { location: "Overgrown Grotto", chance_percent: 23.3366 },
+      { location: "Deeproot Spring", chance_percent: 22.5883 },
+      { location: "Haunted Creek", chance_percent: 21.613 },
+      { location: "Crystal Cavern River", chance_percent: 18.4893 },
+      { location: "Azuralite Oasis", chance_percent: 16.9247313 },
+      { location: "The Void (if in loot pool)", chance_percent: 18.1132 },
+    ],
     data: `**Locations & Chances**
 
     Frozen Peak - 32.1855% (~1 in 3)
@@ -156,6 +258,13 @@ module.exports = {
   coral: {
     name: "Coral",
     description: "A piece of coral from an endangered species.",
+    locations: [
+      { location: "Windswept Beach", chance_percent: 6.0269 },
+      { location: "Seashell Isle", chance_percent: 5.6661 },
+      { location: "Sunset Beach", chance_percent: 5.6664 },
+      { location: "Fortune River Delta", chance_percent: 3.2829 },
+      { location: "The Void (if in loot pool)", chance_percent: 1.8113 },
+    ],
     data: `**Locations & Chances**
 
     Windswept Beach - 6.0269% (~1 in 17)
@@ -168,6 +277,15 @@ module.exports = {
   electrum: {
     name: "Electrum",
     description: "An alloy of silver and gold. Also known as 'green gold'.",
+    locations: [
+      { location: "Starfall River", chance_percent: 2.7126 },
+      { location: "Meteor Falls", chance_percent: 2.7126 },
+      { location: "Timelocked Sanctuary", chance_percent: 2.7126 },
+      { location: "Fungal Marsh", chance_percent: 2.7124 },
+      { location: "Rotwood Swamp", chance_percent: 2.7123 },
+      { location: "Astral Caverns", chance_percent: 2.5998 },
+      { location: "The Void (if in loot pool)", chance_percent: 1.8113 },
+    ],
     data: `**Locations & Chances**
 
     Starfall River - 2.7126% (~1 in 37)
@@ -182,6 +300,12 @@ module.exports = {
   glowberry: {
     name: "Glowberry",
     description: "A luminescent berry.",
+    locations: [
+      { location: "Enchanted Ruins", chance_percent: 8.7556 },
+      { location: "Overgrown Grotto", chance_percent: 1.4002 },
+      { location: "Deeproot Spring", chance_percent: 1.3553 },
+      { location: "The Void (if in loot pool)", chance_percent: 1.8113 },
+    ],
     data: `**Locations & Chances**
 
     Enchanted Ruins - 8.7556% (~1 in 11)
@@ -193,6 +317,20 @@ module.exports = {
   malachite: {
     name: "Malachite",
     description: "A vibrant green crystal, given its color by the copper within it.",
+    locations: [
+      { location: "Windswept Beach", chance_percent: 1.2053 },
+      { location: "Rotwood Swamp", chance_percent: 0.5424 },
+      { location: "Fungal Marsh", chance_percent: 0.5425 },
+      { location: "Timelocked Sanctuary", chance_percent: 0.5425 },
+      { location: "Enchanted Ruins", chance_percent: 0.1167 },
+      { location: "Abyssal Depths", chance_percent: 0.09693 },
+      { location: "Overgrown Grotto", chance_percent: 0.09334 },
+      { location: "Azuralite Oasis", chance_percent: 0.09244 },
+      { location: "Deeproot Spring", chance_percent: 0.09049 },
+      { location: "Haunted Creek", chance_percent: 0.08645 },
+      { location: "Crystal Cavern River", chance_percent: 0.08462 },
+      { location: "The Void (if in loot pool)", chance_percent: 1.8113 },
+    ],
     data: `**Locations & Chances**
 
     Windswept Beach - 1.2053% (~1 in 83)
@@ -212,6 +350,18 @@ module.exports = {
   neodymium: {
     name: "Neodymium",
     description: "A key ingredient in high-strength magnets.",
+    locations: [
+      { location: "Seashell Isle", chance_percent: 2.2664 },
+      { location: "Sunset Beach", chance_percent: 2.2665 },
+      { location: "Enchanted Ruins", chance_percent: 1.7511 },
+      { location: "Fortune River Delta", chance_percent: 1.6414 },
+      { location: "Abyssal Depths", chance_percent: 1.454 },
+      { location: "Overgrown Grotto", chance_percent: 1.4001 },
+      { location: "Azuralite Oasis", chance_percent: 1.3867 },
+      { location: "Deeproot Spring", chance_percent: 1.3553 },
+      { location: "Crystal Cavern River", chance_percent: 1.2693 },
+      { location: "The Void (if in loot pool)", chance_percent: 1.8113 },
+    ],
     data: `**Locations & Chances**
 
     Seashell Isle - 2.2664% (~1 in 44)
@@ -229,6 +379,12 @@ module.exports = {
   nickel: {
     name: "Nickel",
     description: "A tough nugget of nickel.",
+    locations: [
+      { location: "Starfall River", chance_percent: 10.8507 },
+      { location: "Meteor Falls", chance_percent: 10.8507 },
+      { location: "Astral Caverns", chance_percent: 10.3993 },
+      { location: "The Void (if in loot pool)", chance_percent: 1.8113 },
+    ],
     data: `**Locations & Chances**
 
     Starfall River - 10.8507% (~1 in 9)
@@ -240,6 +396,10 @@ module.exports = {
   rockcandy: {
     name: "Rock Candy",
     description: "A chunk of rock candy. Tasty!",
+    locations: [
+      { location: "Haunted Creek", chance_percent: 1.2967 },
+      { location: "The Void (if in loot pool)", chance_percent: 1.8113 },
+    ],
     data: `**Locations & Chances**
 
     Haunted Creek - 1.2967% (~1 in 77)
@@ -249,6 +409,18 @@ module.exports = {
   sapphire: {
     name: "Sapphire",
     description: "A blue sapphire.",
+    locations: [
+      { location: "Starfall River", chance_percent: 4.3402 },
+      { location: "Meteor Falls", chance_percent: 4.3402 },
+      { location: "Astral Caverns", chance_percent: 4.1597 },
+      { location: "North Pole", chance_percent: 3.3512 },
+      { location: "Frozen Peak", chance_percent: 1.9311 },
+      { location: "Frostbite River", chance_percent: 1.9311 },
+      { location: "Frostbite Waterfall", chance_percent: 1.9311 },
+      { location: "Rubble Creek Deposits", chance_percent: 0.5213 },
+      { location: "Fortune River", chance_percent: 0.5739 },
+      { location: "The Void (if in loot pool)", chance_percent: 1.8113 },
+    ],
     data: `**Locations & Chances**
 
     Starfall River - 4.3402% (~1 in 23)
@@ -266,6 +438,22 @@ module.exports = {
   smokyquartz: {
     name: "Smoky Quartz",
     description: "A type of quartz with a unique gray color.",
+    locations: [
+      { location: "Timelocked Sanctuary", chance_percent: 4.3402 },
+      { location: "Rotwood Swamp", chance_percent: 4.3397 },
+      { location: "Fungal Marsh", chance_percent: 4.3398 },
+      { location: "Haunted Creek", chance_percent: 3.46 },
+      { location: "Enchanted Ruins", chance_percent: 1.1674 },
+      { location: "Seashell Isle", chance_percent: 1.1332 },
+      { location: "Sunset Beach", chance_percent: 1.1332 },
+      { location: "Fortune River Delta", chance_percent: 1.0943 },
+      { location: "Abyssal Depths", chance_percent: 0.9693 },
+      { location: "Azuralite Oasis", chance_percent: 0.9244 },
+      { location: "Overgrown Grotto", chance_percent: 0.9334 },
+      { location: "Deeproot Spring", chance_percent: 0.9035 },
+      { location: "Crystal Cavern River", chance_percent: 0.8462 },
+      { location: "The Void (if in loot pool)", chance_percent: 1.8113 },
+    ],
     data: `**Locations & Chances**
 
     Timelocked Sanctuary - 4.3402% (~1 in 23)
@@ -287,6 +475,19 @@ module.exports = {
   titanium: {
     name: "Titanium",
     description: "A piece of pure titanium.",
+    locations: [
+      { location: "Frozen Peak", chance_percent: 12.8742 },
+      { location: "Frostbite River", chance_percent: 12.874 },
+      { location: "Frostbite Waterfall", chance_percent: 12.874 },
+      { location: "Fortune River", chance_percent: 11.4787 },
+      { location: "North Pole", chance_percent: 11.1706 },
+      { location: "Fungal Marsh", chance_percent: 10.8495 },
+      { location: "Rotwood Swamp", chance_percent: 10.8494 },
+      { location: "Haunted Creek", chance_percent: 8.6452 },
+      { location: "Rubble Creek Deposits", chance_percent: 4.1704 },
+      { location: "Rubble Creek Sands", chance_percent: 2.3439 },
+      { location: "The Void (if in loot pool)", chance_percent: 1.8113 },
+    ],
     data: `**Locations & Chances**
 
     Frozen Peak - 12.8742% (~1 in 8)
@@ -305,6 +506,19 @@ module.exports = {
   topaz: {
     name: "Topaz",
     description: "A topaz gemstone. A symbol of strength and honor.",
+    locations: [
+      { location: "Timelocked Sanctuary", chance_percent: 10.8505 },
+      { location: "Infernal Heart", chance_percent: 2.2104 },
+      { location: "Volcanic Springs", chance_percent: 2.194 },
+      { location: "Windswept Beach", chance_percent: 1.808 },
+      { location: "The Magma Furnace", chance_percent: 1.7072 },
+      { location: "Volcanic Sands", chance_percent: 1.673 },
+      { location: "Fortune River", chance_percent: 1.4348 },
+      { location: "Rubble Creek Sands", chance_percent: 1.1719 },
+      { location: "Rubble Creek Deposits", chance_percent: 1.0426 },
+      { location: "Fortune River Delta", chance_percent: 0.5471 },
+      { location: "The Void (if in loot pool)", chance_percent: 1.8113 },
+    ],
     data: `**Locations & Chances**
 
     Timelocked Sanctuary - 10.8505% (~1 in 9)
@@ -323,6 +537,13 @@ module.exports = {
   zircon: {
     name: "Zircon",
     description: "A dark orange gemstone that contains zirconium.",
+    locations: [
+      { location: "Infernal Heart", chance_percent: 1.4736 },
+      { location: "Volcanic Springs", chance_percent: 1.371 },
+      { location: "The Magma Furnace", chance_percent: 1.1381 },
+      { location: "Volcanic Sands", chance_percent: 1.1153 },
+      { location: "The Void (if in loot pool)", chance_percent: 1.8113 },
+    ],
     data: `**Locations & Chances**
 
     Infernal Heart - 1.4736% (~1 in 68)
@@ -335,6 +556,12 @@ module.exports = {
   amber: {
     name: "Amber",
     description: "A piece of fossilized amber.",
+    locations: [
+      { location: "Enchanted Ruins", chance_percent: 0.05837 },
+      { location: "Abyssal Depths", chance_percent: 0.04846 },
+      { location: "Deeproot Spring", chance_percent: 0.04516 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.09057 },
+    ],
     data: `**Locations & Chances**
 
     Enchanted Ruins - 0.05837% (~1 in 1,713)
@@ -346,6 +573,15 @@ module.exports = {
   azuralite: {
     name: "Azuralite",
     description: "A mysterious azure crystal with strange growth properties and unknown origin.",
+    locations: [
+      { location: "Enchanted Ruins", chance_percent: 0.5837 },
+      { location: "Abyssal Depths", chance_percent: 0.4846 },
+      { location: "Overgrown Grotto", chance_percent: 0.4667 },
+      { location: "Azuralite Oasis", chance_percent: 0.4622 },
+      { location: "Deeproot Spring", chance_percent: 0.4518 },
+      { location: "Crystal Cavern River", chance_percent: 0.4231 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.09057 },
+    ],
     data: `**Locations & Chances**
 
     Enchanted Ruins - 0.5837% (~1 in 171)
@@ -360,6 +596,10 @@ module.exports = {
   candycane: {
     name: "Candy Cane",
     description: "A tasty candy cane.",
+    locations: [
+      { location: "The Void (if in loot pool)", chance_percent: 0.09057 },
+      { location: "North Pole", chance_percent: 0.05586 },
+    ],
     data: `**Locations & Chances**
 
     The Void (if in loot pool) - 0.09057% (~1 in 1,104)
@@ -369,6 +609,12 @@ module.exports = {
   diopside: {
     name: "Diopside",
     description: "A dull green gem.",
+    locations: [
+      { location: "Timelocked Sanctuary", chance_percent: 0.05425 },
+      { location: "Rotwood Swamp", chance_percent: 0.05425 },
+      { location: "Fungal Marsh", chance_percent: 0.05425 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.09057 },
+    ],
     data: `**Locations & Chances**
 
     Timelocked Sanctuary - 0.05425% (~1 in 1,843)
@@ -380,6 +626,13 @@ module.exports = {
   glacialquartz: {
     name: "Glacial Quartz",
     description: "An icicle-shaped variant of quartz that forms in extreme cold.",
+    locations: [
+      { location: "North Pole", chance_percent: 0.2234 },
+      { location: "Frozen Peak", chance_percent: 0.1287 },
+      { location: "Frostbite River", chance_percent: 0.1287 },
+      { location: "Frostbite Waterfall", chance_percent: 0.1287 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.09057 },
+    ],
     data: `**Locations & Chances**
 
     North Pole - 0.2234% (~1 in 448)
@@ -392,6 +645,10 @@ module.exports = {
   gloomberry: {
     name: "Gloomberry",
     description: "A poisonous berry that grows deep underground.",
+    locations: [
+      { location: "Abyssal Depths", chance_percent: 0.0004846 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.09057 },
+    ],
     data: `**Locations & Chances**
 
     Abyssal Depths - 0.0004846% (~1 in 206,315)
@@ -401,6 +658,18 @@ module.exports = {
   jade: {
     name: "Jade",
     description: "A piece of green jade.",
+    locations: [
+      { location: "North Pole", chance_percent: 1.3963 },
+      { location: "Frozen Peak", chance_percent: 1.2874 },
+      { location: "Frostbite River", chance_percent: 1.2874 },
+      { location: "Frostbite Waterfall", chance_percent: 1.2874 },
+      { location: "Fortune River", chance_percent: 0.2869 },
+      { location: "Fortune River Delta", chance_percent: 0.2188 },
+      { location: "Meteor Falls", chance_percent: 0.1085 },
+      { location: "Starfall River", chance_percent: 0.1085 },
+      { location: "Astral Caverns", chance_percent: 0.1049 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.09057 },
+    ],
     data: `**Locations & Chances**
 
     North Pole - 1.3963% (~1 in 72)
@@ -418,6 +687,19 @@ module.exports = {
   lapislazuli: {
     name: "Lapis Lazuli",
     description: "A vibrant and intense stone of lapis lazuli.",
+    locations: [
+      { location: "Starfall River", chance_percent: 0.5425 },
+      { location: "Meteor Falls", chance_percent: 0.5425 },
+      { location: "Astral Caverns", chance_percent: 0.5199 },
+      { location: "Rubble Creek Deposits", chance_percent: 0.1303 },
+      { location: "Fortune River", chance_percent: 0.1033 },
+      { location: "Rubble Creek Sands", chance_percent: 0.09376 },
+      { location: "Frozen Peak", chance_percent: 0.06437 },
+      { location: "Frostbite River", chance_percent: 0.06437 },
+      { location: "Frostbite Waterfall", chance_percent: 0.06437 },
+      { location: "Haunted Creek", chance_percent: 0.04323 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.09057 },
+    ],
     data: `**Locations & Chances**
 
     Starfall River - 0.5425% (~1 in 184)
@@ -436,6 +718,16 @@ module.exports = {
   meteoriciron: {
     name: "Meteoric Iron",
     description: "A piece of iron infused with energy from exposure to the meteors.",
+    locations: [
+      { location: "Astral Caverns", chance_percent: 4.1597 },
+      { location: "Volcanic Sands", chance_percent: 2.2307 },
+      { location: "Volcanic Springs", chance_percent: 0.2468 },
+      { location: "Windswept Beach", chance_percent: 0.241 },
+      { location: "Rubble Creek Deposits", chance_percent: 0.06256 },
+      { location: "Fortune River", chance_percent: 0.05739 },
+      { location: "Rubble Creek Sands", chance_percent: 0.03281 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.09057 },
+    ],
     data: `**Locations & Chances**
 
     Astral Caverns - 4.1597% (~1 in 24)
@@ -451,6 +743,22 @@ module.exports = {
   onyx: {
     name: "Onyx",
     description: "A jet black onyx gem.",
+    locations: [
+      { location: "Infernal Heart", chance_percent: 0.1473 },
+      { location: "Volcanic Springs", chance_percent: 0.1371 },
+      { location: "Windswept Beach", chance_percent: 0.1205 },
+      { location: "The Magma Furnace", chance_percent: 0.1138 },
+      { location: "Volcanic Sands", chance_percent: 0.1115 },
+      { location: "Timelocked Sanctuary", chance_percent: 0.1085 },
+      { location: "Rotwood Swamp", chance_percent: 0.1084 },
+      { location: "Fungal Marsh", chance_percent: 0.1085 },
+      { location: "Seashell Isle", chance_percent: 0.05666 },
+      { location: "Sunset Beach", chance_percent: 0.05666 },
+      { location: "Fortune River Delta", chance_percent: 0.05471 },
+      { location: "Azuralite Oasis", chance_percent: 0.04622 },
+      { location: "Crystal Cavern River", chance_percent: 0.04231 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.09057 },
+    ],
     data: `**Locations & Chances**
 
     Infernal Heart - 0.1473% (~1 in 679)
@@ -472,6 +780,14 @@ module.exports = {
   peridot: {
     name: "Peridot",
     description: "An olive-green gemstone that commonly appears in volcanic rock.",
+    locations: [
+      { location: "Infernal Heart", chance_percent: 0.07368 },
+      { location: "Windswept Beach", chance_percent: 0.06026 },
+      { location: "The Magma Furnace", chance_percent: 0.0569 },
+      { location: "Volcanic Sands", chance_percent: 0.05576 },
+      { location: "Volcanic Springs", chance_percent: 0.05485 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.09057 },
+    ],
     data: `**Locations & Chances**
 
     Infernal Heart - 0.07368% (~1 in 1,357)
@@ -485,6 +801,11 @@ module.exports = {
   pyrelith: {
     name: "Pyrelith",
     description: "An energetic crystal formed in the heart of a volcano.",
+    locations: [
+      { location: "Infernal Heart", chance_percent: 0.2947 },
+      { location: "The Magma Furnace", chance_percent: 0.2276 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.09057 },
+    ],
     data: `**Locations & Chances**
 
     Infernal Heart - 0.2947% (~1 in 339)
@@ -495,6 +816,12 @@ module.exports = {
   ruby: {
     name: "Ruby",
     description: "A bright red ruby gemstone.",
+    locations: [
+      { location: "Rubble Creek Sands", chance_percent: 0.2344 },
+      { location: "Fortune River", chance_percent: 0.2295 },
+      { location: "Rubble Creek Deposits", chance_percent: 0.2085 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.09057 },
+    ],
     data: `**Locations & Chances**
 
     Rubble Creek Sands - 0.2344% (~1 in 427)
@@ -506,6 +833,13 @@ module.exports = {
   silverclamshell: {
     name: "Silver Clamshell",
     description: "The shell of a rare silver clam.",
+    locations: [
+      { location: "Windswept Beach", chance_percent: 0.1808 },
+      { location: "Seashell Isle", chance_percent: 0.17 },
+      { location: "Sunset Beach", chance_percent: 0.1699 },
+      { location: "Fortune River Delta", chance_percent: 0.1094 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.09057 },
+    ],
     data: `**Locations & Chances**
 
     Windswept Beach - 0.1808% (~1 in 553)
@@ -518,6 +852,11 @@ module.exports = {
   ammonitefossil: {
     name: "Ammonite Fossil",
     description: "The remains of an ancient mollusk.",
+    locations: [
+      { location: "Windswept Beach", chance_percent: 0.006026 },
+      { location: "Seashell Isle", chance_percent: 0.005666 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.003623 },
+    ],
     data: `**Locations & Chances**
 
     Windswept Beach - 0.006026% (~1 in 16,592)
@@ -528,6 +867,13 @@ module.exports = {
   ashvein: {
     name: "Ashvein",
     description: "An obsidian-like crystal streaked with red.",
+    locations: [
+      { location: "Sunset Beach", chance_percent: 0.01133 },
+      { location: "Seashell Isle", chance_percent: 0.01133 },
+      { location: "Azuralite Oasis", chance_percent: 0.009244 },
+      { location: "Crystal Cavern River", chance_percent: 0.008462 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.003623 },
+    ],
     data: `**Locations & Chances**
 
     Sunset Beach - 0.01133% (~1 in 8,824)
@@ -540,6 +886,23 @@ module.exports = {
   aurorite: {
     name: "Aurorite",
     description: "A mysterious crystal filled with magical power. Perhaps I could use this for something...",
+    locations: [
+      { location: "Fortune River", chance_percent: 0.008609 },
+      { location: "Rubble Creek Deposits", chance_percent: 0.007819 },
+      { location: "Rubble Creek Sands", chance_percent: 0.005625 },
+      { location: "Fortune River Delta", chance_percent: 0.005471 },
+      { location: "Frozen Peak", chance_percent: 0.002575 },
+      { location: "Overgrown Grotto", chance_percent: 0.002334 },
+      { location: "Starfall River", chance_percent: 0.00217 },
+      { location: "Haunted Creek", chance_percent: 0.002161 },
+      { location: "Astral Caverns", chance_percent: 0.002079 },
+      { location: "Frostbite Waterfall", chance_percent: 0.001931 },
+      { location: "Enchanted Ruins", chance_percent: 0.001751 },
+      { location: "North Pole", chance_percent: 0.001675 },
+      { location: "Abyssal Depths", chance_percent: 0.001454 },
+      { location: "Deeproot Spring", chance_percent: 0.001355 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.003623 },
+    ],
     data: `**Locations & Chances**
 
     Fortune River - 0.008609% (~1 in 11,616)
@@ -562,6 +925,12 @@ module.exports = {
   bone: {
     name: "Bone",
     description: "...I should't have dug here.",
+    locations: [
+      { location: "Rotwood Swamp", chance_percent: 0.01085 },
+      { location: "Fungal Marsh", chance_percent: 0.01085 },
+      { location: "Haunted Creek", chance_percent: 0.008645 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.003623 },
+    ],
     data: `**Locations & Chances**
 
     Rotwood Swamp - 0.01085% (~1 in 9,217)
@@ -573,6 +942,15 @@ module.exports = {
   borealite: {
     name: "Borealite",
     description: "A cold gemstone.",
+    locations: [
+      { location: "Frostbite River", chance_percent: 0.00515 },
+      { location: "Frostbite Waterfall", chance_percent: 0.00515 },
+      { location: "Frozen Peak", chance_percent: 0.00515 },
+      { location: "Azuralite Oasis", chance_percent: 0.004622 },
+      { location: "North Pole", chance_percent: 0.004468 },
+      { location: "Crystal Cavern River", chance_percent: 0.004231 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.003623 },
+    ],
     data: `**Locations & Chances**
 
     Frostbite River - 0.005150% (~1 in 19,419)
@@ -587,6 +965,22 @@ module.exports = {
   cobalt: {
     name: "Cobalt",
     description: "A strikingly blue piece of cobalt. Used in advanced electronics.",
+    locations: [
+      { location: "Overgrown Grotto", chance_percent: 0.01866 },
+      { location: "Deeproot Spring", chance_percent: 0.01807 },
+      { location: "Frostbite River", chance_percent: 0.002575 },
+      { location: "Frozen Peak", chance_percent: 0.002575 },
+      { location: "Frostbite Waterfall", chance_percent: 0.002575 },
+      { location: "Enchanted Ruins", chance_percent: 0.002335 },
+      { location: "Meteor Falls", chance_percent: 0.00217 },
+      { location: "Rotwood Swamp", chance_percent: 0.002169 },
+      { location: "Fungal Marsh", chance_percent: 0.002169 },
+      { location: "Timelocked Sanctuary", chance_percent: 0.002107 },
+      { location: "North Pole", chance_percent: 0.002234 },
+      { location: "Abyssal Depths", chance_percent: 0.001938 },
+      { location: "Haunted Creek", chance_percent: 0.001729 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.003623 },
+    ],
     data: `**Locations & Chances**
 
     Overgrown Grotto - 0.01866% (~1 in 5,356)
@@ -608,6 +1002,23 @@ module.exports = {
   emerald: {
     name: "Emerald",
     description: "A rare emerald with a vibrant green hue.",
+    locations: [
+      { location: "Fortune River", chance_percent: 0.004591 },
+      { location: "Timelocked Sanctuary", chance_percent: 0.00434 },
+      { location: "Rotwood Swamp", chance_percent: 0.004339 },
+      { location: "Fungal Marsh", chance_percent: 0.004339 },
+      { location: "Rubble Creek Deposits", chance_percent: 0.00417 },
+      { location: "Enchanted Ruins", chance_percent: 0.003502 },
+      { location: "Haunted Creek", chance_percent: 0.004358 },
+      { location: "Abyssal Depths", chance_percent: 0.002908 },
+      { location: "Overgrown Grotto", chance_percent: 0.0028 },
+      { location: "Azuralite Oasis", chance_percent: 0.002773 },
+      { location: "Deeproot Spring", chance_percent: 0.00271 },
+      { location: "Crystal Cavern River", chance_percent: 0.002538 },
+      { location: "Rubble Creek Sands", chance_percent: 0.002344 },
+      { location: "Frostbite River", chance_percent: 0.001931 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.003623 },
+    ],
     data: `**Locations & Chances**
 
     Fortune River - 0.004591% (~1 in 21,779)
@@ -630,6 +1041,13 @@ module.exports = {
   glowmoss: {
     name: "Glowmoss",
     description: "A rare species of moss that emits a bright light.",
+    locations: [
+      { location: "Enchanted Ruins", chance_percent: 0.0005837 },
+      { location: "Timelocked Sanctuary", chance_percent: 0.0005425 },
+      { location: "Overgrown Grotto", chance_percent: 0.0004667 },
+      { location: "Deeproot Spring", chance_percent: 0.0004517 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.003623 },
+    ],
     data: `**Locations & Chances**
 
     Enchanted Ruins - 0.0005837% (~1 in 171,300)
@@ -642,6 +1060,12 @@ module.exports = {
   goldenpearl: {
     name: "Golden Pearl",
     description: "An incredibly rare pearl variant with a distinct gold color.",
+    locations: [
+      { location: "Sunset Beach", chance_percent: 0.02266 },
+      { location: "Seashell Isle", chance_percent: 0.02266 },
+      { location: "Fortune River Delta", chance_percent: 0.01641 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.003623 },
+    ],
     data: `**Locations & Chances**
 
     Sunset Beach - 0.02266% (~1 in 4,412)
@@ -653,6 +1077,20 @@ module.exports = {
   iridium: {
     name: "Iridium",
     description: "A rare celestial metal brought to the earth by the meteors.",
+    locations: [
+      { location: "Rubble Creek Deposits", chance_percent: 0.01564 },
+      { location: "Rubble Creek Sands", chance_percent: 0.01406 },
+      { location: "North Pole", chance_percent: 0.01396 },
+      { location: "Frostbite River", chance_percent: 0.01287 },
+      { location: "Frostbite Waterfall", chance_percent: 0.01287 },
+      { location: "Frozen Peak", chance_percent: 0.01287 },
+      { location: "Fortune River", chance_percent: 0.008609 },
+      { location: "Fortune River Delta", chance_percent: 0.005471 },
+      { location: "Meteor Falls", chance_percent: 0.00434 },
+      { location: "Starfall River", chance_percent: 0.00434 },
+      { location: "Astral Caverns", chance_percent: 0.004159 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.003623 },
+    ],
     data: `**Locations & Chances**
 
     Rubble Creek Deposits - 0.01564% (~1 in 6,394)
@@ -672,6 +1110,15 @@ module.exports = {
   lightshard: {
     name: "Lightshard",
     description: "A light-infused glass-like crystal.",
+    locations: [
+      { location: "The Void (if in loot pool)", chance_percent: 0.003623 },
+      { location: "Haunted Creek", chance_percent: 0.0008645 },
+      { location: "Enchanted Ruins", chance_percent: 0.0005837 },
+      { location: "Timelocked Sanctuary", chance_percent: 0.0005425 },
+      { location: "Abyssal Depths", chance_percent: 0.0004846 },
+      { location: "Overgrown Grotto", chance_percent: 0.0004667 },
+      { location: "Deeproot Spring", chance_percent: 0.0004517 },
+    ],
     data: `**Locations & Chances**
 
     The Void (if in loot pool) - 0.003623% (~1 in 27,604)
@@ -686,6 +1133,13 @@ module.exports = {
   mercury: {
     name: "Mercury",
     description: "A drop of toxic mercury, held together by an unknown force.",
+    locations: [
+      { location: "Meteor Falls", chance_percent: 0.001085 },
+      { location: "Timelocked Sanctuary", chance_percent: 0.001084 },
+      { location: "Rotwood Swamp", chance_percent: 0.001085 },
+      { location: "Fungal Marsh", chance_percent: 0.001085 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.003623 },
+    ],
     data: `**Locations & Chances**
 
     Meteor Falls - 0.001085% (~1 in 92,160)
@@ -698,6 +1152,11 @@ module.exports = {
   meteoricgold: {
     name: "Meteoric Gold",
     description: "A nugget of gold from outer space.",
+    locations: [
+      { location: "Starfall River", chance_percent: 0.00001085 },
+      { location: "Astral Caverns", chance_percent: 0.0000104 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.003623 },
+    ],
     data: `**Locations & Chances**
 
     Starfall River - 0.00001085% (~1 in 92,160)
@@ -708,6 +1167,15 @@ module.exports = {
   moonstone: {
     name: "Moonstone",
     description: "A piece of stone from the moon itself.",
+    locations: [
+      { location: "Sunset Beach", chance_percent: 0.005666 },
+      { location: "Seashell Isle", chance_percent: 0.005666 },
+      { location: "Fortune River Delta", chance_percent: 0.005471 },
+      { location: "Meteor Falls", chance_percent: 0.002712 },
+      { location: "Starfall River", chance_percent: 0.002712 },
+      { location: "Astral Caverns", chance_percent: 0.002599 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.003623 },
+    ],
     data: `**Locations & Chances**
 
     Sunset Beach - 0.005666% (~1 in 17,648)
@@ -722,6 +1190,22 @@ module.exports = {
   opal: {
     name: "Opal",
     description: "An iridescent opal.",
+    locations: [
+      { location: "Starfall River", chance_percent: 0.05425 },
+      { location: "Meteor Falls", chance_percent: 0.05425 },
+      { location: "Astral Caverns", chance_percent: 0.05199 },
+      { location: "Fortune River", chance_percent: 0.002295 },
+      { location: "Sunset Beach", chance_percent: 0.002266 },
+      { location: "Seashell Isle", chance_percent: 0.002266 },
+      { location: "Infernal Heart", chance_percent: 0.00221 },
+      { location: "Windswept Beach", chance_percent: 0.001808 },
+      { location: "The Magma Furnace", chance_percent: 0.001707 },
+      { location: "Volcanic Sands", chance_percent: 0.001673 },
+      { location: "Volcanic Springs", chance_percent: 0.001645 },
+      { location: "Rubble Creek Deposits", chance_percent: 0.001564 },
+      { location: "Rubble Creek Sands", chance_percent: 0.0009376 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.003623 },
+    ],
     data: `**Locations & Chances**
 
     Starfall River - 0.05425% (~1 in 1,843)
@@ -743,6 +1227,21 @@ module.exports = {
   osmium: {
     name: "Osmium",
     description: "A dense and highly toxic metal prized for its rarity.",
+    locations: [
+      { location: "Rotwood Swamp", chance_percent: 0.002712 },
+      { location: "Fungal Marsh", chance_percent: 0.002712 },
+      { location: "Timelocked Sanctuary", chance_percent: 0.002712 },
+      { location: "Infernal Heart", chance_percent: 0.00221 },
+      { location: "Windswept Beach", chance_percent: 0.001808 },
+      { location: "The Magma Furnace", chance_percent: 0.001707 },
+      { location: "Volcanic Sands", chance_percent: 0.001673 },
+      { location: "Volcanic Springs", chance_percent: 0.001645 },
+      { location: "Fortune River", chance_percent: 0.001434 },
+      { location: "Azuralite Oasis", chance_percent: 0.001386 },
+      { location: "Crystal Cavern River", chance_percent: 0.001269 },
+      { location: "Rubble Creek Deposits", chance_percent: 0.001043 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.003623 },
+    ],
     data: `**Locations & Chances**
 
     Rotwood Swamp - 0.002712% (~1 in 36,868)
@@ -763,6 +1262,13 @@ module.exports = {
   pyronium: {
     name: "Pyronium",
     description: "A volcanic metal that constantly emits heat.",
+    locations: [
+      { location: "Infernal Heart", chance_percent: 0.00442 },
+      { location: "Volcanic Springs", chance_percent: 0.003839 },
+      { location: "The Magma Furnace", chance_percent: 0.003414 },
+      { location: "Volcanic Sands", chance_percent: 0.003346 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.003623 },
+    ],
     data: `**Locations & Chances**
 
     Infernal Heart - 0.004420% (~1 in 22,620)
@@ -775,6 +1281,26 @@ module.exports = {
   aetherite: {
     name: "Aetherite",
     description: "A purified variant of aurorite used in enchanting rituals.",
+    locations: [
+      { location: "Enchanted Ruins", chance_percent: 0.0002919 },
+      { location: "Timelocked Sanctuary", chance_percent: 0.0002712 },
+      { location: "Frostbite Waterfall", chance_percent: 0.0002574 },
+      { location: "Frozen Peak", chance_percent: 0.0002576 },
+      { location: "Abyssal Depths", chance_percent: 0.0002423 },
+      { location: "Overgrown Grotto", chance_percent: 0.0002333 },
+      { location: "Deeproot Spring", chance_percent: 0.0002258 },
+      { location: "North Pole", chance_percent: 0.0002234 },
+      { location: "Fortune River Delta", chance_percent: 0.0001367 },
+      { location: "Haunted Creek", chance_percent: 0.0001296 },
+      { location: "Crystal Cavern River", chance_percent: 0.0001269 },
+      { location: "Seashell Isle", chance_percent: 0.0001133 },
+      { location: "Azuralite Oasis", chance_percent: 0.0001155 },
+      { location: "Sunset Beach", chance_percent: 0.0001133 },
+      { location: "Rubble Creek Sands", chance_percent: 0.00009376 },
+      { location: "Rubble Creek Deposits", chance_percent: 0.00007819 },
+      { location: "Fortune River", chance_percent: 0.00005739 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.0001811 },
+    ],
     data: `**Locations & Chances**
 
     Enchanted Ruins - 0.0002919% (~1 in 342,639)
@@ -800,6 +1326,15 @@ module.exports = {
   aquamarine: {
     name: "Aquamarine",
     description: "A pale blue-green crystal.",
+    locations: [
+      { location: "Starfall River", chance_percent: 0.0002712 },
+      { location: "Astral Caverns", chance_percent: 0.0002599 },
+      { location: "North Pole", chance_percent: 0.0002234 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.0001811 },
+      { location: "Frostbite Waterfall", chance_percent: 0.0001288 },
+      { location: "Frostbite River", chance_percent: 0.0001286 },
+      { location: "Frozen Peak", chance_percent: 0.00002574 },
+    ],
     data: `**Locations & Chances**
 
     Starfall River - 0.0002712% (~1 in 368,639)
@@ -814,6 +1349,12 @@ module.exports = {
   bismuth: {
     name: "Bismuth",
     description: "A chunk of bismuth, known for being one of the densest non-radioactive metals.",
+    locations: [
+      { location: "Timelocked Sanctuary", chance_percent: 0.0001627 },
+      { location: "Rotwood Swamp", chance_percent: 0.0001627 },
+      { location: "Fungal Marsh", chance_percent: 0.0001627 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.0001811 },
+    ],
     data: `**Locations & Chances**
 
     Timelocked Sanctuary - 0.0001627% (~1 in 614,410)
@@ -825,6 +1366,15 @@ module.exports = {
   catseye: {
     name: "Catseye",
     description: "A golden catseye. Commonly believed to hold a deadly curse within.",
+    locations: [
+      { location: "Windswept Beach", chance_percent: 0.0003013 },
+      { location: "The Magma Furnace", chance_percent: 0.0002845 },
+      { location: "Volcanic Sands", chance_percent: 0.0002788 },
+      { location: "Volcanic Springs", chance_percent: 0.0002742 },
+      { location: "Fortune River", chance_percent: 0.0001147 },
+      { location: "Rubble Creek Deposits", chance_percent: 0.0001043 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.0001811 },
+    ],
     data: `**Locations & Chances**
 
     Windswept Beach - 0.0003013% (~1 in 331,841)
@@ -833,12 +1383,19 @@ module.exports = {
     Volcanic Springs - 0.0002742% (~1 in 364,632)
     Fortune River - 0.0001147% (~1 in 871,172)
     Rubble Creek Deposits - 0.0001043% (~1 in 959,149)
-    The Void (if in loot pool) - 0.0001811% (~1 in 552,084)`,
+    The Void (if in loot pool) - 0.0001811% (~1 in 552,084)`
   },
 
   cinnabar: {
     name: "Cinnabar",
     description: "A vermillion chunk of cinnabar. Commonly used for extracting mercury.",
+    locations: [
+      { location: "Infernal Heart", chance_percent: 0.0002211 },
+      { location: "The Magma Furnace", chance_percent: 0.0001138 },
+      { location: "Volcanic Sands", chance_percent: 0.0001115 },
+      { location: "Volcanic Springs", chance_percent: 0.0001097 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.0001811 },
+    ],
     data: `**Locations & Chances**
 
     Infernal Heart - 0.0002211% (~1 in 452,340)
@@ -851,6 +1408,12 @@ module.exports = {
   depletedshard: {
     name: "Depleted Shard",
     description: "The burnt-out remains of a once-powerful celestial fragment.",
+    locations: [
+      { location: "Astral Caverns", chance_percent: 0.00001039 },
+      { location: "Meteor Falls", chance_percent: 0.000005425 },
+      { location: "Starfall River", chance_percent: 0.000005425 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.0001811 },
+    ],
     data: `**Locations & Chances**
 
     Astral Caverns - 0.00001039% (~1 in 9,615,981)
@@ -862,6 +1425,23 @@ module.exports = {
   diamond: {
     name: "Diamond",
     description: "A rare diamond gem. Incredibly hard and reflective.",
+    locations: [
+      { location: "Sunset Beach", chance_percent: 0.0005666 },
+      { location: "Fortune River Delta", chance_percent: 0.0005471 },
+      { location: "Timelocked Sanctuary", chance_percent: 0.0005425 },
+      { location: "Rotwood Swamp", chance_percent: 0.0005424 },
+      { location: "Fungal Marsh", chance_percent: 0.0005425 },
+      { location: "Frostbite Waterfall", chance_percent: 0.0005148 },
+      { location: "Frozen Peak", chance_percent: 0.0005152 },
+      { location: "Frostbite River", chance_percent: 0.0005145 },
+      { location: "North Pole", chance_percent: 0.0004468 },
+      { location: "Haunted Creek", chance_percent: 0.0004322 },
+      { location: "Meteor Falls", chance_percent: 0.0002712 },
+      { location: "Fortune River", chance_percent: 0.0002295 },
+      { location: "Rubble Creek Deposits", chance_percent: 0.0002085 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.0001811 },
+      { location: "Rubble Creek Sands", chance_percent: 0.0001406 },
+    ],
     data: `**Locations & Chances**
 
     Sunset Beach - 0.0005666% (~1 in 176,477)
@@ -884,6 +1464,12 @@ module.exports = {
   dragonbone: {
     name: "Dragon Bone",
     description: "The bone of an ancient dragon.",
+    locations: [
+      { location: "Infernal Heart", chance_percent: 0.001473 },
+      { location: "Windswept Beach", chance_percent: 0.000904 },
+      { location: "The Magma Furnace", chance_percent: 0.0008536 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.0001811 },
+    ],
     data: `**Locations & Chances**
 
     Infernal Heart - 0.001473% (~1 in 67,859)
@@ -895,6 +1481,14 @@ module.exports = {
   fireopal: {
     name: "Fire Opal",
     description: "A type of opal with a brilliant orange shine.",
+    locations: [
+      { location: "Volcanic Springs", chance_percent: 0.0004388 },
+      { location: "Infernal Heart", chance_percent: 0.0002947 },
+      { location: "Windswept Beach", chance_percent: 0.0001506 },
+      { location: "Volcanic Sands", chance_percent: 0.0001423 },
+      { location: "The Magma Furnace", chance_percent: 0.0001423 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.0001811 },
+    ],
     data: `**Locations & Chances**
 
     Volcanic Springs - 0.0004388% (~1 in 227,895)
@@ -908,6 +1502,15 @@ module.exports = {
   fireflystone: {
     name: "Firefly Stone",
     description: "A glowing stone left behind by dying fireflies.",
+    locations: [
+      { location: "Overgrown Grotto (inside Firefly Zones)", chance_percent: 0.00002334 },
+      { location: "Deeproot Spring (inside Firefly Zones)", chance_percent: 0.00002259 },
+      { location: "Enchanted Ruins (outside Firefly Zones)", chance_percent: 0.000005837 },
+      { location: "Timelocked Sanctuary", chance_percent: 0.000005425 },
+      { location: "Overgrown Grotto (outside Firefly Zones)", chance_percent: 0.000004668 },
+      { location: "Deeproot Spring (outside Firefly Zones)", chance_percent: 0.000004518 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.0001811 },
+    ],
     data: `**Locations & Chances**
 
     Overgrown Grotto (inside Firefly Zones) - 0.00002334% (~1 in 4,284,343)
@@ -922,6 +1525,10 @@ module.exports = {
   gloomcap: {
     name: "Gloomcap",
     description: "An extraterrestrial lifeform that warps nearby matter.",
+    locations: [
+      { location: "Fungal Marsh", chance_percent: 0.0002712 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.0001811 },
+    ],
     data: `**Locations & Chances**
 
     Fungal Marsh - 0.0002712% (~1 in 368,682)
@@ -931,6 +1538,10 @@ module.exports = {
   lostsoul: {
     name: "Lost Soul",
     description: "A lost soul doomed to wander aimlessly for eternity.",
+    locations: [
+      { location: "Haunted Creek", chance_percent: 0.0004322 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.0001811 },
+    ],
     data: `**Locations & Chances**
 
     Haunted Creek - 0.0004322% (~1 in 231,342)
@@ -940,6 +1551,16 @@ module.exports = {
   luminum: {
     name: "Luminum",
     description: "A strange metal that constantly emits a bright yellow light.",
+    locations: [
+      { location: "Seashell Isle", chance_percent: 0.0017 },
+      { location: "Sunset Beach", chance_percent: 0.0008499 },
+      { location: "Enchanted Ruins", chance_percent: 0.0007004 },
+      { location: "Overgrown Grotto", chance_percent: 0.00056 },
+      { location: "Azuralite Oasis", chance_percent: 0.0005546 },
+      { location: "Deeproot Spring", chance_percent: 0.0005421 },
+      { location: "Crystal Caverns", chance_percent: 0.0004231 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.0001811 },
+    ],
     data: `**Locations & Chances**
 
     Seashell Isle - 0.001700% (~1 in 58,829)
@@ -955,6 +1576,10 @@ module.exports = {
   nautilusshell: {
     name: "Nautilus Shell",
     description: "The shell of a nautilus.",
+    locations: [
+      { location: "Seashell Isle", chance_percent: 0.0005666 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.0001811 },
+    ],
     data: `**Locations & Chances**
 
     Seashell Isle - 0.0005666% (~1 in 176,488)
@@ -964,6 +1589,16 @@ module.exports = {
   palladium: {
     name: "Palladium",
     description: "A lustrous piece of palladium known for its unique properties.",
+    locations: [
+      { location: "Frostbite River", chance_percent: 0.0002575 },
+      { location: "Azuralite Oasis", chance_percent: 0.00009245 },
+      { location: "Crystal Cavern River", chance_percent: 0.00008462 },
+      { location: "Fortune River Delta", chance_percent: 0.00008207 },
+      { location: "Starfall River", chance_percent: 0.00005425 },
+      { location: "Astral Caverns", chance_percent: 0.00005199 },
+      { location: "Fortune River", chance_percent: 0.00002296 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.0001811 },
+    ],
     data: `**Locations & Chances**
 
     Frostbite River - 0.0002575% (~1 in 388,341)
@@ -979,6 +1614,10 @@ module.exports = {
   peppermintprism: {
     name: "Peppermint Prism",
     description: "A colorful crystal only found at the North Pole.",
+    locations: [
+      { location: "The Void (if in loot pool)", chance_percent: 0.0001811 },
+      { location: "North Pole", chance_percent: 0.0001117 },
+    ],
     data: `**Locations & Chances**
 
     The Void (if in loot pool) - 0.0001811% (~1 in 552,084)
@@ -988,6 +1627,11 @@ module.exports = {
   radium: {
     name: "Radium",
     description: "A radioactive and dangerous metal.",
+    locations: [
+      { location: "Volcanic Springs", chance_percent: 0.0002194 },
+      { location: "Meteor Falls", chance_percent: 0.00005425 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.0001811 },
+    ],
     data: `**Locations & Chances**
 
     Volcanic Springs - 0.0002194% (~1 in 455,790)
@@ -998,6 +1642,18 @@ module.exports = {
   rosegold: {
     name: "Rose Gold",
     description: "An extremely rare form of a gold with a distinct rose color.",
+    locations: [
+      { location: "Windswept Beach", chance_percent: 0.001506 },
+      { location: "Enchanted Ruins", chance_percent: 0.001459 },
+      { location: "The Magma Furnace", chance_percent: 0.001422 },
+      { location: "Volcanic Sands", chance_percent: 0.001394 },
+      { location: "Fortune River", chance_percent: 0.0005739 },
+      { location: "Rubble Creek Deposits", chance_percent: 0.0005213 },
+      { location: "Volcanic Springs", chance_percent: 0.0005485 },
+      { location: "Rubble Creek Sands", chance_percent: 0.0004688 },
+      { location: "Infernal Heart", chance_percent: 0.000442 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.0001811 },
+    ],
     data: `**Locations & Chances**
 
     Windswept Beach - 0.001506% (~1 in 66,378)
@@ -1015,6 +1671,15 @@ module.exports = {
   specterite: {
     name: "Specterite",
     description: "An extremely light and ghostly crystal.",
+    locations: [
+      { location: "Rotwood Swamp", chance_percent: 0.0002712 },
+      { location: "Haunted Creek", chance_percent: 0.0002161 },
+      { location: "Enchanted Ruins", chance_percent: 0.0001751 },
+      { location: "Abyssal Depths", chance_percent: 0.0001454 },
+      { location: "Overgrown Grotto", chance_percent: 0.00014 },
+      { location: "Deeproot Spring", chance_percent: 0.0001355 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.0001811 },
+    ],
     data: `**Locations & Chances**
 
     Rotwood Swamp - 0.0002712% (~1 in 368,682)
@@ -1029,6 +1694,16 @@ module.exports = {
   starshine: {
     name: "Starshine",
     description: "An astral fragment rarely found in the core of large meteors.",
+    locations: [
+      { location: "Azuralite Oasis", chance_percent: 0.00009245 },
+      { location: "Crystal Cavern River", chance_percent: 0.00008462 },
+      { location: "Enchanted Ruins", chance_percent: 0.00005837 },
+      { location: "Timelocked Sanctuary", chance_percent: 0.00005425 },
+      { location: "Abyssal Depths", chance_percent: 0.00004846 },
+      { location: "Overgrown Grotto", chance_percent: 0.00004667 },
+      { location: "Deeproot Spring", chance_percent: 0.00004517 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.0001811 },
+    ],
     data: `**Locations & Chances**
 
     Azuralite Oasis - 0.00009245% (~1 in 1,081,704)
@@ -1044,6 +1719,12 @@ module.exports = {
   tourmaline: {
     name: "Tourmaline",
     description: "A yellow tourmaline crystal.",
+    locations: [
+      { location: "Frostbite Waterfall", chance_percent: 0.0001609 },
+      { location: "Frostbite River", chance_percent: 0.0001602 },
+      { location: "Frozen Peak", chance_percent: 0.00003218 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.0001811 },
+    ],
     data: `**Locations & Chances**
 
     Frostbite Waterfall - 0.0001609% (~1 in 621,347)
@@ -1055,6 +1736,13 @@ module.exports = {
   uranium: {
     name: "Uranium",
     description: "A radioactive chunk of uranium.",
+    locations: [
+      { location: "Infernal Heart", chance_percent: 0.000442 },
+      { location: "Fortune River Delta", chance_percent: 0.0002735 },
+      { location: "Azuralite Oasis", chance_percent: 0.0002311 },
+      { location: "Fortune River", chance_percent: 0.0001721 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.0001811 },
+    ],
     data: `**Locations & Chances**
 
     Infernal Heart - 0.0004420% (~1 in 226,197)
@@ -1067,6 +1755,11 @@ module.exports = {
   volcanickey: {
     name: "Volcanic Key",
     description: "A mysterious key. Could sell for a lot, but maybe it has some other use?",
+    locations: [
+      { location: "Infernal Heart", chance_percent: 0.001473 },
+      { location: "The Magma Furnace", chance_percent: 0.0008536 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.0001811 },
+    ],
     data: `**Locations & Chances**
 
     Infernal Heart - 0.001473% (~1 in 67,859)
@@ -1077,6 +1770,12 @@ module.exports = {
   aetherium: {
     name: "Aetherium",
     description: "An unnatural amalgamation of Aetherite and Iridium. Its unique properties make it a necessary ingredient in high-tier enchanting rituals.",
+    locations: [
+      { location: "Meteor Falls", chance_percent: 5.425e-7 },
+      { location: "Starfall River", chance_percent: 5.425e-7 },
+      { location: "Astral Caverns", chance_percent: 5.199e-7 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.000002536 },
+    ],
     data: `**Locations & Chances**
 
     Meteor Falls - 0.0000005425% (~1 in 184,319,616)
@@ -1088,6 +1787,12 @@ module.exports = {
   chrysoberyl: {
     name: "Chrysoberyl",
     description: "...",
+    locations: [
+      { location: "Rotwood Swamp", chance_percent: 0.000002169 },
+      { location: "Deeproot Spring", chance_percent: 0.000001807 },
+      { location: "Overgrown Grotto", chance_percent: 0.0000014 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.000002536 },
+    ],
     data: `**Locations & Chances**
 
     Rotwood Swamp - 0.000002169% (~1 in 46,085,203)
@@ -1099,6 +1804,13 @@ module.exports = {
   flarebloom: {
     name: "Flarebloom",
     description: "A mythical flower that only grows in the extreme heat of the center of a volcano.",
+    locations: [
+      { location: "Infernal Heart", chance_percent: 0.00001105 },
+      { location: "The Magma Furnace", chance_percent: 0.000008536 },
+      { location: "Volcanic Sands", chance_percent: 0.000002788 },
+      { location: "Volcanic Springs", chance_percent: 0.000002742 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.000002536 },
+    ],
     data: `**Locations & Chances**
 
     Infernal Heart - 0.00001105% (~1 in 9,047,864)
@@ -1111,6 +1823,12 @@ module.exports = {
   frostshard: {
     name: "Frostshard",
     description: "A jagged crystal formed in the mountains that constantly freezes the area around it.",
+    locations: [
+      { location: "North Pole", chance_percent: 0.000002234 },
+      { location: "Frozen Peak", chance_percent: 0.000001609 },
+      { location: "Frostbite Waterfall", chance_percent: 0.000001609 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.000002536 },
+    ],
     data: `**Locations & Chances**
 
     North Pole - 0.000002234% (~1 in 44,760,456)
@@ -1122,6 +1840,17 @@ module.exports = {
   inferlume: {
     name: "Inferlume",
     description: "A luminescent crystal with flame-like properties.",
+    locations: [
+      { location: "Infernal Heart", chance_percent: 0.00001105 },
+      { location: "Windswept Beach", chance_percent: 0.00000904 },
+      { location: "Sunset Beach", chance_percent: 0.000008499 },
+      { location: "Seashell Isle", chance_percent: 0.000008499 },
+      { location: "Volcanic Sands", chance_percent: 0.000007807 },
+      { location: "Volcanic Springs", chance_percent: 0.000007679 },
+      { location: "Azuralite Oasis", chance_percent: 0.000007395 },
+      { location: "Crystal Cavern River", chance_percent: 0.000006769 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.000002536 },
+    ],
     data: `**Locations & Chances**
 
     Infernal Heart - 0.00001105% (~1 in 9,047,864)
@@ -1138,6 +1867,15 @@ module.exports = {
   mythril: {
     name: "Mythril",
     description: "A nugget of the mythical metal mythril.",
+    locations: [
+      { location: "Fungal Marsh", chance_percent: 0.000003797 },
+      { location: "Rotwood Swamp", chance_percent: 0.000003797 },
+      { location: "Frozen Peak", chance_percent: 0.000003218 },
+      { location: "Enchanted Ruins", chance_percent: 0.000002919 },
+      { location: "Frostbite River", chance_percent: 0.000002575 },
+      { location: "Frostbite Waterfall", chance_percent: 0.000002575 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.000002536 },
+    ],
     data: `**Locations & Chances**
 
     Fungal Marsh - 0.000003797% (~1 in 26,334,402)
@@ -1152,6 +1890,17 @@ module.exports = {
   painite: {
     name: "Painite",
     description: "An extremely rare gemstone with a vibrant red color.",
+    locations: [
+      { location: "Sunset Beach", chance_percent: 0.00002267 },
+      { location: "Seashell Isle", chance_percent: 0.00002266 },
+      { location: "Infernal Heart", chance_percent: 0.0000221 },
+      { location: "Fortune River Delta", chance_percent: 0.00002189 },
+      { location: "Fortune River", chance_percent: 0.00001722 },
+      { location: "Volcanic Springs", chance_percent: 0.00001645 },
+      { location: "Haunted Creek", chance_percent: 0.000003458 },
+      { location: "Abyssal Depths", chance_percent: 0.000002908 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.000002536 },
+    ],
     data: `**Locations & Chances**
 
     Sunset Beach - 0.00002267% (~1 in 4,411,419)
@@ -1168,6 +1917,15 @@ module.exports = {
   pinkdiamond: {
     name: "Pink Diamond",
     description: "A variant of diamond with a unique pink tint.",
+    locations: [
+      { location: "Fortune River Delta", chance_percent: 0.00004377 },
+      { location: "Fortune River", chance_percent: 0.0000287 },
+      { location: "Volcanic Sands", chance_percent: 0.00002231 },
+      { location: "Rubble Creek Deposits", chance_percent: 0.00002085 },
+      { location: "Rubble Creek Sands", chance_percent: 0.00001875 },
+      { location: "North Pole", chance_percent: 0.00001117 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.000002536 },
+    ],
     data: `**Locations & Chances**
 
     Fortune River Delta - 0.00004377% (~1 in 2,284,525)
@@ -1182,6 +1940,12 @@ module.exports = {
   prismara: {
     name: "Prismara",
     description: "Formed by the world itself.",
+    locations: [
+      { location: "Overgrown Grotto", chance_percent: 0.0000028 },
+      { location: "Azuralite Oasis", chance_percent: 0.000002773 },
+      { location: "Enchanted Ruins", chance_percent: 7.296e-7 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.000002536 },
+    ],
     data: `**Locations & Chances**
 
     Overgrown Grotto - 0.000002800% (~1 in 35,702,851)
@@ -1193,6 +1957,14 @@ module.exports = {
   radiantgold: {
     name: "Radiant Gold",
     description: "A nugget of gold exposed to powerful energy for millions of years.",
+    locations: [
+      { location: "Abyssal Depths", chance_percent: 0.000001454 },
+      { location: "Haunted Creek", chance_percent: 0.000001296 },
+      { location: "Enchanted Ruins", chance_percent: 0.000001167 },
+      { location: "Timelocked Sanctuary", chance_percent: 0.000001085 },
+      { location: "Deeproot Spring", chance_percent: 9.036e-7 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.000002536 },
+    ],
     data: `**Locations & Chances**
 
     Abyssal Depths - 0.000001454% (~1 in 68,771,969)
@@ -1206,6 +1978,13 @@ module.exports = {
   redberyl: {
     name: "Red Beryl",
     description: "An extremely rare form of beryl. Distinguished by its hexagonal crystals and distinctive red color.",
+    locations: [
+      { location: "Astral Caverns", chance_percent: 9.359e-7 },
+      { location: "Seashell Isle", chance_percent: 8.499e-7 },
+      { location: "Timelocked Sanctuary", chance_percent: 8.138e-7 },
+      { location: "Fungal Marsh", chance_percent: 8.137e-7 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.000002536 },
+    ],
     data: `**Locations & Chances**
 
     Astral Caverns - 0.0000009359% (~1 in 106,844,237)
@@ -1218,6 +1997,14 @@ module.exports = {
   stargarnet: {
     name: "Star Garnet",
     description: "A garnet with a star reflected within.",
+    locations: [
+      { location: "Timelocked Sanctuary", chance_percent: 0.000001356 },
+      { location: "Fungal Marsh", chance_percent: 0.000001356 },
+      { location: "Meteor Falls", chance_percent: 0.000001085 },
+      { location: "Starfall River", chance_percent: 0.000001085 },
+      { location: "Rotwood Swamp", chance_percent: 0.000001084 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.000002536 },
+    ],
     data: `**Locations & Chances**
 
     Timelocked Sanctuary - 0.000001356% (~1 in 73,729,166)
@@ -1231,6 +2018,12 @@ module.exports = {
   sunstone: {
     name: "Sunstone",
     description: "A stone that pulses with solar energy.",
+    locations: [
+      { location: "Meteor Falls", chance_percent: 5.425e-7 },
+      { location: "Starfall River", chance_percent: 5.425e-7 },
+      { location: "Astral Caverns", chance_percent: 5.199e-7 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.000002536 },
+    ],
     data: `**Locations & Chances**
 
     Meteor Falls - 0.0000005425% (~1 in 184,319,616)
@@ -1242,11 +2035,24 @@ module.exports = {
   vortessence: {
     name: "Vortessence",
     description: "A celestial stone with distinct rings. Believed to be formed by the collapse of a star.",
+    locations: [
+      { location: "Windswept Beach", chance_percent: 0.00000904 },
+      { location: "Frostbite River", chance_percent: 0.000008368 },
+      { location: "Frostbite Waterfall", chance_percent: 0.000008368 },
+      { location: "Fortune River Delta", chance_percent: 0.000008207 },
+      { location: "Azuralite Oasis", chance_percent: 0.000007395 },
+      { location: "Crystal Cavern River", chance_percent: 0.000006769 },
+      { location: "Haunted Creek", chance_percent: 0.000002161 },
+      { location: "Meteor Falls", chance_percent: 0.000001627 },
+      { location: "Starfall River", chance_percent: 0.000001627 },
+      { location: "Astral Caverns", chance_percent: 0.000001559 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.000002536 },
+    ],
     data: `**Locations & Chances**
 
     Windswept Beach - 0.000009040% (~1 in 11,061,369)
     Frostbite River - 0.000008368% (~1 in 11,948,974)
-    Frostbite Waterfall - 0.000008368% (~1 in 11,948,974) 
+    Frostbite Waterfall - 0.000008368% (~1 in 11,948,974)
     Fortune River Delta - 0.000008207% (~1 in 12,184,135)
     Azuralite Oasis - 0.000007395% (~1 in 13,521,298)
     Crystal Cavern River - 0.000006769% (~1 in 14,771,283)
@@ -1260,6 +2066,11 @@ module.exports = {
   volcaniccore: {
     name: "Volcanic Core",
     description: "The unstable core of a volcano. Contains the potential to cause immense destruction.",
+    locations: [
+      { location: "Infernal Heart", chance_percent: 0.000004421 },
+      { location: "The Magma Furnace", chance_percent: 0.000002845 },
+      { location: "The Void (if in loot pool)", chance_percent: 0.000002536 },
+    ],
     data: `**Locations & Chances**
 
     Infernal Heart - 0.000004421% (~1 in 22,619,048)
@@ -1270,6 +2081,9 @@ module.exports = {
   adamantine: {
     name: "Adamantine",
     description: "The indestructible metal of many fables told and untold, Adamantine.",
+    locations: [
+      { location: "Enchanted Ruins", chance_percent: 1.167e-7 },
+    ],
     data: `**Locations & Chances**
 
     Enchanted Ruins - 0.0000001167% (~1 in 856,598,092)`
@@ -1278,6 +2092,10 @@ module.exports = {
   astralspore: {
     name: "Astral Spore",
     description: "An extraterrestial lifeform that warps nearby matter.",
+    locations: [
+      { location: "Fungal Marsh", chance_percent: 6.509e-8 },
+      { location: "Timelocked Sanctuary", chance_percent: 4.34e-8 },
+    ],
     data: `**Locations & Chances**
 
     Fungal Marsh - 0.00000006509% (~1 in 1,536,173,443)
@@ -1287,6 +2105,10 @@ module.exports = {
   bloodstone: {
     name: "Bloodstone",
     description: "A tainted stone believed to siphon the life of those who hold it.",
+    locations: [
+      { location: "Rotwood Swamp", chance_percent: 8.679e-8 },
+      { location: "Timelocked Sanctuary", chance_percent: 5.425e-8 },
+    ],
     data: `**Locations & Chances**
 
     Rotwood Swamp - 0.00000008679% (~1 in 1,152,130,082)
@@ -1296,6 +2118,9 @@ module.exports = {
   celestium: {
     name: "Celestium",
     description: "A celestial metal formed in the center of galaxies.",
+    locations: [
+      { location: "Astral Caverns", chance_percent: 5.1997e-9 },
+    ],
     data: `**Locations & Chances**
 
     Astral Caverns - 0.0000000051997% (~1 in 19,231,962,581)`
@@ -1304,6 +2129,9 @@ module.exports = {
   cryonicartifact: {
     name: "Cryonic Artifact",
     description: "A mysterious artifact. What is its purpose?",
+    locations: [
+      { location: "Frozen Peak", chance_percent: 6.437e-7 },
+    ],
     data: `**Locations & Chances**
 
     Frozen Peak - 0.0000006437% (~1 in 155,336,658)`
@@ -1312,6 +2140,8 @@ module.exports = {
   dinosaurskull: {
     name: "Dinosaur Skull",
     description: "A skull of a dinosaur. What's this doing here!",
+    locations: [
+    ],
     data: `**Locations & Chances**
 
     Infernal Heart – 0.000001842% (~1 in 54,285,827)`
@@ -1320,22 +2150,31 @@ module.exports = {
   eternium: {
     name: "Eternium",
     description: "An everlasting crystal that preserves its surroundings from the passage of time.",
+    locations: [
+      { location: "Timelocked Sanctuary", chance_percent: 2.712e-8 },
+    ],
     data: `**Locations & Chances**
 
     Timelocked Sanctuary - 0.00000002712% (~1 in 3,686,458,325)`
-    },
+  },
 
   forgottentotem: {
     name: "Forgotten Totem",
     description: "An mysterious, weathered totem. Its purpose remains unknown.",
+    locations: [
+      { location: "Seashell Isle", chance_percent: 2.833e-7 },
+    ],
     data: `**Locations & Chances**
 
     Seashell Isle - 0.0000002833% (~1 in 352,976,514)`
-    },
+  },
 
   northstar: {
     name: "North Star",
     description: "-",
+    locations: [
+      { location: "North Pole", chance_percent: 2.792e-7 },
+    ],
     data: `**Locations & Chances**
 
     North Pole - 0.0000002792% (~1 in 358,083,649)`
@@ -1344,6 +2183,9 @@ module.exports = {
   pumpkinsoul: {
     name: "Pumpkin Soul",
     description: "The soul of a cruel tyrant.",
+    locations: [
+      { location: "Haunted Creek", chance_percent: 4.322e-7 },
+    ],
     data: `**Locations & Chances**
 
     Haunted Creek - 0.0000004322% (~1 in 231,341,800)`
@@ -1352,6 +2194,9 @@ module.exports = {
   singularium: {
     name: "Singularium",
     description: "An exotic substance that emits a gravitational pull.",
+    locations: [
+      { location: "Starfall River", chance_percent: 1.085e-8 },
+    ],
     data: `**Locations & Chances**
 
     Starfall River - 0.00000001085% (~1 in 9,215,980,801)`
@@ -1360,6 +2205,9 @@ module.exports = {
   starpiercer: {
     name: "Starpiercer",
     description: "A mysterious alien artifact.",
+    locations: [
+      { location: "Meteor Falls", chance_percent: 2.17e-8 },
+    ],
     data: `**Locations & Chances**
 
     Meteor Falls - 0.00000002170% (~1 in 4,607,990,401)`
@@ -1368,6 +2216,9 @@ module.exports = {
   umbrite: {
     name: "Umbrite",
     description: "A crystal formed in complete darkness.",
+    locations: [
+      { location: "Abyssal Depths", chance_percent: 1.454e-7 },
+    ],
     data: `**Locations & Chances**
 
     Abyssal Depths - 0.0000001454% (~1 in 687,719,698)`
@@ -1376,6 +2227,9 @@ module.exports = {
   vineheart: {
     name: "Vineheart",
     description: "The heart of the caverns, believed to be formed by the spirits themselves.",
+    locations: [
+      { location: "Deeproot Spring", chance_percent: 1.807e-7 },
+    ],
     data: `**Locations & Chances**
 
     Deeproot Spring - 0.0000001807% (~1 in 553,292,791)`
@@ -1384,8 +2238,11 @@ module.exports = {
   voidstone: {
     name: "Voidstone",
     description: "A crystal formed from the void.",
+    locations: [
+      { location: "The Void", chance_percent: 0.0000007245 }
+    ],
     data: `**Locations & Chances**
 
     The Void - 0.0000007245% (~1 in 138,021,012)`
-  },
+  }
 };

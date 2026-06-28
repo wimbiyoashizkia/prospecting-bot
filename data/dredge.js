@@ -36,7 +36,7 @@ module.exports = {
       shovelEnchant: "Excavating",
       museum: "Capacity Museum"
     },
-    relics: ["Rainstone"]
+    relics: "-"
   },
 
   obsidian: {
@@ -56,7 +56,7 @@ module.exports = {
       shovelEnchant: "Excavating",
       museum: "Capacity Museum"
     },
-    relics: ["Infernal Idol", "Rainstone"]
+    relics: ["Infernal Idol"]
   },
 
   platinum: {
@@ -71,7 +71,7 @@ module.exports = {
 
   pyrite: {
     name: "Pyrite",
-    luck: "5k",
+    luck: "5",
     setup: {
       shovelEnchant: "Excavating",
       museum: "Capacity Museum"
@@ -106,7 +106,7 @@ module.exports = {
       shovelEnchant: "Excavating",
       museum: "Capacity Museum"
     },
-    relics: ["Infernal Idol", "Rainstone"]
+    relics: ["Infernal Idol"]
   },
 
   electrum: {
@@ -136,7 +136,7 @@ module.exports = {
       shovelEnchant: "Excavating",
       museum: "Capacity Museum"
     },
-    relics: ["Infernal Idol", "Rainstone"]
+    relics: ["Infernal Idol"]
   },
 
   neodymium: {
@@ -146,7 +146,7 @@ module.exports = {
       shovelEnchant: "Excavating",
       museum: "Capacity Museum"
     },
-    relics: ["Rainstone"]
+    relics: "-"
   },
 
   nickel: {
@@ -176,7 +176,7 @@ module.exports = {
       shovelEnchant: "Excavating",
       museum: "Capacity Museum"
     },
-    relics: ["Blizzard"]
+    relics: "-"
   },
 
   smokyquartz: {
@@ -206,7 +206,7 @@ module.exports = {
       shovelEnchant: "Excavating",
       museum: "Capacity Museum"
     },
-    relics: ["Infernal Idol"]
+    relics: "-"
   },
 
   zircon: {
@@ -221,7 +221,7 @@ module.exports = {
 
   amber: {
     name: "Amber",
-    luck: "2,500",
+    luck: "250",
     setup: {
       shovelEnchant: "Excavating",
       museum: "Capacity Museum"
@@ -271,7 +271,7 @@ module.exports = {
 
   gloomberry: {
     name: "Gloomberry",
-    luck: "Luck",
+    luck: "Set Luck & Cap.",
     setup: {
       shovelEnchant: "Excavating",
       museum: "Capacity Museum"
@@ -286,7 +286,7 @@ module.exports = {
       shovelEnchant: "Excavating",
       museum: "Capacity Museum"
     },
-    relics: ["Blizzard", "Rainstone"]
+    relics: ["Blizzard"]
   },
 
   lapislazuli: {
@@ -296,12 +296,12 @@ module.exports = {
       shovelEnchant: "Excavating",
       museum: "Capacity Museum"
     },
-    relics: ["Rainstone"]
+    relics: "-"
   },
 
   meteoriciron: {
     name: "Meteoric Iron",
-    luck: "2,500",
+    luck: "500",
     setup: {
       shovelEnchant: "Excavating",
       museum: "Capacity Museum"
@@ -346,7 +346,7 @@ module.exports = {
       shovelEnchant: "Excavating",
       museum: "Capacity Museum"
     },
-    relics: ["Rainstone"]
+    relics: "-"
   },
 
   silverclamshell: {
@@ -366,7 +366,7 @@ module.exports = {
       shovelEnchant: "Excavating",
       museum: "Capacity Museum"
     },
-    relics: ["Inferal Idol"]
+    relics: ["Infernal Idol"]
   },
 
   ashvein: {
@@ -376,7 +376,7 @@ module.exports = {
       shovelEnchant: "Excavating",
       museum: "Capacity Museum"
     },
-    relics: ["-"]
+    relics: "-"
   },
 
   aurorite: {
@@ -441,12 +441,12 @@ module.exports = {
 
   goldenpearl: {
     name: "Golden Pearl",
-    luck: "5k",
+    luck: "10k",
     setup: {
       shovelEnchant: "Excavating",
       museum: "Capacity Museum"
     },
-    relics: ["Rainstone"]
+    relics: "-"
   },
 
   iridium: {
@@ -456,12 +456,12 @@ module.exports = {
       shovelEnchant: "Excavating",
       museum: "Capacity Museum"
     },
-    relics: ["Blizzard"]
+    relics: "-"
   },
 
   lightshard: {
     name: "Lightshard",
-    luck: "25k or Set Luck & Cap.",
+    luck: "Set Luck & Cap.",
     setup: {
       shovelEnchant: "Excavating",
       museum: "Luck & Cap. or Capacity Museum"
@@ -481,7 +481,7 @@ module.exports = {
 
   meteoricgold: {
     name: "Meteoric Gold",
-    luck: "25k or Set Luck & Cap.",
+    luck: "Set Luck & Cap.",
     setup: {
       shovelEnchant: "Excavating",
       museum: "Luck & Cap. or Capacity Museum"
@@ -496,7 +496,7 @@ module.exports = {
       shovelEnchant: "Excavating",
       museum: "Capacity Museum"
     },
-    relics: ["Rainstone"]
+    relics: "-"
   },
 
   opal: {
@@ -506,7 +506,7 @@ module.exports = {
       shovelEnchant: "Excavating",
       museum: "Capacity Museum"
     },
-    relics: ["Rainstone"]
+    relics: "-"
   },
 
   osmium: {
@@ -516,7 +516,7 @@ module.exports = {
       shovelEnchant: "Excavating",
       museum: "Capacity Museum"
     },
-    relics: ["Infernal Idol"]
+    relics: "-"
   },
 
   pyronium: {

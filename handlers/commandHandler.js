@@ -173,6 +173,16 @@ function buildDredgeEmbed(mineral, guide) {
         return !skipLocations.some(skip => lowerLoc.includes(skip));
     });
 
+    const bestLocation = mineral.bestLocation || guide.bestLocation;
+
+    if (bestLocation) {
+        const bestIndex = allLocs.findIndex(l => l.location === bestLocation);
+        if (bestIndex > 0) {
+            const best = allLocs.splice(bestIndex, 1)[0];
+            allLocs.unshift(best);
+        }
+    }
+
     allLocs.sort((a, b) => b.chance_percent - a.chance_percent);
 
     const topLocs = allLocs.slice(0, 5);
@@ -181,7 +191,12 @@ function buildDredgeEmbed(mineral, guide) {
         const chance = loc.chance_percent;
         const oneIn = chance > 0 ? Math.round(100 / chance) : 0;
         let line = `${loc.location} - (~1 in ${oneIn})`;
-        locationLines.push(`- ${line}`);
+        if (bestLocation && loc.location === bestLocation) {
+            line += ` (Best)`;
+            locationLines.push(`**- ${line}**`);
+        } else {
+            locationLines.push(`- ${line}`);
+        }
     }
 
     locationLines = locationLines.filter(line => line && line.trim() !== '');

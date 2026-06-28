@@ -162,44 +162,57 @@ function buildMineralEmbed(mineral, displayName) {
 function buildDredgeEmbed(mineral, guide) {
     const color = mineralColors[mineral.name?.toLowerCase()] || "#00FF00";
 
-    let locationLines = [];
+    let allLocs = [];
 
-    let allLocs = mineral.locations ? [...mineral.locations] : [];
-
-    allLocs = allLocs.filter(loc => loc && loc.location && loc.location.trim() !== '');
-
-    allLocs = allLocs.filter(loc => {
-        const lowerLoc = loc.location.toLowerCase();
-        return !skipLocations.some(skip => lowerLoc.includes(skip));
-    });
+    if (mineral.locations && Array.isArray(mineral.locations)) {
+        allLocs = mineral.locations
+            .filter(loc => {
+                return loc && 
+                       loc.location && 
+                       typeof loc.location === 'string' && 
+                       loc.location.trim() !== '' &&
+                       typeof loc.chance_percent === 'number' &&
+                       !isNaN(loc.chance_percent);
+            })
+            .filter(loc => {
+                const lowerLoc = loc.location.toLowerCase();
+                return !skipLocations.some(skip => lowerLoc.includes(skip));
+            });
+    }
 
     const bestLocation = mineral.bestLocation || guide.bestLocation;
 
+    let bestLocData = null;
     if (bestLocation) {
         const bestIndex = allLocs.findIndex(l => l.location === bestLocation);
-        if (bestIndex > 0) {
-            const best = allLocs.splice(bestIndex, 1)[0];
-            allLocs.unshift(best);
+        if (bestIndex !== -1) {
+            bestLocData = allLocs.splice(bestIndex, 1)[0];
         }
     }
 
     allLocs.sort((a, b) => b.chance_percent - a.chance_percent);
 
+    if (bestLocData) {
+        allLocs.unshift(bestLocData);
+    }
+
     const topLocs = allLocs.slice(0, 5);
 
+    const locationLines = [];
     for (const loc of topLocs) {
-        const chance = loc.chance_percent;
-        const oneIn = chance > 0 ? Math.round(100 / chance) : 0;
+        const oneIn = loc.chance_percent > 0 ? Math.round(100 / loc.chance_percent) : 0;
         let line = `${loc.location} - (~1 in ${oneIn})`;
         if (bestLocation && loc.location === bestLocation) {
             line += ` (Best)`;
-            locationLines.push(`**- ${line}**`);
+            locationLines.push(`\u200B**- ${line}**`);
         } else {
-            locationLines.push(`- ${line}`);
+            locationLines.push(`\u200B- ${line}`);
         }
     }
 
-    locationLines = locationLines.filter(line => line && line.trim() !== '');
+    const finalText = locationLines.length > 0 
+        ? locationLines.join('\u200B\n').trim() 
+        : 'No locations found';
 
     const embed = new EmbedBuilder()
         .setTitle(`${guide.name} Dredge Guide`)
@@ -208,7 +221,7 @@ function buildDredgeEmbed(mineral, guide) {
     embed.addFields({ name: "Luck Setting", value: guide.luck, inline: false });
     embed.addFields({
         name: "Recommended Locations",
-        value: locationLines.length > 0 ? locationLines.join("\n").trim() : "No locations found",
+        value: finalText,
         inline: false
     });
     embed.addFields({

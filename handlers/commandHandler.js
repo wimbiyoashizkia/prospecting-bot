@@ -144,6 +144,12 @@ function buildMineralEmbed(mineral, displayName) {
     let allLocs = mineral.locations ? [...mineral.locations] : [];
     let bestLocData = null;
     let bestLocation = mineral.bestLocation;
+    let voidData = null;
+
+    const voidIndex = allLocs.findIndex(l => l.location.toLowerCase().includes('the void'));
+    if (voidIndex !== -1) {
+        voidData = allLocs.splice(voidIndex, 1)[0];
+    }
 
     if (bestLocation && bestLocation !== "N/A") {
         const bestIndex = allLocs.findIndex(l => l.location === bestLocation);
@@ -156,6 +162,10 @@ function buildMineralEmbed(mineral, displayName) {
 
     if (bestLocData) {
         allLocs.unshift(bestLocData);
+    }
+
+    if (voidData) {
+        allLocs.push(voidData);
     }
 
     let description = `**Locations & Chances**\n\n`;

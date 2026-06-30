@@ -40,7 +40,7 @@ module.exports = {
   copper: {
     name: "Copper",
     description: "A malleable metal commonly used in electronics.",
-    bestLocation: "Azuralite Oasis",
+    bestLocation: "Infernal Heart",
     locations: [
       { location: "Azuralite Oasis", chance_percent: 36.9786 },
       { location: "Crystal Cavern River", chance_percent: 33.8494 },
@@ -76,7 +76,7 @@ module.exports = {
   gold: {
     name: "Gold",
     description: "A nugget of gold.",
-    bestLocation: "Rubble Creek Sands",
+    bestLocation: "Fortune River",
     locations: [
       { location: "Rubble Creek Sands", chance_percent: 70.3167 },
       { location: "Enchanted Ruins", chance_percent: 58.3704 },
@@ -364,7 +364,7 @@ module.exports = {
   neodymium: {
     name: "Neodymium",
     description: "A key ingredient in high-strength magnets.",
-    bestLocation: "Sunset Beach",
+    bestLocation: "Fortune River Delta",
     locations: [
       { location: "Seashell Isle", chance_percent: 2.2664 },
       { location: "Sunset Beach", chance_percent: 2.2665 },
@@ -426,7 +426,7 @@ module.exports = {
   sapphire: {
     name: "Sapphire",
     description: "A blue sapphire.",
-    bestLocation: "Starfall River",
+    bestLocation: "Frozen Peak",
     locations: [
       { location: "Starfall River", chance_percent: 4.3402 },
       { location: "Meteor Falls", chance_percent: 4.3402 },
@@ -456,7 +456,7 @@ module.exports = {
   smokyquartz: {
     name: "Smoky Quartz",
     description: "A type of quartz with a unique gray color.",
-    bestLocation: "Timelocked Sanctuary",
+    bestLocation: "Enchanted Ruins",
     locations: [
       { location: "Timelocked Sanctuary", chance_percent: 4.3402 },
       { location: "Rotwood Swamp", chance_percent: 4.3397 },
@@ -494,7 +494,7 @@ module.exports = {
   titanium: {
     name: "Titanium",
     description: "A piece of pure titanium.",
-    bestLocation: "Frozen Peak",
+    bestLocation: "Fortune River",
     locations: [
       { location: "Frozen Peak", chance_percent: 12.8742 },
       { location: "Frostbite River", chance_percent: 12.874 },
@@ -526,7 +526,7 @@ module.exports = {
   topaz: {
     name: "Topaz",
     description: "A topaz gemstone. A symbol of strength and honor.",
-    bestLocation: "Timelocked Sanctuary",
+    bestLocation: "Fortune River",
     locations: [
       { location: "Timelocked Sanctuary", chance_percent: 10.8505 },
       { location: "Infernal Heart", chance_percent: 2.2104 },
@@ -748,7 +748,7 @@ module.exports = {
   meteoriciron: {
     name: "Meteoric Iron",
     description: "A piece of iron infused with energy from exposure to the meteors.",
-    bestLocation: "Astral Caverns",
+    bestLocation: "Fortune River",
     locations: [
       { location: "Astral Caverns", chance_percent: 4.1597 },
       { location: "Volcanic Sands", chance_percent: 2.2307 },
@@ -850,7 +850,7 @@ module.exports = {
   ruby: {
     name: "Ruby",
     description: "A bright red ruby gemstone.",
-    bestLocation: "Rubble Creek Sands",
+    bestLocation: "Fortune River",
     locations: [
       { location: "Rubble Creek Sands", chance_percent: 0.2344 },
       { location: "Fortune River", chance_percent: 0.2295 },
@@ -964,7 +964,7 @@ module.exports = {
   bone: {
     name: "Bone",
     description: "...I should't have dug here.",
-    bestLocation: "Fungal Marsh",
+    bestLocation: "Rotwood Swamp",
     locations: [
       { location: "Rotwood Swamp", chance_percent: 0.01085 },
       { location: "Fungal Marsh", chance_percent: 0.01085 },
@@ -1084,7 +1084,7 @@ module.exports = {
   glowmoss: {
     name: "Glowmoss",
     description: "A rare species of moss that emits a bright light.",
-    bestLocation: "Enchanted Ruins",
+    bestLocation: "Overgrown Grotto",
     locations: [
       { location: "Enchanted Ruins", chance_percent: 0.0005837 },
       { location: "Timelocked Sanctuary", chance_percent: 0.0005425 },
@@ -1104,7 +1104,7 @@ module.exports = {
   goldenpearl: {
     name: "Golden Pearl",
     description: "An incredibly rare pearl variant with a distinct gold color.",
-    bestLocation: "Sunset Beach",
+    bestLocation: "Fortune River Delta",
     locations: [
       { location: "Sunset Beach", chance_percent: 0.02266 },
       { location: "Seashell Isle", chance_percent: 0.02266 },
@@ -1122,7 +1122,7 @@ module.exports = {
   iridium: {
     name: "Iridium",
     description: "A rare celestial metal brought to the earth by the meteors.",
-    bestLocation: "Rubble Creek Deposits",
+    bestLocation: "Frostbite River",
     locations: [
       { location: "Rubble Creek Deposits", chance_percent: 0.01564 },
       { location: "Rubble Creek Sands", chance_percent: 0.01406 },
@@ -1216,7 +1216,7 @@ module.exports = {
   moonstone: {
     name: "Moonstone",
     description: "A piece of stone from the moon itself.",
-    bestLocation: "Sunset Beach",
+    bestLocation: "Fortune River Delta",
     locations: [
       { location: "Sunset Beach", chance_percent: 0.005666 },
       { location: "Seashell Isle", chance_percent: 0.005666 },
@@ -1278,7 +1278,7 @@ module.exports = {
   osmium: {
     name: "Osmium",
     description: "A dense and highly toxic metal prized for its rarity.",
-    bestLocation: "Timelocked Sanctuary",
+    bestLocation: "Fortune River",
     locations: [
       { location: "Rotwood Swamp", chance_percent: 0.002712 },
       { location: "Fungal Marsh", chance_percent: 0.002712 },

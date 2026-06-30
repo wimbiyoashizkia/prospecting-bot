@@ -141,11 +141,27 @@ function createSuggestionButtons(suggestions) {
 function buildMineralEmbed(mineral, displayName) {
     const color = mineralColors[mineral.name?.toLowerCase()] || "#5865F2";
 
-    let description = mineral.data;
+    let allLocs = mineral.locations ? [...mineral.locations] : [];
+    let bestLocData = null;
+    let bestLocation = mineral.bestLocation;
 
-    if (mineral.bestLocation && mineral.bestLocation !== "N/A") {
-        const bestLine = `**Best Location:** ${mineral.bestLocation}`;
-        description = `${bestLine}\n\n${description}`;
+    if (bestLocation && bestLocation !== "N/A") {
+        const bestIndex = allLocs.findIndex(l => l.location === bestLocation);
+        if (bestIndex !== -1) {
+            bestLocData = allLocs.splice(bestIndex, 1)[0];
+        }
+    }
+
+    allLocs.sort((a, b) => b.chance_percent - a.chance_percent);
+
+    if (bestLocData) {
+        allLocs.unshift(bestLocData);
+    }
+
+    let description = `**Locations & Chances**\n\n`;
+    for (const loc of allLocs) {
+        const oneIn = loc.chance_percent > 0 ? Math.round(100 / loc.chance_percent) : 0;
+        description += `    ${loc.location} - ${loc.chance_percent.toFixed(4)}% (~1 in ${oneIn.toLocaleString()})\n`;
     }
 
     const title = `**${mineral.name || displayName.charAt(0).toUpperCase() + displayName.slice(1)}**`;

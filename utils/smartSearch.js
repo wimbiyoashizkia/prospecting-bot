@@ -56,7 +56,7 @@ function levenshtein(a, b) {
 function findClosestMineral(input) {
   const cleanInput = normalize(input);
 
-  if (cleanInput.length < 2) {
+  if (cleanInput.length < 1) {
     return {
       found: false,
       suggestions: []

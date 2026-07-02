@@ -166,7 +166,7 @@ module.exports = {
       shovelEnchant: "Excavating",
       museum: "N/A"
     },
-    relics: "N/A"
+    relics: ["N/A"]
   },
 
   sapphire: {

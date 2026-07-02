@@ -1,4 +1,6 @@
 const { EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle, ComponentType } = require("discord.js");
+const fs = require("fs");
+const path = require("path");
 
 const commands = require("../data/commands");
 const minerals = require("../data/minerals");
@@ -185,11 +187,17 @@ function buildMineralEmbed(mineral, displayName) {
         .setDescription(description)
         .setColor(color);
 
+    const imagePath = path.join(__dirname, '../data/images', `${result.name}.png`);
+    if (fs.existsSync(imagePath)) {
+        embed.setThumbnail(`attachment://${result.name}.png`);
+        return { embed, attachment: imagePath };
+    }
+
     if (mineral.description) {
         embed.setFooter({ text: mineral.description });
     }
 
-    return embed;
+    return { embed };
 }
 
 function buildDredgeEmbed(mineral, guide) {
@@ -361,7 +369,15 @@ async function handleMineralLookup(message, input) {
     }
 
     const mineral = minerals[result.name];
-    const embed = buildMineralEmbed(mineral, result.name);
+    const { embed, attachment } = buildMineralEmbed(mineral, result.name);
+
+    if (attachment) {
+        return message.reply({
+            embeds: [embed],
+            files: [attachment]
+        });
+    }
+
     return message.reply({ embeds: [embed] });
 }
 

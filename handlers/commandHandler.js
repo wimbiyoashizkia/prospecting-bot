@@ -187,9 +187,9 @@ function buildMineralEmbed(mineral, displayName) {
         .setDescription(description)
         .setColor(color);
 
-    const imagePath = path.join(__dirname, '../data/images', `${result.name}.png`);
+    const imagePath = path.join(__dirname, '../data/images', `${mineral.name.toLowerCase().replace(/ /g, '')}.png`);
     if (fs.existsSync(imagePath)) {
-        embed.setThumbnail(`attachment://${result.name}.png`);
+        embed.setThumbnail(`attachment://${mineral.name.toLowerCase().replace(/ /g, '')}.png`);
         return { embed, attachment: imagePath };
     }
 

@@ -185,7 +185,8 @@ function buildMineralEmbed(mineral, displayName) {
     const embed = new EmbedBuilder()
         .setTitle(title)
         .setDescription(description)
-        .setColor(color);
+        .setColor(color)
+        .setFooter({ text: mineral.description || " " });
 
     const imagePath = path.join(__dirname, '../data/images', `${mineral.name.toLowerCase().replace(/ /g, '')}.png`);
     if (fs.existsSync(imagePath)) {
@@ -193,9 +194,8 @@ function buildMineralEmbed(mineral, displayName) {
         return { embed, attachment: imagePath };
     }
 
-    if (mineral.description) {
-        embed.setFooter({ text: mineral.description });
-    }
+    const footerText = mineral.description || " ";
+    embed.setFooter({ text: footerText });
 
     return { embed };
 }

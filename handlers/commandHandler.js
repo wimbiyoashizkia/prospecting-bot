@@ -206,18 +206,14 @@ function buildDredgeEmbed(mineral, guide) {
     let allLocs = [];
 
     if (mineral.locations && Array.isArray(mineral.locations)) {
-        allLocs = mineral.locations
-            .filter(loc => {
-                return loc && 
-                       loc.location && 
-                       typeof loc.location === 'string' && 
-                       loc.location.trim() !== '' &&
-                       typeof loc.chance_percent === 'number' &&
-                       !isNaN(loc.chance_percent);
-            })
-            .filter(loc => {
-                const lowerLoc = loc.location.toLowerCase();
-                return !skipLocations.some(skip => lowerLoc.includes(skip));
+        allLocs = mineral.locations.filter(loc => {
+            return loc && 
+                loc.location && 
+                typeof loc.location === 'string' && 
+                loc.location.trim() !== '' &&
+                typeof loc.chance_percent === 'number' &&
+                !isNaN(loc.chance_percent) &&
+                !skipLocations.some(skip => loc.location.toLowerCase().includes(skip));
             });
     }
 

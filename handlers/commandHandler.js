@@ -9,6 +9,9 @@ const findClosestMineral = require("../utils/smartSearch");
 
 const skipLocations = ["the void", "haunted creek", "north pole", "seashell isle"];
 
+const imageDir = path.join(__dirname, '../data/images');
+const availableImages = new Set(fs.readdirSync(imageDir));
+
 const mineralColors = {
     amethyst: "#A44AD1",
     blueice: "#5B9BD5",
@@ -194,10 +197,10 @@ function buildMineralEmbed(mineral, displayName) {
         .setColor(color)
         .setFooter({ text: mineral.description || " " });
 
-    const imagePath = path.join(__dirname, '../data/images', `${mineral.name.toLowerCase().replace(/ /g, '')}.png`);
-    if (fs.existsSync(imagePath)) {
-        embed.setThumbnail(`attachment://${mineral.name.toLowerCase().replace(/ /g, '')}.png`);
-        return { embed, attachment: imagePath };
+    const imageFile = `${mineral.name.toLowerCase().replace(/ /g, '')}.png`;
+    if (availableImages.has(imageFile)) {
+        embed.setThumbnail(`attachment://${imageFile}`);
+        return { embed, attachment: path.join(imageDir, imageFile) };
     }
 
     const footerText = mineral.description || " ";

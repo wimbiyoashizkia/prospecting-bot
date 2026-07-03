@@ -179,15 +179,12 @@ function buildMineralEmbed(mineral, displayName) {
         allLocs.push(voidData);
     }
 
-    let description = `**Locations & Chances**\n\n`;
-    for (const loc of allLocs) {
+    const locationLines = allLocs.map(loc => {
         const oneIn = loc.chance_percent > 0 ? Math.round(100 / loc.chance_percent) : 0;
-        let line = `    ${loc.location} - ${loc.chance_percent.toFixed(4)}% (~1 in ${oneIn.toLocaleString()})`;
-        if (bestLocation && loc.location === bestLocation) {
-            line = `**${line}**`;
-        }
-        description += line + '\n';
-    }
+        const line = `    ${loc.location} - ${loc.chance_percent.toFixed(4)}% (~1 in ${oneIn.toLocaleString()})`;
+        return bestLocation && loc.location === bestLocation ? `**${line}**` : line;
+    });
+    const description = `**Locations & Chances**\n\n${locationLines.join('\n')}\n`;
 
     const title = `**${mineral.name || displayName.charAt(0).toUpperCase() + displayName.slice(1)}**`;
 

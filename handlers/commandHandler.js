@@ -121,6 +121,12 @@ const mineralColors = {
 const cooldowns = new Map();
 const COOLDOWN_TIME = 2000;
 
+function setCooldown(userId) {
+    const expiration = Date.now() + COOLDOWN_TIME;
+    cooldowns.set(userId, expiration);
+    setTimeout(() => cooldowns.delete(userId), COOLDOWN_TIME);
+}
+
 function createSuggestionButtons(suggestions) {
     const row = new ActionRowBuilder();
     const styles = [ButtonStyle.Success, ButtonStyle.Primary, ButtonStyle.Secondary];
@@ -396,7 +402,7 @@ async function processCommand(message) {
                 return message.reply(`⏳ Please wait ${remaining} second(s) before using commands again.`);
             }
         }
-        cooldowns.set(message.author.id, now + COOLDOWN_TIME);
+        setCooldown(message.author.id);
 
         if (commands[input]) {
             const cmd = commands[input];

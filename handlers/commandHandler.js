@@ -203,9 +203,6 @@ function buildMineralEmbed(mineral, displayName) {
         return { embed, attachment: path.join(imageDir, imageFile) };
     }
 
-    const footerText = mineral.description || " ";
-    embed.setFooter({ text: footerText });
-
     return { embed };
 }
 
